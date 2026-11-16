@@ -9,6 +9,8 @@ export type Settings = {
   dailyNew: number;
   showReading: boolean;
   autoSpeak: boolean;
+  /** List the letters that make up each syllable block when a word is taught. */
+  showJamo: boolean;
 };
 
 export type DayLog = { learned: number; reviewed: number };
@@ -30,7 +32,7 @@ const OLD_KEY = "hangul-deck:v1";
 const EMPTY_PROGRESS: Progress = { cards: {}, history: {} };
 const DEFAULT_STATE: State = {
   version: 1,
-  settings: { dailyNew: 10, showReading: true, autoSpeak: true },
+  settings: { dailyNew: 10, showReading: true, autoSpeak: true, showJamo: true },
   progress: {},
 };
 

@@ -5,7 +5,8 @@ import { useEffect, useRef, useState } from "react";
 import type { Language, Word } from "@/lib/language";
 import { POS_LABEL } from "@/lib/language";
 import { speak } from "@/lib/speech";
-import { CheckIcon, CloseIcon } from "./Icons";
+import { Cells } from "./Cells";
+import { CloseIcon } from "./Icons";
 import { SpeakButton } from "./SpeakButton";
 
 export function SessionFrame({
@@ -71,11 +72,29 @@ export function useKeys(handler: (key: string) => boolean | void) {
   }, []);
 }
 
-export function Term({ word, lang, className = "" }: { word: Word; lang: Language; className?: string }) {
+export function Term({ word, lang, breakdown = false }: { word: Word; lang: Language; breakdown?: boolean }) {
+  return <Cells text={word.term} lang={lang.code} breakdown={breakdown} />;
+}
+
+/**
+ * Korean marking: a right answer gets a circle (동그라미), a wrong one a cross.
+ * Always pair with text; the shape is the cue, colour only reinforces it.
+ */
+export function Mark({ right, size = 22 }: { right: boolean; size?: number }) {
   return (
-    <div lang={lang.code} className={`hero-term ${word.term.length > 5 ? "long" : ""} ${className}`}>
-      {word.term}
-    </div>
+    <svg
+      className={`mark ${right ? "o" : "x"}`}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.6"
+      strokeLinecap="round"
+      aria-hidden="true"
+    >
+      {right ? <circle cx="12" cy="12" r="8.5" pathLength="1" transform="rotate(-90 12 12)" /> : <path d="M6 6l12 12M18 6 6 18" />}
+    </svg>
   );
 }
 
@@ -198,13 +217,13 @@ export function ChoiceQuestion({
                 </span>
                 {isRight && (
                   <>
-                    <CheckIcon size={20} />
+                    <Mark right />
                     <span className="sr-only">Correct answer</span>
                   </>
                 )}
                 {isWrong && (
                   <>
-                    <CloseIcon size={20} />
+                    <Mark right={false} />
                     <span className="sr-only">Your answer, incorrect</span>
                   </>
                 )}
@@ -228,7 +247,21 @@ export function ChoiceQuestion({
 export function ResultMark() {
   return (
     <div className="result-mark" aria-hidden="true">
-      <CheckIcon size={36} />
+      <Mark right size={72} />
+    </div>
+  );
+}
+
+/** An answer sheet: one square per question, marked in the order they were answered. */
+export function Tally({ results }: { results: boolean[] }) {
+  const right = results.filter(Boolean).length;
+  return (
+    <div className="tally" role="img" aria-label={`${right} right, ${results.length - right} wrong`}>
+      {results.map((r, i) => (
+        <span key={i} className={r ? "right" : "wrong"}>
+          <Mark right={r} size={20} />
+        </span>
+      ))}
     </div>
   );
 }

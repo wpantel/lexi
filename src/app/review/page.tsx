@@ -9,10 +9,11 @@ import { speak } from "@/lib/speech";
 import { DAY, GRADES, GRADE_LABEL, previewIntervals, startOfDay, type Card, type Grade } from "@/lib/srs";
 import { dueTerms, gradeCard, progressFor, summary, useAppState, useHydrated } from "@/lib/store";
 
-function ReviewCard({ word, card, showReading, autoSpeak, onGrade }: {
+function ReviewCard({ word, card, showReading, showJamo, autoSpeak, onGrade }: {
   word: Word;
   card: Card;
   showReading: boolean;
+  showJamo: boolean;
   autoSpeak: boolean;
   onGrade: (g: Grade) => void;
 }) {
@@ -60,7 +61,7 @@ function ReviewCard({ word, card, showReading, autoSpeak, onGrade }: {
             <PosLabel word={word} />
             {revealed && (
               <div className="answer">
-                <Term word={word} lang={lang} />
+                <Term word={word} lang={lang} breakdown={showJamo} />
                 {showReading && <div className="hero-reading">{word.reading}</div>}
                 <div style={{ marginTop: 12 }}>
                   <SpeakButton text={word.term} lang={lang.speechLang} />
@@ -176,6 +177,7 @@ function ReviewSession() {
         word={word}
         card={card}
         showReading={state.settings.showReading}
+        showJamo={state.settings.showJamo}
         autoSpeak={state.settings.autoSpeak}
         onGrade={(g) => {
           gradeCard(lang.code, term, g);

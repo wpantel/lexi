@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { JamoLegend } from "@/components/Cells";
 import { ChoiceQuestion, PosLabel, ResultMark, SessionFrame, SessionShell, Term, WordRows, useKeys } from "@/components/Session";
 import { SpeakButton } from "@/components/SpeakButton";
 import { currentLanguage as lang, type Word } from "@/lib/language";
@@ -38,12 +39,13 @@ function pickWords(state: State): Word[] {
   return nextNewWords(lang, progress, s.newLeftToday || state.settings.dailyNew);
 }
 
-function Intro({ word, index, total, autoSpeak, showReading, onNext }: {
+function Intro({ word, index, total, autoSpeak, showReading, showJamo, onNext }: {
   word: Word;
   index: number;
   total: number;
   autoSpeak: boolean;
   showReading: boolean;
+  showJamo: boolean;
   onNext: () => void;
 }) {
   useEffect(() => {
@@ -61,7 +63,7 @@ function Intro({ word, index, total, autoSpeak, showReading, onNext }: {
         <div className="prompt-label">
           New word {index} of {total}
         </div>
-        <Term word={word} lang={lang} />
+        <Term word={word} lang={lang} breakdown={showJamo} />
         {showReading && <div className="hero-reading">{word.reading}</div>}
         <div style={{ margin: "14px 0 4px" }}>
           <SpeakButton text={word.term} lang={lang.speechLang} />
@@ -70,6 +72,7 @@ function Intro({ word, index, total, autoSpeak, showReading, onNext }: {
           <div className="hero-meaning">{word.meaning}</div>
           <PosLabel word={word} />
         </div>
+        {showJamo && <JamoLegend />}
       </div>
       <div className="dock">
         <div className="hint">Say it out loud once. It helps more than you&apos;d think.</div>
@@ -86,7 +89,7 @@ function LearnSession({ onRestart }: { onRestart: () => void }) {
   const [words] = useState(() => pickWords(state));
   const [steps, setSteps] = useState(() => buildSteps(words));
   const [index, setIndex] = useState(0);
-  const { showReading, autoSpeak } = state.settings;
+  const { showReading, autoSpeak, showJamo } = state.settings;
 
   if (words.length === 0) {
     return (
@@ -139,6 +142,7 @@ function LearnSession({ onRestart }: { onRestart: () => void }) {
           total={words.length}
           autoSpeak={autoSpeak}
           showReading={showReading}
+          showJamo={showJamo}
           onNext={next}
         />
       ) : (

@@ -12,7 +12,7 @@ export default function SettingsPage() {
   const state = useAppState();
   const canSpeak = useCanSpeak(lang.speechLang);
   const dialog = useRef<HTMLDialogElement>(null);
-  const { dailyNew, showReading, autoSpeak } = state.settings;
+  const { dailyNew, showReading, autoSpeak, showJamo } = state.settings;
   const learned = Object.keys(progressFor(state, lang.code).cards).length;
 
   return (
@@ -53,6 +53,21 @@ export default function SettingsPage() {
             className="switch"
             checked={showReading}
             onChange={(e) => setSettings({ showReading: e.target.checked })}
+          />
+        </label>
+        <label className="setting">
+          <span>
+            <span className="row-title" style={{ display: "block" }}>
+              Show letter breakdown
+            </span>
+            <span className="row-sub">List the consonants and vowels inside each syllable block when you meet a word.</span>
+          </span>
+          <input
+            type="checkbox"
+            role="switch"
+            className="switch"
+            checked={showJamo}
+            onChange={(e) => setSettings({ showJamo: e.target.checked })}
           />
         </label>
         <label className="setting">
