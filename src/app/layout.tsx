@@ -7,7 +7,7 @@ import "./globals.css";
 const display = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-display", display: "swap" });
 
 export const metadata: Metadata = {
-  title: "Lexi",
+  title: "Patter",
   description: "Learn the 1,000 most useful words of a new language with spaced repetition.",
 };
 
