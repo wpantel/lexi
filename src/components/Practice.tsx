@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { ChoiceQuestion, ResultMark, SessionFrame, SessionShell, WordRows, type PromptKind } from "@/components/Session";
+import { ChoiceQuestion, SessionFrame, SessionShell, Tally, WordRows, type PromptKind } from "@/components/Session";
 import { currentLanguage as lang, type Word } from "@/lib/language";
 import { optionsFor, shuffle } from "@/lib/quiz";
 import { logPractice, progressFor, useAppState, useHydrated, type State } from "@/lib/store";
@@ -32,15 +32,16 @@ function PracticeSession({ prompt, onRestart }: { prompt: PromptKind; onRestart:
   const state = useAppState();
   const [quiz] = useState(() => buildQuiz(state));
   const [index, setIndex] = useState(0);
-  const [missed, setMissed] = useState<Word[]>([]);
+  const [answers, setAnswers] = useState<{ word: Word; correct: boolean }[]>([]);
   const total = quiz.questions.length;
 
   if (index >= total) {
+    const missed = answers.filter((a) => !a.correct).map((a) => a.word);
     const right = total - missed.length;
     return (
       <SessionShell>
         <div className="result">
-          <ResultMark />
+          <Tally results={answers.map((a) => a.correct)} />
           <h1>
             {right} of {total} correct
           </h1>
@@ -49,6 +50,7 @@ function PracticeSession({ prompt, onRestart }: { prompt: PromptKind; onRestart:
               ? "A clean run. Try another mode to test these words from a different angle."
               : "Here are the ones to look at again."}
           </p>
+          <p className="aside">Marked the Korean way: a circle for right, a cross for wrong.</p>
         </div>
         {missed.length > 0 ? <WordRows words={missed} lang={lang} /> : <div style={{ height: 24 }} />}
         <div className="dock">
@@ -79,7 +81,7 @@ function PracticeSession({ prompt, onRestart }: { prompt: PromptKind; onRestart:
         autoSpeak={state.settings.autoSpeak}
         onAnswer={(correct) => {
           logPractice(lang.code);
-          if (!correct) setMissed((m) => [...m, q.word]);
+          setAnswers((a) => [...a, { word: q.word, correct }]);
         }}
         onNext={() => setIndex((i) => i + 1)}
       />

@@ -20,6 +20,10 @@ export function Nav() {
     <nav className="nav" aria-label="Main">
       <div className="nav-inner">
         <Link href="/" className="brand">
+          <span className="brand-mark" lang="ko" aria-hidden="true">
+            <i>렉</i>
+            <i>시</i>
+          </span>
           Lexi
         </Link>
         <div className="nav-links">

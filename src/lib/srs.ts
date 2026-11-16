@@ -98,6 +98,14 @@ export function formatInterval(days: number): string {
   return `${years} ${years === 1 ? "year" : "years"}`;
 }
 
+/** How firmly a word is held, 1 to 4, from the gap it has survived: under 3 days, under a week, under 3 weeks, mastered. */
+export function strengthOf(card: Card): number {
+  if (card.interval >= MASTERED_INTERVAL) return 4;
+  if (card.interval >= 7) return 3;
+  if (card.interval >= 3) return 2;
+  return 1;
+}
+
 export type Status = "new" | "learning" | "mastered";
 
 export function statusOf(card: Card | undefined): Status {

@@ -1,10 +1,9 @@
 "use client";
 
 import { useDeferredValue, useState } from "react";
-import { CheckIcon } from "@/components/Icons";
 import { SpeakButton } from "@/components/SpeakButton";
 import { currentLanguage as lang, type Word } from "@/lib/language";
-import { statusOf, type Status } from "@/lib/srs";
+import { formatInterval, statusOf, strengthOf, type Card, type Status } from "@/lib/srs";
 import { progressFor, useAppState } from "@/lib/store";
 
 type Filter = "all" | Status;
@@ -14,6 +13,26 @@ const FILTERS: { id: Filter; label: string }[] = [
   { id: "learning", label: "Learning" },
   { id: "mastered", label: "Mastered" },
 ];
+
+/** Memory strength as four rising bars, like a signal meter. */
+function Strength({ card }: { card: Card }) {
+  const level = strengthOf(card);
+  const mastered = statusOf(card) === "mastered";
+  const label = mastered ? "Mastered" : "Learning";
+  return (
+    <span className={`strength ${mastered ? "mastered" : ""}`} title={`${label}. Review gap: ${formatInterval(card.interval)}`}>
+      <span className="bars" aria-hidden="true">
+        {[1, 2, 3, 4].map((n) => (
+          <i key={n} className={n <= level ? "on" : ""} />
+        ))}
+      </span>
+      <span className="strength-label">
+        {label}
+        <span className="sr-only">, strength {level} of 4</span>
+      </span>
+    </span>
+  );
+}
 
 function matches(w: Word, q: string): boolean {
   return w.term.includes(q) || w.meaning.toLowerCase().includes(q) || w.reading.includes(q);
@@ -84,7 +103,7 @@ export default function WordsPage() {
           <h2 className="section-title">{u.title}</h2>
           <div className="card list">
             {u.shown.map((w) => {
-              const status = statusOf(cards[w.term]);
+              const card = cards[w.term];
               return (
                 <div className="row" key={w.term}>
                   <div className="row-main">
@@ -94,12 +113,7 @@ export default function WordsPage() {
                     </div>
                     <div className="row-sub">{w.meaning}</div>
                   </div>
-                  {status !== "new" && (
-                    <span className={`status ${status}`}>
-                      {status === "mastered" && <CheckIcon size={12} />}
-                      {status === "mastered" ? "Mastered" : "Learning"}
-                    </span>
-                  )}
+                  {card && <Strength card={card} />}
                   <SpeakButton text={w.term} lang={lang.speechLang} variant="quiet" />
                 </div>
               );

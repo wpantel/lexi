@@ -1,15 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import { ChevronIcon } from "@/components/Icons";
+import { Cells } from "@/components/Cells";
+import { ChevronIcon, SpeakerIcon } from "@/components/Icons";
+import { Sheet } from "@/components/Sheet";
 import { currentLanguage as lang } from "@/lib/language";
 import { DAY, startOfDay } from "@/lib/srs";
 import { lastSevenDays, nextNewWords, progressFor, summary, useAppState, useHydrated } from "@/lib/store";
 
+// Each mode is drawn as what you are shown and what you answer with.
 const PRACTICE = [
-  { mode: "meaning", title: "Meaning", sub: `See the ${lang.name} word, pick what it means` },
-  { mode: "recall", title: "Recall", sub: `See the meaning, pick the ${lang.name} word` },
-  { mode: "listening", title: "Listening", sub: "Hear the word, pick what it means" },
+  { mode: "meaning", title: "Meaning", sub: `See the ${lang.name} word, pick what it means`, from: "가", to: "A" },
+  { mode: "recall", title: "Recall", sub: `See the meaning, pick the ${lang.name} word`, from: "A", to: "가" },
+  { mode: "listening", title: "Listening", sub: "Hear the word, pick what it means", from: null, to: "A" },
 ];
 
 function nextDueLabel(ts: number, now: number): string {
@@ -47,21 +50,31 @@ export default function TodayPage() {
           </div>
           <h1 className="title">Today</h1>
         </div>
-        <span className="chip">
-          <span lang={lang.code}>{lang.nativeName}</span> {lang.name}
-        </span>
+        <div className="chips">
+          {s.streak > 0 && (
+            <span className="chip">
+              {s.streak}-day streak
+            </span>
+          )}
+          <span className="chip">
+            <span lang={lang.code}>{lang.nativeName}</span> {lang.name}
+          </span>
+        </div>
       </header>
 
       {hasDue && (
         <section className="card focus-card">
           <span className="tag due">Review</span>
           <h2>
-            {s.due.length} {s.due.length === 1 ? "word is" : "words are"} ready for review
+            <mark>
+              {s.due.length} {s.due.length === 1 ? "word" : "words"}
+            </mark>{" "}
+            {s.due.length === 1 ? "is" : "are"} ready for review
           </h2>
           <p>These are close to slipping away. Recalling them now is what moves them into long-term memory.</p>
-          <div className="peek" lang={lang.code} aria-hidden="true">
+          <div className="peek" aria-hidden="true">
             {dueWords.map((w) => (
-              <span key={w.term}>{w.term}</span>
+              <Cells key={w.term} text={w.term} lang={lang.code} size="mini" />
             ))}
           </div>
           <div className="focus-actions">
@@ -89,9 +102,9 @@ export default function TodayPage() {
                 ? "Small daily batches stick better than big ones. Come back tomorrow, or keep going if you have the energy."
                 : "The most common words come first, so everything you learn is useful right away."}
           </p>
-          <div className="peek" lang={lang.code} aria-hidden="true">
+          <div className="peek" aria-hidden="true">
             {upcoming.map((w) => (
-              <span key={w.term}>{w.term}</span>
+              <Cells key={w.term} text={w.term} lang={lang.code} size="mini" />
             ))}
           </div>
           <div className="focus-actions">
@@ -111,26 +124,13 @@ export default function TodayPage() {
         </section>
       )}
 
-      <div className="stats">
-        <div className="card stat">
-          <div className="stat-label">Streak</div>
-          <div className="stat-value">
-            {s.streak} <small>{s.streak === 1 ? "day" : "days"}</small>
-          </div>
-        </div>
-        <div className="card stat">
-          <div className="stat-label">Learned</div>
-          <div className="stat-value">
-            {s.learned} <small>of {s.total.toLocaleString()}</small>
-          </div>
-        </div>
-        <div className="card stat">
-          <div className="stat-label">Mastered</div>
-          <div className="stat-value">
-            {s.mastered} <small>{s.mastered === 1 ? "word" : "words"}</small>
-          </div>
-        </div>
-      </div>
+      <h2 className="section-title">Your sheet</h2>
+      <p className="section-note">
+        One square per word, one row per unit. {firstRun ? "It fills in as you learn." : `${s.learned.toLocaleString()} of ${s.total.toLocaleString()} filled in so far.`}
+      </p>
+      <section className="card sheet-card">
+        <Sheet lang={lang} progress={progress} now={now} />
+      </section>
 
       <section className="card week" aria-label="Activity over the last seven days">
         <div className="week-head">
@@ -143,7 +143,7 @@ export default function TodayPage() {
           {week.map((d) => {
             const name = new Date(d.ts).toLocaleDateString(undefined, { weekday: "long" });
             return (
-              <div key={d.ts} className={`week-col ${d.isToday ? "today" : ""}`}>
+              <div key={d.ts} className={`week-col ${d.isToday ? "today" : ""}`} title={`${name}: ${d.count} cards`}>
                 <div
                   className={`week-bar ${d.count > 0 ? "on" : ""}`}
                   style={{ height: d.count > 0 ? `${Math.max(12, (d.count / weekMax) * 100)}%` : undefined }}
@@ -160,15 +160,17 @@ export default function TodayPage() {
 
       <h2 className="section-title">Practice</h2>
       <p className="section-note">Extra quizzes on words you know. They don&apos;t change your review schedule.</p>
-      <div className="card list">
+      <div className="modes">
         {PRACTICE.map((p) => (
-          <Link key={p.mode} href={`/practice/${p.mode}`} className="row">
-            <div className="row-main">
-              <div className="row-title">{p.title}</div>
-              <div className="row-sub">{p.sub}</div>
-            </div>
-            <span className="row-end">
-              <ChevronIcon />
+          <Link key={p.mode} href={`/practice/${p.mode}`} className="card mode">
+            <span className="mode-glyph" aria-hidden="true">
+              <b lang={p.from === "가" ? lang.code : undefined}>{p.from ?? <SpeakerIcon size={20} />}</b>
+              <ChevronIcon size={14} />
+              <b lang={p.to === "가" ? lang.code : undefined}>{p.to}</b>
+            </span>
+            <span className="row-main">
+              <span className="row-title">{p.title}</span>
+              <span className="row-sub">{p.sub}</span>
             </span>
           </Link>
         ))}
