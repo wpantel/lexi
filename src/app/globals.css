@@ -1,29 +1,34 @@
-/* Tokens. The palette is a Korean student's desk: paper, ink, a blue ballpoint
-   and a yellow highlighter.
+/* Tokens. The palette is a Korean student's desk: paper, ink, a purple gel pen,
+   apricot-lined manuscript paper and a yellow highlighter.
 
-   Blue means "act": buttons, links, the words you are learning.
+   Purple means "act": buttons, links, the words you are learning.
+   Apricot is the paper itself: cell grid lines, card washes, the week chart.
    Yellow means "now": what is due, and today.
    Green and red only ever mean right and wrong, and always come with a
    circle or a cross so colour is never the only cue.
 
-   Contrast on white: ink 17.6, text-2 6.7, blue 7.2, good 5.4, bad 5.7.
+   Contrast on white: ink 17.9, text-2 6.6, purple 7.1, apricot-ink 6.1, good 5.4, bad 5.7.
    Ink on yellow is 13.1. Yellow never carries text of its own. */
 :root {
-  --bg: #f4f6fb;
+  --bg: #f7f5fb;
   --surface: #ffffff;
-  --fill: #e9edf5;
-  --fill-hover: #dde3ef;
-  --ink: #14182b;
+  --fill: #eeeaf5;
+  --fill-hover: #e3ddef;
+  --ink: #1b1528;
   --text: var(--ink);
-  --text-2: #555c70;
-  --line: #d5dae6;
-  --grid: #a9b8ee;
-  --guide: #e6ebfb;
+  --text-2: #5b5470;
+  --line: #ddd7e8;
+  --grid: #f0a477;
+  --guide: #fde4d4;
 
-  --blue: #1b45d9;
-  --blue-hover: #1638b4;
-  --blue-soft: #e6ecfd;
-  --blue-mid: #b9c7f6;
+  --purple: #6d28d9;
+  --purple-hover: #5b21b6;
+  --purple-soft: #f1eafe;
+  --purple-mid: #d4c2fa;
+  --apricot: #f4874a;
+  --apricot-ink: #a3410c;
+  --apricot-soft: #fff1e7;
+  --apricot-line: #f7c9aa;
   --hl: #ffdd33;
   --hl-soft: #fff6cc;
   --hl-line: #a87900;
@@ -42,10 +47,10 @@
 
 @media (prefers-contrast: more) {
   :root {
-    --text-2: #3b4152;
-    --line: #6b7387;
-    --grid: #4a63cf;
-    --guide: #c5d0f5;
+    --text-2: #3e3852;
+    --line: #6e6787;
+    --grid: #c2561a;
+    --guide: #f6c6a6;
   }
 }
 
@@ -84,7 +89,7 @@ button {
 }
 
 :focus-visible {
-  outline: 3px solid var(--blue);
+  outline: 3px solid var(--purple);
   outline-offset: 2px;
   border-radius: 6px;
 }
@@ -144,9 +149,9 @@ mark {
   display: grid;
   place-items: center;
   font: 700 0.875rem/1 var(--font);
-  color: var(--blue);
+  color: var(--purple);
   background: var(--surface);
-  border: 1.5px solid var(--blue);
+  border: 1.5px solid var(--purple);
 }
 .brand-mark i + i {
   border-left: 0;
@@ -183,7 +188,7 @@ mark {
   right: 14px;
   bottom: -1px;
   height: 3px;
-  background: var(--blue);
+  background: var(--purple);
 }
 
 @media (max-width: 600px) {
@@ -221,7 +226,7 @@ mark {
     display: block;
   }
   .nav-link[aria-current="page"] {
-    color: var(--blue);
+    color: var(--purple);
   }
   .nav-link[aria-current="page"]::after {
     top: -1px;
@@ -321,11 +326,11 @@ mark {
   transform: scale(0.98);
 }
 .btn-primary {
-  background: var(--blue);
+  background: var(--purple);
   color: #fff;
 }
 .btn-primary:hover {
-  background: var(--blue-hover);
+  background: var(--purple-hover);
 }
 .btn-danger {
   color: var(--bad);
@@ -353,12 +358,12 @@ mark {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  color: var(--blue);
-  background: var(--blue-soft);
+  color: var(--purple);
+  background: var(--purple-soft);
   transition: background-color 0.15s;
 }
 .icon-btn:hover {
-  background: var(--blue-mid);
+  background: var(--purple-mid);
 }
 .icon-btn.quiet {
   background: none;
@@ -438,8 +443,8 @@ mark {
   border-radius: 4px;
 }
 .jamo .consonant {
-  color: var(--blue);
-  background: var(--blue-soft);
+  color: var(--purple);
+  background: var(--purple-soft);
 }
 .jamo .vowel {
   color: var(--ink);
@@ -463,6 +468,9 @@ mark {
 /* ---------- Today ---------- */
 .focus-card {
   padding: 26px 26px 24px;
+  background: var(--apricot-soft);
+  border-color: var(--apricot-line);
+  border-top: 4px solid var(--apricot);
 }
 .focus-card + .focus-card {
   margin-top: 14px;
@@ -492,8 +500,8 @@ mark {
   background: var(--hl);
 }
 .tag.new {
-  color: var(--blue);
-  background: var(--blue-soft);
+  color: var(--apricot-ink);
+  background: #ffdcc4;
 }
 .tag.done {
   color: var(--good);
@@ -534,7 +542,7 @@ mark {
 }
 .sheet-grid i.learning,
 .sheet-legend i.learning {
-  background: var(--blue);
+  background: var(--purple);
   box-shadow: none;
 }
 .sheet-grid i.mastered,
@@ -619,7 +627,7 @@ mark {
   background: var(--fill);
 }
 .week-bar.on {
-  background: var(--blue-mid);
+  background: var(--apricot);
 }
 .week-col.today {
   color: var(--ink);
@@ -630,7 +638,7 @@ mark {
   border-radius: 3px;
 }
 .week-col.today .week-bar.on {
-  background: var(--blue);
+  background: var(--purple);
 }
 
 /* Practice modes, drawn as "what you see, then what you answer". */
@@ -644,10 +652,12 @@ mark {
   flex-direction: column;
   gap: 14px;
   padding: 18px;
+  background: var(--apricot-soft);
+  border-color: var(--apricot-line);
   transition: border-color 0.15s;
 }
 .mode:hover {
-  border-color: var(--blue);
+  border-color: var(--purple);
 }
 .mode-glyph {
   display: inline-flex;
@@ -661,14 +671,14 @@ mark {
   display: grid;
   place-items: center;
   font: 700 1.125rem/1 var(--font);
-  color: var(--ink);
+  color: var(--apricot-ink);
   background: var(--surface);
   border: 1.5px solid var(--grid);
 }
 .mode-glyph b:last-child {
-  color: var(--blue);
-  border-color: var(--blue);
-  background: var(--blue-soft);
+  color: var(--purple);
+  border-color: var(--purple);
+  background: var(--purple-soft);
 }
 .mode .row-main {
   display: block;
@@ -749,7 +759,7 @@ button.row:hover {
 }
 .meter > div {
   height: 100%;
-  background: var(--blue);
+  background: linear-gradient(90deg, var(--apricot), var(--purple));
 }
 
 /* ---------- Words ---------- */
@@ -844,7 +854,7 @@ button.row:hover {
   height: 100%;
 }
 .strength .bars i.on {
-  background: var(--blue);
+  background: var(--purple);
 }
 .strength.mastered {
   color: var(--ink);
@@ -911,11 +921,11 @@ button.row:hover {
   height: 27px;
   border-radius: 50%;
   background: #fff;
-  box-shadow: 0 1px 3px rgba(20, 24, 43, 0.3);
+  box-shadow: 0 1px 3px rgba(27, 21, 40, 0.3);
   transition: transform 0.2s;
 }
 .switch:checked {
-  background: var(--blue);
+  background: var(--purple);
 }
 .switch:checked::after {
   transform: translateX(20px);
@@ -931,7 +941,7 @@ dialog.sheet {
   text-align: center;
 }
 dialog.sheet::backdrop {
-  background: rgba(20, 24, 43, 0.45);
+  background: rgba(27, 21, 40, 0.45);
 }
 dialog.sheet h2 {
   font-family: var(--font-head);
@@ -971,7 +981,7 @@ dialog.sheet .btn + .btn {
 }
 .progress > div {
   height: 100%;
-  background: var(--blue);
+  background: var(--purple);
   transition: width 0.3s ease;
 }
 .session-count {
@@ -1080,7 +1090,7 @@ dialog.sheet .btn + .btn {
   font-weight: 700;
 }
 .choice:not(:disabled):hover {
-  box-shadow: inset 0 0 0 2px var(--blue);
+  box-shadow: inset 0 0 0 2px var(--purple);
 }
 .choice:disabled {
   cursor: default;
@@ -1150,8 +1160,8 @@ dialog.sheet .btn + .btn {
   color: var(--bad);
 }
 .grade.good {
-  color: var(--blue);
-  box-shadow: inset 0 0 0 2px var(--blue);
+  color: var(--purple);
+  box-shadow: inset 0 0 0 2px var(--purple);
 }
 
 .result {
