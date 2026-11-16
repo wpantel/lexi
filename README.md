@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lexi
 
-## Getting Started
-
-First, run the development server:
+Learn the 1,000 most useful words of a language with spaced repetition. Korean is the first course. Next.js, no backend; progress is saved in the browser.
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How it teaches
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Small daily batches** of new words (10 by default), most essential first.
+- **Immediate retrieval**: each lesson introduces a few words, then quizzes them in both directions, then once more at the end.
+- **Spaced repetition** (SM-2 style): each word comes back just before you would forget it, at growing intervals. A word is "mastered" once its interval reaches three weeks.
+- **Both directions**: once a word has stuck, reviews alternate between recognising it and producing it from the meaning.
+- **Audio** through the browser's built-in Korean voice.
+- **Practice** quizzes (meaning, recall, listening) that don't affect the schedule.
 
-## Learn More
+## The word list
 
-To learn more about Next.js, take a look at the following resources:
+`data/ko.source.txt` is the source of truth: 20 themed units, one `korean|english|part of speech` line per word. It is a hand-curated list of high-frequency everyday vocabulary, not an official frequency ranking.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run words
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+rebuilds `src/data/ko.json`, removing duplicates, trimming to 1,000 words and generating the pronunciation guide (Revised Romanization with the common sound-change rules).
 
-## Deploy on Vercel
+## Adding a language
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Write `data/<code>.source.txt` in the same format.
+2. Add a `build("<code>")` call in `scripts/build-words.mjs` (the romanizer is Korean-specific; supply readings another way for other scripts).
+3. Register it in `src/lib/language.ts`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Progress is stored per language code, so languages don't interfere with each other.
+
+## Layout
+
+- `src/lib/srs.ts` scheduling, `src/lib/store.ts` saved progress and stats, `src/lib/quiz.ts` answer options, `src/lib/speech.ts` audio
+- `src/app` screens: Today (`/`), `/learn`, `/review`, `/practice/*`, `/words`, `/settings`
+- `src/app/globals.css` design tokens and all styles (light and dark follow the system)

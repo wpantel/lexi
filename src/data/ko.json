@@ -1,0 +1,6144 @@
+{
+ "units": [
+  {
+   "id": "essentials",
+   "title": "Essentials",
+   "description": "Greetings, pronouns and question words",
+   "words": [
+    {
+     "term": "안녕하세요",
+     "meaning": "hello",
+     "pos": "expr",
+     "reading": "annyeonghaseyo"
+    },
+    {
+     "term": "감사합니다",
+     "meaning": "thank you",
+     "pos": "expr",
+     "reading": "gamsahamnida"
+    },
+    {
+     "term": "네",
+     "meaning": "yes",
+     "pos": "expr",
+     "reading": "ne"
+    },
+    {
+     "term": "아니요",
+     "meaning": "no",
+     "pos": "expr",
+     "reading": "aniyo"
+    },
+    {
+     "term": "저",
+     "meaning": "I; me (polite)",
+     "pos": "pron",
+     "reading": "jeo"
+    },
+    {
+     "term": "나",
+     "meaning": "I; me (casual)",
+     "pos": "pron",
+     "reading": "na"
+    },
+    {
+     "term": "우리",
+     "meaning": "we; our",
+     "pos": "pron",
+     "reading": "uri"
+    },
+    {
+     "term": "너",
+     "meaning": "you (casual)",
+     "pos": "pron",
+     "reading": "neo"
+    },
+    {
+     "term": "누구",
+     "meaning": "who",
+     "pos": "pron",
+     "reading": "nugu"
+    },
+    {
+     "term": "뭐",
+     "meaning": "what (casual)",
+     "pos": "pron",
+     "reading": "mwo"
+    },
+    {
+     "term": "무엇",
+     "meaning": "what",
+     "pos": "pron",
+     "reading": "mueot"
+    },
+    {
+     "term": "어디",
+     "meaning": "where",
+     "pos": "pron",
+     "reading": "eodi"
+    },
+    {
+     "term": "언제",
+     "meaning": "when",
+     "pos": "adv",
+     "reading": "eonje"
+    },
+    {
+     "term": "왜",
+     "meaning": "why",
+     "pos": "adv",
+     "reading": "wae"
+    },
+    {
+     "term": "어떻게",
+     "meaning": "how",
+     "pos": "adv",
+     "reading": "eotteoke"
+    },
+    {
+     "term": "얼마",
+     "meaning": "how much",
+     "pos": "n",
+     "reading": "eolma"
+    },
+    {
+     "term": "몇",
+     "meaning": "how many",
+     "pos": "det",
+     "reading": "myeot"
+    },
+    {
+     "term": "이것",
+     "meaning": "this (thing)",
+     "pos": "pron",
+     "reading": "igeot"
+    },
+    {
+     "term": "그것",
+     "meaning": "that (thing)",
+     "pos": "pron",
+     "reading": "geugeot"
+    },
+    {
+     "term": "저것",
+     "meaning": "that (thing over there)",
+     "pos": "pron",
+     "reading": "jeogeot"
+    },
+    {
+     "term": "여기",
+     "meaning": "here",
+     "pos": "pron",
+     "reading": "yeogi"
+    },
+    {
+     "term": "거기",
+     "meaning": "there",
+     "pos": "pron",
+     "reading": "geogi"
+    },
+    {
+     "term": "저기",
+     "meaning": "over there",
+     "pos": "pron",
+     "reading": "jeogi"
+    },
+    {
+     "term": "것",
+     "meaning": "thing",
+     "pos": "n",
+     "reading": "geot"
+    },
+    {
+     "term": "사람",
+     "meaning": "person",
+     "pos": "n",
+     "reading": "saram"
+    },
+    {
+     "term": "이름",
+     "meaning": "name",
+     "pos": "n",
+     "reading": "ireum"
+    },
+    {
+     "term": "한국",
+     "meaning": "Korea",
+     "pos": "n",
+     "reading": "hanguk"
+    },
+    {
+     "term": "한국어",
+     "meaning": "Korean (language)",
+     "pos": "n",
+     "reading": "hangugeo"
+    },
+    {
+     "term": "영어",
+     "meaning": "English (language)",
+     "pos": "n",
+     "reading": "yeongeo"
+    },
+    {
+     "term": "말",
+     "meaning": "word; speech; horse",
+     "pos": "n",
+     "reading": "mal"
+    },
+    {
+     "term": "죄송합니다",
+     "meaning": "I'm sorry (formal)",
+     "pos": "expr",
+     "reading": "joesonghamnida"
+    },
+    {
+     "term": "미안해요",
+     "meaning": "I'm sorry",
+     "pos": "expr",
+     "reading": "mianhaeyo"
+    },
+    {
+     "term": "괜찮아요",
+     "meaning": "it's okay",
+     "pos": "expr",
+     "reading": "gwaenchanayo"
+    },
+    {
+     "term": "고맙습니다",
+     "meaning": "thank you (warm)",
+     "pos": "expr",
+     "reading": "gomapseumnida"
+    },
+    {
+     "term": "안녕",
+     "meaning": "hi; bye (casual)",
+     "pos": "expr",
+     "reading": "annyeong"
+    },
+    {
+     "term": "안녕히 가세요",
+     "meaning": "goodbye (to someone leaving)",
+     "pos": "expr",
+     "reading": "annyeonghi gaseyo"
+    },
+    {
+     "term": "안녕히 계세요",
+     "meaning": "goodbye (to someone staying)",
+     "pos": "expr",
+     "reading": "annyeonghi gyeseyo"
+    },
+    {
+     "term": "잠깐만요",
+     "meaning": "just a moment",
+     "pos": "expr",
+     "reading": "jamkkanmanyo"
+    },
+    {
+     "term": "실례합니다",
+     "meaning": "excuse me",
+     "pos": "expr",
+     "reading": "sillyehamnida"
+    },
+    {
+     "term": "여보세요",
+     "meaning": "hello (on the phone)",
+     "pos": "expr",
+     "reading": "yeoboseyo"
+    },
+    {
+     "term": "맞아요",
+     "meaning": "that's right",
+     "pos": "expr",
+     "reading": "majayo"
+    },
+    {
+     "term": "몰라요",
+     "meaning": "I don't know",
+     "pos": "expr",
+     "reading": "mollayo"
+    },
+    {
+     "term": "알겠습니다",
+     "meaning": "understood",
+     "pos": "expr",
+     "reading": "algetseumnida"
+    },
+    {
+     "term": "어느",
+     "meaning": "which",
+     "pos": "det",
+     "reading": "eoneu"
+    },
+    {
+     "term": "무슨",
+     "meaning": "what kind of",
+     "pos": "det",
+     "reading": "museun"
+    },
+    {
+     "term": "그",
+     "meaning": "he; that",
+     "pos": "pron",
+     "reading": "geu"
+    },
+    {
+     "term": "그녀",
+     "meaning": "she",
+     "pos": "pron",
+     "reading": "geunyeo"
+    },
+    {
+     "term": "축하합니다",
+     "meaning": "congratulations",
+     "pos": "expr",
+     "reading": "chukahamnida"
+    },
+    {
+     "term": "잘 자요",
+     "meaning": "good night",
+     "pos": "expr",
+     "reading": "jal jayo"
+    },
+    {
+     "term": "환영합니다",
+     "meaning": "welcome",
+     "pos": "expr",
+     "reading": "hwanyeonghamnida"
+    }
+   ]
+  },
+  {
+   "id": "people",
+   "title": "People",
+   "description": "Family, friends and the people around you",
+   "words": [
+    {
+     "term": "가족",
+     "meaning": "family",
+     "pos": "n",
+     "reading": "gajok"
+    },
+    {
+     "term": "친구",
+     "meaning": "friend",
+     "pos": "n",
+     "reading": "chingu"
+    },
+    {
+     "term": "엄마",
+     "meaning": "mom",
+     "pos": "n",
+     "reading": "eomma"
+    },
+    {
+     "term": "아빠",
+     "meaning": "dad",
+     "pos": "n",
+     "reading": "appa"
+    },
+    {
+     "term": "어머니",
+     "meaning": "mother",
+     "pos": "n",
+     "reading": "eomeoni"
+    },
+    {
+     "term": "아버지",
+     "meaning": "father",
+     "pos": "n",
+     "reading": "abeoji"
+    },
+    {
+     "term": "부모님",
+     "meaning": "parents",
+     "pos": "n",
+     "reading": "bumonim"
+    },
+    {
+     "term": "아이",
+     "meaning": "child",
+     "pos": "n",
+     "reading": "ai"
+    },
+    {
+     "term": "남자",
+     "meaning": "man",
+     "pos": "n",
+     "reading": "namja"
+    },
+    {
+     "term": "여자",
+     "meaning": "woman",
+     "pos": "n",
+     "reading": "yeoja"
+    },
+    {
+     "term": "형",
+     "meaning": "older brother (of a male)",
+     "pos": "n",
+     "reading": "hyeong"
+    },
+    {
+     "term": "오빠",
+     "meaning": "older brother (of a female)",
+     "pos": "n",
+     "reading": "oppa"
+    },
+    {
+     "term": "누나",
+     "meaning": "older sister (of a male)",
+     "pos": "n",
+     "reading": "nuna"
+    },
+    {
+     "term": "언니",
+     "meaning": "older sister (of a female)",
+     "pos": "n",
+     "reading": "eonni"
+    },
+    {
+     "term": "동생",
+     "meaning": "younger sibling",
+     "pos": "n",
+     "reading": "dongsaeng"
+    },
+    {
+     "term": "할머니",
+     "meaning": "grandmother",
+     "pos": "n",
+     "reading": "halmeoni"
+    },
+    {
+     "term": "할아버지",
+     "meaning": "grandfather",
+     "pos": "n",
+     "reading": "harabeoji"
+    },
+    {
+     "term": "아들",
+     "meaning": "son",
+     "pos": "n",
+     "reading": "adeul"
+    },
+    {
+     "term": "딸",
+     "meaning": "daughter",
+     "pos": "n",
+     "reading": "ttal"
+    },
+    {
+     "term": "남편",
+     "meaning": "husband",
+     "pos": "n",
+     "reading": "nampyeon"
+    },
+    {
+     "term": "아내",
+     "meaning": "wife",
+     "pos": "n",
+     "reading": "anae"
+    },
+    {
+     "term": "아기",
+     "meaning": "baby",
+     "pos": "n",
+     "reading": "agi"
+    },
+    {
+     "term": "학생",
+     "meaning": "student",
+     "pos": "n",
+     "reading": "haksaeng"
+    },
+    {
+     "term": "선생님",
+     "meaning": "teacher",
+     "pos": "n",
+     "reading": "seonsaengnim"
+    },
+    {
+     "term": "의사",
+     "meaning": "doctor",
+     "pos": "n",
+     "reading": "uisa"
+    },
+    {
+     "term": "손님",
+     "meaning": "guest; customer",
+     "pos": "n",
+     "reading": "sonnim"
+    },
+    {
+     "term": "같이",
+     "meaning": "together",
+     "pos": "adv",
+     "reading": "gachi"
+    },
+    {
+     "term": "혼자",
+     "meaning": "alone",
+     "pos": "adv",
+     "reading": "honja"
+    },
+    {
+     "term": "함께",
+     "meaning": "together (formal)",
+     "pos": "adv",
+     "reading": "hamkke"
+    },
+    {
+     "term": "서로",
+     "meaning": "each other",
+     "pos": "adv",
+     "reading": "seoro"
+    },
+    {
+     "term": "여러분",
+     "meaning": "everyone",
+     "pos": "pron",
+     "reading": "yeoreobun"
+    },
+    {
+     "term": "씨",
+     "meaning": "Mr.; Ms. (after a name)",
+     "pos": "n",
+     "reading": "ssi"
+    },
+    {
+     "term": "남자친구",
+     "meaning": "boyfriend",
+     "pos": "n",
+     "reading": "namjachingu"
+    },
+    {
+     "term": "여자친구",
+     "meaning": "girlfriend",
+     "pos": "n",
+     "reading": "yeojachingu"
+    },
+    {
+     "term": "어른",
+     "meaning": "adult",
+     "pos": "n",
+     "reading": "eoreun"
+    },
+    {
+     "term": "어린이",
+     "meaning": "kid",
+     "pos": "n",
+     "reading": "eorini"
+    },
+    {
+     "term": "남동생",
+     "meaning": "younger brother",
+     "pos": "n",
+     "reading": "namdongsaeng"
+    },
+    {
+     "term": "여동생",
+     "meaning": "younger sister",
+     "pos": "n",
+     "reading": "yeodongsaeng"
+    },
+    {
+     "term": "외국인",
+     "meaning": "foreigner",
+     "pos": "n",
+     "reading": "oegugin"
+    },
+    {
+     "term": "한국인",
+     "meaning": "Korean (person)",
+     "pos": "n",
+     "reading": "hangugin"
+    },
+    {
+     "term": "회사원",
+     "meaning": "office worker",
+     "pos": "n",
+     "reading": "hoesawon"
+    },
+    {
+     "term": "경찰",
+     "meaning": "police",
+     "pos": "n",
+     "reading": "gyeongchal"
+    },
+    {
+     "term": "간호사",
+     "meaning": "nurse",
+     "pos": "n",
+     "reading": "ganhosa"
+    },
+    {
+     "term": "주인",
+     "meaning": "owner",
+     "pos": "n",
+     "reading": "juin"
+    },
+    {
+     "term": "이웃",
+     "meaning": "neighbor",
+     "pos": "n",
+     "reading": "iut"
+    },
+    {
+     "term": "친척",
+     "meaning": "relative",
+     "pos": "n",
+     "reading": "chincheok"
+    },
+    {
+     "term": "삼촌",
+     "meaning": "uncle",
+     "pos": "n",
+     "reading": "samchon"
+    },
+    {
+     "term": "이모",
+     "meaning": "aunt (mother's side)",
+     "pos": "n",
+     "reading": "imo"
+    },
+    {
+     "term": "고모",
+     "meaning": "aunt (father's side)",
+     "pos": "n",
+     "reading": "gomo"
+    },
+    {
+     "term": "사촌",
+     "meaning": "cousin",
+     "pos": "n",
+     "reading": "sachon"
+    }
+   ]
+  },
+  {
+   "id": "core-verbs-1",
+   "title": "Core verbs 1",
+   "description": "The verbs you will use every day",
+   "words": [
+    {
+     "term": "하다",
+     "meaning": "to do",
+     "pos": "v",
+     "reading": "hada"
+    },
+    {
+     "term": "있다",
+     "meaning": "to exist; to have",
+     "pos": "v",
+     "reading": "itda"
+    },
+    {
+     "term": "없다",
+     "meaning": "to not exist; to not have",
+     "pos": "v",
+     "reading": "eopda"
+    },
+    {
+     "term": "이다",
+     "meaning": "to be",
+     "pos": "v",
+     "reading": "ida"
+    },
+    {
+     "term": "아니다",
+     "meaning": "to not be",
+     "pos": "v",
+     "reading": "anida"
+    },
+    {
+     "term": "가다",
+     "meaning": "to go",
+     "pos": "v",
+     "reading": "gada"
+    },
+    {
+     "term": "오다",
+     "meaning": "to come",
+     "pos": "v",
+     "reading": "oda"
+    },
+    {
+     "term": "보다",
+     "meaning": "to see; to watch",
+     "pos": "v",
+     "reading": "boda"
+    },
+    {
+     "term": "먹다",
+     "meaning": "to eat",
+     "pos": "v",
+     "reading": "meokda"
+    },
+    {
+     "term": "마시다",
+     "meaning": "to drink",
+     "pos": "v",
+     "reading": "masida"
+    },
+    {
+     "term": "자다",
+     "meaning": "to sleep",
+     "pos": "v",
+     "reading": "jada"
+    },
+    {
+     "term": "말하다",
+     "meaning": "to speak",
+     "pos": "v",
+     "reading": "malhada"
+    },
+    {
+     "term": "듣다",
+     "meaning": "to listen; to hear",
+     "pos": "v",
+     "reading": "deutda"
+    },
+    {
+     "term": "읽다",
+     "meaning": "to read",
+     "pos": "v",
+     "reading": "ikda"
+    },
+    {
+     "term": "쓰다",
+     "meaning": "to write; to use",
+     "pos": "v",
+     "reading": "sseuda"
+    },
+    {
+     "term": "알다",
+     "meaning": "to know",
+     "pos": "v",
+     "reading": "alda"
+    },
+    {
+     "term": "모르다",
+     "meaning": "to not know",
+     "pos": "v",
+     "reading": "moreuda"
+    },
+    {
+     "term": "좋아하다",
+     "meaning": "to like",
+     "pos": "v",
+     "reading": "joahada"
+    },
+    {
+     "term": "주다",
+     "meaning": "to give",
+     "pos": "v",
+     "reading": "juda"
+    },
+    {
+     "term": "받다",
+     "meaning": "to receive",
+     "pos": "v",
+     "reading": "batda"
+    },
+    {
+     "term": "사다",
+     "meaning": "to buy",
+     "pos": "v",
+     "reading": "sada"
+    },
+    {
+     "term": "만나다",
+     "meaning": "to meet",
+     "pos": "v",
+     "reading": "mannada"
+    },
+    {
+     "term": "되다",
+     "meaning": "to become",
+     "pos": "v",
+     "reading": "doeda"
+    },
+    {
+     "term": "살다",
+     "meaning": "to live",
+     "pos": "v",
+     "reading": "salda"
+    },
+    {
+     "term": "만들다",
+     "meaning": "to make",
+     "pos": "v",
+     "reading": "mandeulda"
+    },
+    {
+     "term": "배우다",
+     "meaning": "to learn",
+     "pos": "v",
+     "reading": "baeuda"
+    },
+    {
+     "term": "공부하다",
+     "meaning": "to study",
+     "pos": "v",
+     "reading": "gongbuhada"
+    },
+    {
+     "term": "일하다",
+     "meaning": "to work",
+     "pos": "v",
+     "reading": "ilhada"
+    },
+    {
+     "term": "생각하다",
+     "meaning": "to think",
+     "pos": "v",
+     "reading": "saenggakada"
+    },
+    {
+     "term": "기다리다",
+     "meaning": "to wait",
+     "pos": "v",
+     "reading": "gidarida"
+    },
+    {
+     "term": "찾다",
+     "meaning": "to look for; to find",
+     "pos": "v",
+     "reading": "chatda"
+    },
+    {
+     "term": "시작하다",
+     "meaning": "to start",
+     "pos": "v",
+     "reading": "sijakada"
+    },
+    {
+     "term": "끝나다",
+     "meaning": "to end",
+     "pos": "v",
+     "reading": "kkeunnada"
+    },
+    {
+     "term": "일어나다",
+     "meaning": "to get up",
+     "pos": "v",
+     "reading": "ireonada"
+    },
+    {
+     "term": "앉다",
+     "meaning": "to sit",
+     "pos": "v",
+     "reading": "anda"
+    },
+    {
+     "term": "서다",
+     "meaning": "to stand",
+     "pos": "v",
+     "reading": "seoda"
+    },
+    {
+     "term": "걷다",
+     "meaning": "to walk",
+     "pos": "v",
+     "reading": "geotda"
+    },
+    {
+     "term": "뛰다",
+     "meaning": "to run; to jump",
+     "pos": "v",
+     "reading": "ttwida"
+    },
+    {
+     "term": "쉬다",
+     "meaning": "to rest",
+     "pos": "v",
+     "reading": "swida"
+    },
+    {
+     "term": "놀다",
+     "meaning": "to play; to hang out",
+     "pos": "v",
+     "reading": "nolda"
+    },
+    {
+     "term": "가르치다",
+     "meaning": "to teach",
+     "pos": "v",
+     "reading": "gareuchida"
+    },
+    {
+     "term": "팔다",
+     "meaning": "to sell",
+     "pos": "v",
+     "reading": "palda"
+    },
+    {
+     "term": "열다",
+     "meaning": "to open",
+     "pos": "v",
+     "reading": "yeolda"
+    },
+    {
+     "term": "닫다",
+     "meaning": "to close",
+     "pos": "v",
+     "reading": "datda"
+    },
+    {
+     "term": "사랑하다",
+     "meaning": "to love",
+     "pos": "v",
+     "reading": "saranghada"
+    },
+    {
+     "term": "싫어하다",
+     "meaning": "to dislike",
+     "pos": "v",
+     "reading": "sireohada"
+    },
+    {
+     "term": "원하다",
+     "meaning": "to want",
+     "pos": "v",
+     "reading": "wonhada"
+    },
+    {
+     "term": "묻다",
+     "meaning": "to ask",
+     "pos": "v",
+     "reading": "mutda"
+    },
+    {
+     "term": "대답하다",
+     "meaning": "to answer",
+     "pos": "v",
+     "reading": "daedapada"
+    },
+    {
+     "term": "죽다",
+     "meaning": "to die",
+     "pos": "v",
+     "reading": "jukda"
+    }
+   ]
+  },
+  {
+   "id": "core-verbs-2",
+   "title": "Core verbs 2",
+   "description": "Moving around and daily routines",
+   "words": [
+    {
+     "term": "타다",
+     "meaning": "to ride; to burn",
+     "pos": "v",
+     "reading": "tada"
+    },
+    {
+     "term": "내리다",
+     "meaning": "to get off; to fall (rain)",
+     "pos": "v",
+     "reading": "naerida"
+    },
+    {
+     "term": "들어가다",
+     "meaning": "to go in",
+     "pos": "v",
+     "reading": "deureogada"
+    },
+    {
+     "term": "나가다",
+     "meaning": "to go out",
+     "pos": "v",
+     "reading": "nagada"
+    },
+    {
+     "term": "나오다",
+     "meaning": "to come out",
+     "pos": "v",
+     "reading": "naoda"
+    },
+    {
+     "term": "돌아오다",
+     "meaning": "to come back",
+     "pos": "v",
+     "reading": "doraoda"
+    },
+    {
+     "term": "돌아가다",
+     "meaning": "to go back",
+     "pos": "v",
+     "reading": "doragada"
+    },
+    {
+     "term": "도착하다",
+     "meaning": "to arrive",
+     "pos": "v",
+     "reading": "dochakada"
+    },
+    {
+     "term": "출발하다",
+     "meaning": "to depart",
+     "pos": "v",
+     "reading": "chulbalhada"
+    },
+    {
+     "term": "입다",
+     "meaning": "to wear (clothes)",
+     "pos": "v",
+     "reading": "ipda"
+    },
+    {
+     "term": "벗다",
+     "meaning": "to take off",
+     "pos": "v",
+     "reading": "beotda"
+    },
+    {
+     "term": "씻다",
+     "meaning": "to wash",
+     "pos": "v",
+     "reading": "ssitda"
+    },
+    {
+     "term": "요리하다",
+     "meaning": "to cook",
+     "pos": "v",
+     "reading": "yorihada"
+    },
+    {
+     "term": "청소하다",
+     "meaning": "to clean",
+     "pos": "v",
+     "reading": "cheongsohada"
+    },
+    {
+     "term": "운동하다",
+     "meaning": "to exercise",
+     "pos": "v",
+     "reading": "undonghada"
+    },
+    {
+     "term": "운전하다",
+     "meaning": "to drive",
+     "pos": "v",
+     "reading": "unjeonhada"
+    },
+    {
+     "term": "전화하다",
+     "meaning": "to call",
+     "pos": "v",
+     "reading": "jeonhwahada"
+    },
+    {
+     "term": "보내다",
+     "meaning": "to send; to spend (time)",
+     "pos": "v",
+     "reading": "bonaeda"
+    },
+    {
+     "term": "가지다",
+     "meaning": "to have; to take",
+     "pos": "v",
+     "reading": "gajida"
+    },
+    {
+     "term": "넣다",
+     "meaning": "to put in",
+     "pos": "v",
+     "reading": "neota"
+    },
+    {
+     "term": "놓다",
+     "meaning": "to put down",
+     "pos": "v",
+     "reading": "nota"
+    },
+    {
+     "term": "들다",
+     "meaning": "to hold; to lift",
+     "pos": "v",
+     "reading": "deulda"
+    },
+    {
+     "term": "잡다",
+     "meaning": "to catch; to grab",
+     "pos": "v",
+     "reading": "japda"
+    },
+    {
+     "term": "켜다",
+     "meaning": "to turn on",
+     "pos": "v",
+     "reading": "kyeoda"
+    },
+    {
+     "term": "끄다",
+     "meaning": "to turn off",
+     "pos": "v",
+     "reading": "kkeuda"
+    },
+    {
+     "term": "웃다",
+     "meaning": "to laugh; to smile",
+     "pos": "v",
+     "reading": "utda"
+    },
+    {
+     "term": "울다",
+     "meaning": "to cry",
+     "pos": "v",
+     "reading": "ulda"
+    },
+    {
+     "term": "도와주다",
+     "meaning": "to help",
+     "pos": "v",
+     "reading": "dowajuda"
+    },
+    {
+     "term": "빌리다",
+     "meaning": "to borrow",
+     "pos": "v",
+     "reading": "billida"
+    },
+    {
+     "term": "잊어버리다",
+     "meaning": "to forget",
+     "pos": "v",
+     "reading": "ijeobeorida"
+    },
+    {
+     "term": "잃어버리다",
+     "meaning": "to lose (an item)",
+     "pos": "v",
+     "reading": "ireobeorida"
+    },
+    {
+     "term": "기억하다",
+     "meaning": "to remember",
+     "pos": "v",
+     "reading": "gieokada"
+    },
+    {
+     "term": "이해하다",
+     "meaning": "to understand",
+     "pos": "v",
+     "reading": "ihaehada"
+    },
+    {
+     "term": "바꾸다",
+     "meaning": "to change",
+     "pos": "v",
+     "reading": "bakkuda"
+    },
+    {
+     "term": "느끼다",
+     "meaning": "to feel",
+     "pos": "v",
+     "reading": "neukkida"
+    },
+    {
+     "term": "믿다",
+     "meaning": "to believe",
+     "pos": "v",
+     "reading": "mitda"
+    },
+    {
+     "term": "노래하다",
+     "meaning": "to sing",
+     "pos": "v",
+     "reading": "noraehada"
+    },
+    {
+     "term": "춤추다",
+     "meaning": "to dance",
+     "pos": "v",
+     "reading": "chumchuda"
+    },
+    {
+     "term": "그리다",
+     "meaning": "to draw",
+     "pos": "v",
+     "reading": "geurida"
+    },
+    {
+     "term": "찍다",
+     "meaning": "to take (a photo)",
+     "pos": "v",
+     "reading": "jjikda"
+    },
+    {
+     "term": "신다",
+     "meaning": "to put on (shoes)",
+     "pos": "v",
+     "reading": "sinda"
+    },
+    {
+     "term": "닦다",
+     "meaning": "to wipe; to brush",
+     "pos": "v",
+     "reading": "dakda"
+    },
+    {
+     "term": "빨래하다",
+     "meaning": "to do laundry",
+     "pos": "v",
+     "reading": "ppallaehada"
+    },
+    {
+     "term": "들어오다",
+     "meaning": "to come in",
+     "pos": "v",
+     "reading": "deureooda"
+    },
+    {
+     "term": "떠나다",
+     "meaning": "to leave",
+     "pos": "v",
+     "reading": "tteonada"
+    },
+    {
+     "term": "꺼내다",
+     "meaning": "to take out",
+     "pos": "v",
+     "reading": "kkeonaeda"
+    },
+    {
+     "term": "던지다",
+     "meaning": "to throw",
+     "pos": "v",
+     "reading": "deonjida"
+    },
+    {
+     "term": "밀다",
+     "meaning": "to push",
+     "pos": "v",
+     "reading": "milda"
+    },
+    {
+     "term": "당기다",
+     "meaning": "to pull",
+     "pos": "v",
+     "reading": "danggida"
+    },
+    {
+     "term": "돌려주다",
+     "meaning": "to give back",
+     "pos": "v",
+     "reading": "dollyeojuda"
+    }
+   ]
+  },
+  {
+   "id": "describing-things",
+   "title": "Describing things",
+   "description": "Core adjectives",
+   "words": [
+    {
+     "term": "좋다",
+     "meaning": "good",
+     "pos": "adj",
+     "reading": "jota"
+    },
+    {
+     "term": "나쁘다",
+     "meaning": "bad",
+     "pos": "adj",
+     "reading": "nappeuda"
+    },
+    {
+     "term": "크다",
+     "meaning": "big",
+     "pos": "adj",
+     "reading": "keuda"
+    },
+    {
+     "term": "작다",
+     "meaning": "small",
+     "pos": "adj",
+     "reading": "jakda"
+    },
+    {
+     "term": "많다",
+     "meaning": "many; much",
+     "pos": "adj",
+     "reading": "manta"
+    },
+    {
+     "term": "적다",
+     "meaning": "few; little",
+     "pos": "adj",
+     "reading": "jeokda"
+    },
+    {
+     "term": "맛있다",
+     "meaning": "delicious",
+     "pos": "adj",
+     "reading": "masitda"
+    },
+    {
+     "term": "재미있다",
+     "meaning": "fun; interesting",
+     "pos": "adj",
+     "reading": "jaemiitda"
+    },
+    {
+     "term": "예쁘다",
+     "meaning": "pretty",
+     "pos": "adj",
+     "reading": "yeppeuda"
+    },
+    {
+     "term": "비싸다",
+     "meaning": "expensive",
+     "pos": "adj",
+     "reading": "bissada"
+    },
+    {
+     "term": "싸다",
+     "meaning": "cheap",
+     "pos": "adj",
+     "reading": "ssada"
+    },
+    {
+     "term": "덥다",
+     "meaning": "hot (weather)",
+     "pos": "adj",
+     "reading": "deopda"
+    },
+    {
+     "term": "춥다",
+     "meaning": "cold (weather)",
+     "pos": "adj",
+     "reading": "chupda"
+    },
+    {
+     "term": "쉽다",
+     "meaning": "easy",
+     "pos": "adj",
+     "reading": "swipda"
+    },
+    {
+     "term": "어렵다",
+     "meaning": "difficult",
+     "pos": "adj",
+     "reading": "eoryeopda"
+    },
+    {
+     "term": "바쁘다",
+     "meaning": "busy",
+     "pos": "adj",
+     "reading": "bappeuda"
+    },
+    {
+     "term": "같다",
+     "meaning": "same",
+     "pos": "adj",
+     "reading": "gatda"
+    },
+    {
+     "term": "다르다",
+     "meaning": "different",
+     "pos": "adj",
+     "reading": "dareuda"
+    },
+    {
+     "term": "길다",
+     "meaning": "long",
+     "pos": "adj",
+     "reading": "gilda"
+    },
+    {
+     "term": "짧다",
+     "meaning": "short",
+     "pos": "adj",
+     "reading": "jjalda"
+    },
+    {
+     "term": "빠르다",
+     "meaning": "fast",
+     "pos": "adj",
+     "reading": "ppareuda"
+    },
+    {
+     "term": "느리다",
+     "meaning": "slow",
+     "pos": "adj",
+     "reading": "neurida"
+    },
+    {
+     "term": "가깝다",
+     "meaning": "near",
+     "pos": "adj",
+     "reading": "gakkapda"
+    },
+    {
+     "term": "멀다",
+     "meaning": "far",
+     "pos": "adj",
+     "reading": "meolda"
+    },
+    {
+     "term": "새롭다",
+     "meaning": "new",
+     "pos": "adj",
+     "reading": "saeropda"
+    },
+    {
+     "term": "높다",
+     "meaning": "high",
+     "pos": "adj",
+     "reading": "nopda"
+    },
+    {
+     "term": "낮다",
+     "meaning": "low",
+     "pos": "adj",
+     "reading": "natda"
+    },
+    {
+     "term": "무겁다",
+     "meaning": "heavy",
+     "pos": "adj",
+     "reading": "mugeopda"
+    },
+    {
+     "term": "가볍다",
+     "meaning": "light (weight)",
+     "pos": "adj",
+     "reading": "gabyeopda"
+    },
+    {
+     "term": "뜨겁다",
+     "meaning": "hot (to touch)",
+     "pos": "adj",
+     "reading": "tteugeopda"
+    },
+    {
+     "term": "차갑다",
+     "meaning": "cold (to touch)",
+     "pos": "adj",
+     "reading": "chagapda"
+    },
+    {
+     "term": "따뜻하다",
+     "meaning": "warm",
+     "pos": "adj",
+     "reading": "ttatteutada"
+    },
+    {
+     "term": "시원하다",
+     "meaning": "cool; refreshing",
+     "pos": "adj",
+     "reading": "siwonhada"
+    },
+    {
+     "term": "깨끗하다",
+     "meaning": "clean",
+     "pos": "adj",
+     "reading": "kkaekkeutada"
+    },
+    {
+     "term": "더럽다",
+     "meaning": "dirty",
+     "pos": "adj",
+     "reading": "deoreopda"
+    },
+    {
+     "term": "조용하다",
+     "meaning": "quiet",
+     "pos": "adj",
+     "reading": "joyonghada"
+    },
+    {
+     "term": "시끄럽다",
+     "meaning": "noisy",
+     "pos": "adj",
+     "reading": "sikkeureopda"
+    },
+    {
+     "term": "멋있다",
+     "meaning": "cool; stylish",
+     "pos": "adj",
+     "reading": "meositda"
+    },
+    {
+     "term": "귀엽다",
+     "meaning": "cute",
+     "pos": "adj",
+     "reading": "gwiyeopda"
+    },
+    {
+     "term": "아름답다",
+     "meaning": "beautiful",
+     "pos": "adj",
+     "reading": "areumdapda"
+    },
+    {
+     "term": "맛없다",
+     "meaning": "not tasty",
+     "pos": "adj",
+     "reading": "maseopda"
+    },
+    {
+     "term": "재미없다",
+     "meaning": "boring",
+     "pos": "adj",
+     "reading": "jaemieopda"
+    },
+    {
+     "term": "넓다",
+     "meaning": "wide; spacious",
+     "pos": "adj",
+     "reading": "neolda"
+    },
+    {
+     "term": "좁다",
+     "meaning": "narrow",
+     "pos": "adj",
+     "reading": "jopda"
+    },
+    {
+     "term": "밝다",
+     "meaning": "bright",
+     "pos": "adj",
+     "reading": "bakda"
+    },
+    {
+     "term": "어둡다",
+     "meaning": "dark",
+     "pos": "adj",
+     "reading": "eodupda"
+    },
+    {
+     "term": "젊다",
+     "meaning": "young",
+     "pos": "adj",
+     "reading": "jeomda"
+    },
+    {
+     "term": "늙다",
+     "meaning": "to grow old",
+     "pos": "v",
+     "reading": "neukda"
+    },
+    {
+     "term": "오래되다",
+     "meaning": "old (thing)",
+     "pos": "adj",
+     "reading": "oraedoeda"
+    },
+    {
+     "term": "한가하다",
+     "meaning": "free; not busy",
+     "pos": "adj",
+     "reading": "hangahada"
+    }
+   ]
+  },
+  {
+   "id": "numbers",
+   "title": "Numbers",
+   "description": "Two number systems and the counters that go with them",
+   "words": [
+    {
+     "term": "하나",
+     "meaning": "one (native)",
+     "pos": "num",
+     "reading": "hana"
+    },
+    {
+     "term": "둘",
+     "meaning": "two (native)",
+     "pos": "num",
+     "reading": "dul"
+    },
+    {
+     "term": "셋",
+     "meaning": "three (native)",
+     "pos": "num",
+     "reading": "set"
+    },
+    {
+     "term": "넷",
+     "meaning": "four (native)",
+     "pos": "num",
+     "reading": "net"
+    },
+    {
+     "term": "다섯",
+     "meaning": "five (native)",
+     "pos": "num",
+     "reading": "daseot"
+    },
+    {
+     "term": "여섯",
+     "meaning": "six (native)",
+     "pos": "num",
+     "reading": "yeoseot"
+    },
+    {
+     "term": "일곱",
+     "meaning": "seven (native)",
+     "pos": "num",
+     "reading": "ilgop"
+    },
+    {
+     "term": "여덟",
+     "meaning": "eight (native)",
+     "pos": "num",
+     "reading": "yeodeol"
+    },
+    {
+     "term": "아홉",
+     "meaning": "nine (native)",
+     "pos": "num",
+     "reading": "ahop"
+    },
+    {
+     "term": "열",
+     "meaning": "ten (native); fever",
+     "pos": "num",
+     "reading": "yeol"
+    },
+    {
+     "term": "일",
+     "meaning": "one (Sino-Korean); work; day",
+     "pos": "num",
+     "reading": "il"
+    },
+    {
+     "term": "이",
+     "meaning": "two (Sino-Korean); this; tooth",
+     "pos": "num",
+     "reading": "i"
+    },
+    {
+     "term": "삼",
+     "meaning": "three (Sino-Korean)",
+     "pos": "num",
+     "reading": "sam"
+    },
+    {
+     "term": "사",
+     "meaning": "four (Sino-Korean)",
+     "pos": "num",
+     "reading": "sa"
+    },
+    {
+     "term": "오",
+     "meaning": "five (Sino-Korean)",
+     "pos": "num",
+     "reading": "o"
+    },
+    {
+     "term": "육",
+     "meaning": "six (Sino-Korean)",
+     "pos": "num",
+     "reading": "yuk"
+    },
+    {
+     "term": "칠",
+     "meaning": "seven (Sino-Korean)",
+     "pos": "num",
+     "reading": "chil"
+    },
+    {
+     "term": "팔",
+     "meaning": "eight (Sino-Korean); arm",
+     "pos": "num",
+     "reading": "pal"
+    },
+    {
+     "term": "구",
+     "meaning": "nine (Sino-Korean)",
+     "pos": "num",
+     "reading": "gu"
+    },
+    {
+     "term": "십",
+     "meaning": "ten (Sino-Korean)",
+     "pos": "num",
+     "reading": "sip"
+    },
+    {
+     "term": "백",
+     "meaning": "hundred",
+     "pos": "num",
+     "reading": "baek"
+    },
+    {
+     "term": "천",
+     "meaning": "thousand",
+     "pos": "num",
+     "reading": "cheon"
+    },
+    {
+     "term": "만",
+     "meaning": "ten thousand",
+     "pos": "num",
+     "reading": "man"
+    },
+    {
+     "term": "영",
+     "meaning": "zero",
+     "pos": "num",
+     "reading": "yeong"
+    },
+    {
+     "term": "개",
+     "meaning": "counter for things; dog",
+     "pos": "count",
+     "reading": "gae"
+    },
+    {
+     "term": "명",
+     "meaning": "counter for people",
+     "pos": "count",
+     "reading": "myeong"
+    },
+    {
+     "term": "살",
+     "meaning": "years old",
+     "pos": "count",
+     "reading": "sal"
+    },
+    {
+     "term": "번",
+     "meaning": "number; times",
+     "pos": "count",
+     "reading": "beon"
+    },
+    {
+     "term": "잔",
+     "meaning": "cup; glass (counter)",
+     "pos": "count",
+     "reading": "jan"
+    },
+    {
+     "term": "병",
+     "meaning": "bottle; illness",
+     "pos": "count",
+     "reading": "byeong"
+    },
+    {
+     "term": "마리",
+     "meaning": "counter for animals",
+     "pos": "count",
+     "reading": "mari"
+    },
+    {
+     "term": "권",
+     "meaning": "counter for books",
+     "pos": "count",
+     "reading": "gwon"
+    },
+    {
+     "term": "장",
+     "meaning": "counter for sheets",
+     "pos": "count",
+     "reading": "jang"
+    },
+    {
+     "term": "대",
+     "meaning": "counter for vehicles and machines",
+     "pos": "count",
+     "reading": "dae"
+    },
+    {
+     "term": "층",
+     "meaning": "floor (of a building)",
+     "pos": "count",
+     "reading": "cheung"
+    },
+    {
+     "term": "조금",
+     "meaning": "a little",
+     "pos": "adv",
+     "reading": "jogeum"
+    },
+    {
+     "term": "많이",
+     "meaning": "a lot",
+     "pos": "adv",
+     "reading": "mani"
+    },
+    {
+     "term": "모두",
+     "meaning": "all; everyone",
+     "pos": "adv",
+     "reading": "modu"
+    },
+    {
+     "term": "다",
+     "meaning": "all",
+     "pos": "adv",
+     "reading": "da"
+    },
+    {
+     "term": "반",
+     "meaning": "half; class",
+     "pos": "n",
+     "reading": "ban"
+    },
+    {
+     "term": "처음",
+     "meaning": "first time; beginning",
+     "pos": "n",
+     "reading": "cheoeum"
+    },
+    {
+     "term": "마지막",
+     "meaning": "last",
+     "pos": "n",
+     "reading": "majimak"
+    },
+    {
+     "term": "스물",
+     "meaning": "twenty (native)",
+     "pos": "num",
+     "reading": "seumul"
+    },
+    {
+     "term": "서른",
+     "meaning": "thirty (native)",
+     "pos": "num",
+     "reading": "seoreun"
+    },
+    {
+     "term": "마흔",
+     "meaning": "forty (native)",
+     "pos": "num",
+     "reading": "maheun"
+    },
+    {
+     "term": "쉰",
+     "meaning": "fifty (native)",
+     "pos": "num",
+     "reading": "swin"
+    },
+    {
+     "term": "억",
+     "meaning": "hundred million",
+     "pos": "num",
+     "reading": "eok"
+    },
+    {
+     "term": "첫째",
+     "meaning": "first",
+     "pos": "num",
+     "reading": "cheotjjae"
+    },
+    {
+     "term": "둘째",
+     "meaning": "second",
+     "pos": "num",
+     "reading": "duljjae"
+    },
+    {
+     "term": "번째",
+     "meaning": "-th (ordinal)",
+     "pos": "count",
+     "reading": "beonjjae"
+    }
+   ]
+  },
+  {
+   "id": "time",
+   "title": "Time",
+   "description": "Days, dates and when things happen",
+   "words": [
+    {
+     "term": "오늘",
+     "meaning": "today",
+     "pos": "n",
+     "reading": "oneul"
+    },
+    {
+     "term": "내일",
+     "meaning": "tomorrow",
+     "pos": "n",
+     "reading": "naeil"
+    },
+    {
+     "term": "어제",
+     "meaning": "yesterday",
+     "pos": "n",
+     "reading": "eoje"
+    },
+    {
+     "term": "지금",
+     "meaning": "now",
+     "pos": "adv",
+     "reading": "jigeum"
+    },
+    {
+     "term": "시간",
+     "meaning": "time; hour",
+     "pos": "n",
+     "reading": "sigan"
+    },
+    {
+     "term": "시",
+     "meaning": "o'clock",
+     "pos": "count",
+     "reading": "si"
+    },
+    {
+     "term": "분",
+     "meaning": "minute; person (honorific)",
+     "pos": "count",
+     "reading": "bun"
+    },
+    {
+     "term": "아침",
+     "meaning": "morning; breakfast",
+     "pos": "n",
+     "reading": "achim"
+    },
+    {
+     "term": "점심",
+     "meaning": "lunch; midday",
+     "pos": "n",
+     "reading": "jeomsim"
+    },
+    {
+     "term": "저녁",
+     "meaning": "evening; dinner",
+     "pos": "n",
+     "reading": "jeonyeok"
+    },
+    {
+     "term": "밤",
+     "meaning": "night; chestnut",
+     "pos": "n",
+     "reading": "bam"
+    },
+    {
+     "term": "주말",
+     "meaning": "weekend",
+     "pos": "n",
+     "reading": "jumal"
+    },
+    {
+     "term": "매일",
+     "meaning": "every day",
+     "pos": "adv",
+     "reading": "maeil"
+    },
+    {
+     "term": "항상",
+     "meaning": "always",
+     "pos": "adv",
+     "reading": "hangsang"
+    },
+    {
+     "term": "자주",
+     "meaning": "often",
+     "pos": "adv",
+     "reading": "jaju"
+    },
+    {
+     "term": "가끔",
+     "meaning": "sometimes",
+     "pos": "adv",
+     "reading": "gakkeum"
+    },
+    {
+     "term": "아직",
+     "meaning": "yet; still",
+     "pos": "adv",
+     "reading": "ajik"
+    },
+    {
+     "term": "벌써",
+     "meaning": "already",
+     "pos": "adv",
+     "reading": "beolsseo"
+    },
+    {
+     "term": "곧",
+     "meaning": "soon",
+     "pos": "adv",
+     "reading": "got"
+    },
+    {
+     "term": "나중에",
+     "meaning": "later",
+     "pos": "adv",
+     "reading": "najunge"
+    },
+    {
+     "term": "날",
+     "meaning": "day",
+     "pos": "n",
+     "reading": "nal"
+    },
+    {
+     "term": "주",
+     "meaning": "week",
+     "pos": "n",
+     "reading": "ju"
+    },
+    {
+     "term": "달",
+     "meaning": "month; moon",
+     "pos": "n",
+     "reading": "dal"
+    },
+    {
+     "term": "년",
+     "meaning": "year",
+     "pos": "count",
+     "reading": "nyeon"
+    },
+    {
+     "term": "월",
+     "meaning": "month (in dates)",
+     "pos": "count",
+     "reading": "wol"
+    },
+    {
+     "term": "요일",
+     "meaning": "day of the week",
+     "pos": "n",
+     "reading": "yoil"
+    },
+    {
+     "term": "월요일",
+     "meaning": "Monday",
+     "pos": "n",
+     "reading": "woryoil"
+    },
+    {
+     "term": "화요일",
+     "meaning": "Tuesday",
+     "pos": "n",
+     "reading": "hwayoil"
+    },
+    {
+     "term": "수요일",
+     "meaning": "Wednesday",
+     "pos": "n",
+     "reading": "suyoil"
+    },
+    {
+     "term": "목요일",
+     "meaning": "Thursday",
+     "pos": "n",
+     "reading": "mogyoil"
+    },
+    {
+     "term": "금요일",
+     "meaning": "Friday",
+     "pos": "n",
+     "reading": "geumyoil"
+    },
+    {
+     "term": "토요일",
+     "meaning": "Saturday",
+     "pos": "n",
+     "reading": "toyoil"
+    },
+    {
+     "term": "일요일",
+     "meaning": "Sunday",
+     "pos": "n",
+     "reading": "iryoil"
+    },
+    {
+     "term": "봄",
+     "meaning": "spring",
+     "pos": "n",
+     "reading": "bom"
+    },
+    {
+     "term": "여름",
+     "meaning": "summer",
+     "pos": "n",
+     "reading": "yeoreum"
+    },
+    {
+     "term": "가을",
+     "meaning": "autumn",
+     "pos": "n",
+     "reading": "gaeul"
+    },
+    {
+     "term": "겨울",
+     "meaning": "winter",
+     "pos": "n",
+     "reading": "gyeoul"
+    },
+    {
+     "term": "오전",
+     "meaning": "morning (a.m.)",
+     "pos": "n",
+     "reading": "ojeon"
+    },
+    {
+     "term": "오후",
+     "meaning": "afternoon (p.m.)",
+     "pos": "n",
+     "reading": "ohu"
+    },
+    {
+     "term": "전",
+     "meaning": "before",
+     "pos": "n",
+     "reading": "jeon"
+    },
+    {
+     "term": "후",
+     "meaning": "after",
+     "pos": "n",
+     "reading": "hu"
+    },
+    {
+     "term": "때",
+     "meaning": "time; when",
+     "pos": "n",
+     "reading": "ttae"
+    },
+    {
+     "term": "동안",
+     "meaning": "during; for (a period)",
+     "pos": "n",
+     "reading": "dongan"
+    },
+    {
+     "term": "다음",
+     "meaning": "next",
+     "pos": "n",
+     "reading": "daeum"
+    },
+    {
+     "term": "이번",
+     "meaning": "this time",
+     "pos": "n",
+     "reading": "ibeon"
+    },
+    {
+     "term": "지난",
+     "meaning": "last; past",
+     "pos": "det",
+     "reading": "jinan"
+    },
+    {
+     "term": "요즘",
+     "meaning": "these days",
+     "pos": "adv",
+     "reading": "yojeum"
+    },
+    {
+     "term": "올해",
+     "meaning": "this year",
+     "pos": "n",
+     "reading": "olhae"
+    },
+    {
+     "term": "작년",
+     "meaning": "last year",
+     "pos": "n",
+     "reading": "jangnyeon"
+    },
+    {
+     "term": "내년",
+     "meaning": "next year",
+     "pos": "n",
+     "reading": "naenyeon"
+    }
+   ]
+  },
+  {
+   "id": "food-and-drink",
+   "title": "Food and drink",
+   "description": "Ordering, eating and tasting",
+   "words": [
+    {
+     "term": "음식",
+     "meaning": "food",
+     "pos": "n",
+     "reading": "eumsik"
+    },
+    {
+     "term": "밥",
+     "meaning": "rice; meal",
+     "pos": "n",
+     "reading": "bap"
+    },
+    {
+     "term": "물",
+     "meaning": "water",
+     "pos": "n",
+     "reading": "mul"
+    },
+    {
+     "term": "커피",
+     "meaning": "coffee",
+     "pos": "n",
+     "reading": "keopi"
+    },
+    {
+     "term": "고기",
+     "meaning": "meat",
+     "pos": "n",
+     "reading": "gogi"
+    },
+    {
+     "term": "김치",
+     "meaning": "kimchi",
+     "pos": "n",
+     "reading": "gimchi"
+    },
+    {
+     "term": "빵",
+     "meaning": "bread",
+     "pos": "n",
+     "reading": "ppang"
+    },
+    {
+     "term": "과일",
+     "meaning": "fruit",
+     "pos": "n",
+     "reading": "gwail"
+    },
+    {
+     "term": "야채",
+     "meaning": "vegetables",
+     "pos": "n",
+     "reading": "yachae"
+    },
+    {
+     "term": "우유",
+     "meaning": "milk",
+     "pos": "n",
+     "reading": "uyu"
+    },
+    {
+     "term": "차",
+     "meaning": "tea; car",
+     "pos": "n",
+     "reading": "cha"
+    },
+    {
+     "term": "술",
+     "meaning": "alcohol",
+     "pos": "n",
+     "reading": "sul"
+    },
+    {
+     "term": "맥주",
+     "meaning": "beer",
+     "pos": "n",
+     "reading": "maekju"
+    },
+    {
+     "term": "라면",
+     "meaning": "ramen",
+     "pos": "n",
+     "reading": "ramyeon"
+    },
+    {
+     "term": "계란",
+     "meaning": "egg",
+     "pos": "n",
+     "reading": "gyeran"
+    },
+    {
+     "term": "생선",
+     "meaning": "fish (as food)",
+     "pos": "n",
+     "reading": "saengseon"
+    },
+    {
+     "term": "국",
+     "meaning": "soup",
+     "pos": "n",
+     "reading": "guk"
+    },
+    {
+     "term": "맛",
+     "meaning": "taste",
+     "pos": "n",
+     "reading": "mat"
+    },
+    {
+     "term": "식사",
+     "meaning": "meal",
+     "pos": "n",
+     "reading": "siksa"
+    },
+    {
+     "term": "메뉴",
+     "meaning": "menu",
+     "pos": "n",
+     "reading": "menyu"
+    },
+    {
+     "term": "맵다",
+     "meaning": "spicy",
+     "pos": "adj",
+     "reading": "maepda"
+    },
+    {
+     "term": "달다",
+     "meaning": "sweet",
+     "pos": "adj",
+     "reading": "dalda"
+    },
+    {
+     "term": "짜다",
+     "meaning": "salty",
+     "pos": "adj",
+     "reading": "jjada"
+    },
+    {
+     "term": "배고프다",
+     "meaning": "hungry",
+     "pos": "adj",
+     "reading": "baegopeuda"
+    },
+    {
+     "term": "배부르다",
+     "meaning": "full (after eating)",
+     "pos": "adj",
+     "reading": "baebureuda"
+    },
+    {
+     "term": "사과",
+     "meaning": "apple; apology",
+     "pos": "n",
+     "reading": "sagwa"
+    },
+    {
+     "term": "배",
+     "meaning": "pear; stomach; boat",
+     "pos": "n",
+     "reading": "bae"
+    },
+    {
+     "term": "소고기",
+     "meaning": "beef",
+     "pos": "n",
+     "reading": "sogogi"
+    },
+    {
+     "term": "돼지고기",
+     "meaning": "pork",
+     "pos": "n",
+     "reading": "dwaejigogi"
+    },
+    {
+     "term": "닭고기",
+     "meaning": "chicken (meat)",
+     "pos": "n",
+     "reading": "dakgogi"
+    },
+    {
+     "term": "찌개",
+     "meaning": "stew",
+     "pos": "n",
+     "reading": "jjigae"
+    },
+    {
+     "term": "면",
+     "meaning": "noodles",
+     "pos": "n",
+     "reading": "myeon"
+    },
+    {
+     "term": "김밥",
+     "meaning": "gimbap",
+     "pos": "n",
+     "reading": "gimbap"
+    },
+    {
+     "term": "불고기",
+     "meaning": "bulgogi",
+     "pos": "n",
+     "reading": "bulgogi"
+    },
+    {
+     "term": "비빔밥",
+     "meaning": "bibimbap",
+     "pos": "n",
+     "reading": "bibimbap"
+    },
+    {
+     "term": "떡볶이",
+     "meaning": "tteokbokki",
+     "pos": "n",
+     "reading": "tteokbokki"
+    },
+    {
+     "term": "반찬",
+     "meaning": "side dishes",
+     "pos": "n",
+     "reading": "banchan"
+    },
+    {
+     "term": "소주",
+     "meaning": "soju",
+     "pos": "n",
+     "reading": "soju"
+    },
+    {
+     "term": "주스",
+     "meaning": "juice",
+     "pos": "n",
+     "reading": "juseu"
+    },
+    {
+     "term": "과자",
+     "meaning": "snacks; cookies",
+     "pos": "n",
+     "reading": "gwaja"
+    },
+    {
+     "term": "숟가락",
+     "meaning": "spoon",
+     "pos": "n",
+     "reading": "sutgarak"
+    },
+    {
+     "term": "젓가락",
+     "meaning": "chopsticks",
+     "pos": "n",
+     "reading": "jeotgarak"
+    },
+    {
+     "term": "그릇",
+     "meaning": "bowl",
+     "pos": "n",
+     "reading": "geureut"
+    },
+    {
+     "term": "접시",
+     "meaning": "plate",
+     "pos": "n",
+     "reading": "jeopsi"
+    },
+    {
+     "term": "컵",
+     "meaning": "cup",
+     "pos": "n",
+     "reading": "keop"
+    },
+    {
+     "term": "요리",
+     "meaning": "cooking; dish",
+     "pos": "n",
+     "reading": "yori"
+    },
+    {
+     "term": "쌀",
+     "meaning": "rice (uncooked)",
+     "pos": "n",
+     "reading": "ssal"
+    },
+    {
+     "term": "소금",
+     "meaning": "salt",
+     "pos": "n",
+     "reading": "sogeum"
+    },
+    {
+     "term": "설탕",
+     "meaning": "sugar",
+     "pos": "n",
+     "reading": "seoltang"
+    },
+    {
+     "term": "두부",
+     "meaning": "tofu",
+     "pos": "n",
+     "reading": "dubu"
+    }
+   ]
+  },
+  {
+   "id": "places",
+   "title": "Places",
+   "description": "Around town and where things are",
+   "words": [
+    {
+     "term": "집",
+     "meaning": "house; home",
+     "pos": "n",
+     "reading": "jip"
+    },
+    {
+     "term": "학교",
+     "meaning": "school",
+     "pos": "n",
+     "reading": "hakgyo"
+    },
+    {
+     "term": "회사",
+     "meaning": "company",
+     "pos": "n",
+     "reading": "hoesa"
+    },
+    {
+     "term": "가게",
+     "meaning": "store",
+     "pos": "n",
+     "reading": "gage"
+    },
+    {
+     "term": "식당",
+     "meaning": "restaurant",
+     "pos": "n",
+     "reading": "sikdang"
+    },
+    {
+     "term": "카페",
+     "meaning": "cafe",
+     "pos": "n",
+     "reading": "kape"
+    },
+    {
+     "term": "병원",
+     "meaning": "hospital",
+     "pos": "n",
+     "reading": "byeongwon"
+    },
+    {
+     "term": "화장실",
+     "meaning": "restroom",
+     "pos": "n",
+     "reading": "hwajangsil"
+    },
+    {
+     "term": "은행",
+     "meaning": "bank",
+     "pos": "n",
+     "reading": "eunhaeng"
+    },
+    {
+     "term": "시장",
+     "meaning": "market",
+     "pos": "n",
+     "reading": "sijang"
+    },
+    {
+     "term": "공원",
+     "meaning": "park",
+     "pos": "n",
+     "reading": "gongwon"
+    },
+    {
+     "term": "역",
+     "meaning": "station",
+     "pos": "n",
+     "reading": "yeok"
+    },
+    {
+     "term": "공항",
+     "meaning": "airport",
+     "pos": "n",
+     "reading": "gonghang"
+    },
+    {
+     "term": "호텔",
+     "meaning": "hotel",
+     "pos": "n",
+     "reading": "hotel"
+    },
+    {
+     "term": "편의점",
+     "meaning": "convenience store",
+     "pos": "n",
+     "reading": "pyeonuijeom"
+    },
+    {
+     "term": "마트",
+     "meaning": "supermarket",
+     "pos": "n",
+     "reading": "mateu"
+    },
+    {
+     "term": "약국",
+     "meaning": "pharmacy",
+     "pos": "n",
+     "reading": "yakguk"
+    },
+    {
+     "term": "도서관",
+     "meaning": "library",
+     "pos": "n",
+     "reading": "doseogwan"
+    },
+    {
+     "term": "영화관",
+     "meaning": "movie theater",
+     "pos": "n",
+     "reading": "yeonghwagwan"
+    },
+    {
+     "term": "길",
+     "meaning": "road; way",
+     "pos": "n",
+     "reading": "gil"
+    },
+    {
+     "term": "나라",
+     "meaning": "country",
+     "pos": "n",
+     "reading": "nara"
+    },
+    {
+     "term": "도시",
+     "meaning": "city",
+     "pos": "n",
+     "reading": "dosi"
+    },
+    {
+     "term": "서울",
+     "meaning": "Seoul",
+     "pos": "n",
+     "reading": "seoul"
+    },
+    {
+     "term": "미국",
+     "meaning": "United States",
+     "pos": "n",
+     "reading": "miguk"
+    },
+    {
+     "term": "일본",
+     "meaning": "Japan",
+     "pos": "n",
+     "reading": "ilbon"
+    },
+    {
+     "term": "중국",
+     "meaning": "China",
+     "pos": "n",
+     "reading": "jungguk"
+    },
+    {
+     "term": "앞",
+     "meaning": "front",
+     "pos": "n",
+     "reading": "ap"
+    },
+    {
+     "term": "뒤",
+     "meaning": "behind",
+     "pos": "n",
+     "reading": "dwi"
+    },
+    {
+     "term": "옆",
+     "meaning": "beside",
+     "pos": "n",
+     "reading": "yeop"
+    },
+    {
+     "term": "위",
+     "meaning": "above; on top",
+     "pos": "n",
+     "reading": "wi"
+    },
+    {
+     "term": "아래",
+     "meaning": "below",
+     "pos": "n",
+     "reading": "arae"
+    },
+    {
+     "term": "안",
+     "meaning": "inside; not",
+     "pos": "n",
+     "reading": "an"
+    },
+    {
+     "term": "밖",
+     "meaning": "outside",
+     "pos": "n",
+     "reading": "bak"
+    },
+    {
+     "term": "오른쪽",
+     "meaning": "right side",
+     "pos": "n",
+     "reading": "oreunjjok"
+    },
+    {
+     "term": "왼쪽",
+     "meaning": "left side",
+     "pos": "n",
+     "reading": "oenjjok"
+    },
+    {
+     "term": "근처",
+     "meaning": "nearby",
+     "pos": "n",
+     "reading": "geuncheo"
+    },
+    {
+     "term": "곳",
+     "meaning": "place",
+     "pos": "n",
+     "reading": "got"
+    },
+    {
+     "term": "사이",
+     "meaning": "between",
+     "pos": "n",
+     "reading": "sai"
+    },
+    {
+     "term": "가운데",
+     "meaning": "middle",
+     "pos": "n",
+     "reading": "gaunde"
+    },
+    {
+     "term": "쪽",
+     "meaning": "direction; side",
+     "pos": "n",
+     "reading": "jjok"
+    },
+    {
+     "term": "백화점",
+     "meaning": "department store",
+     "pos": "n",
+     "reading": "baekwajeom"
+    },
+    {
+     "term": "우체국",
+     "meaning": "post office",
+     "pos": "n",
+     "reading": "ucheguk"
+    },
+    {
+     "term": "서점",
+     "meaning": "bookstore",
+     "pos": "n",
+     "reading": "seojeom"
+    },
+    {
+     "term": "대학교",
+     "meaning": "university",
+     "pos": "n",
+     "reading": "daehakgyo"
+    },
+    {
+     "term": "교실",
+     "meaning": "classroom",
+     "pos": "n",
+     "reading": "gyosil"
+    },
+    {
+     "term": "사무실",
+     "meaning": "office",
+     "pos": "n",
+     "reading": "samusil"
+    },
+    {
+     "term": "건물",
+     "meaning": "building",
+     "pos": "n",
+     "reading": "geonmul"
+    },
+    {
+     "term": "아파트",
+     "meaning": "apartment",
+     "pos": "n",
+     "reading": "apateu"
+    },
+    {
+     "term": "정류장",
+     "meaning": "bus stop",
+     "pos": "n",
+     "reading": "jeongnyujang"
+    },
+    {
+     "term": "지하철역",
+     "meaning": "subway station",
+     "pos": "n",
+     "reading": "jihacheoryeok"
+    }
+   ]
+  },
+  {
+   "id": "home-and-things",
+   "title": "Home and things",
+   "description": "Rooms, furniture and everyday objects",
+   "words": [
+    {
+     "term": "방",
+     "meaning": "room",
+     "pos": "n",
+     "reading": "bang"
+    },
+    {
+     "term": "문",
+     "meaning": "door",
+     "pos": "n",
+     "reading": "mun"
+    },
+    {
+     "term": "창문",
+     "meaning": "window",
+     "pos": "n",
+     "reading": "changmun"
+    },
+    {
+     "term": "침대",
+     "meaning": "bed",
+     "pos": "n",
+     "reading": "chimdae"
+    },
+    {
+     "term": "책상",
+     "meaning": "desk",
+     "pos": "n",
+     "reading": "chaeksang"
+    },
+    {
+     "term": "의자",
+     "meaning": "chair",
+     "pos": "n",
+     "reading": "uija"
+    },
+    {
+     "term": "책",
+     "meaning": "book",
+     "pos": "n",
+     "reading": "chaek"
+    },
+    {
+     "term": "핸드폰",
+     "meaning": "cell phone",
+     "pos": "n",
+     "reading": "haendeupon"
+    },
+    {
+     "term": "컴퓨터",
+     "meaning": "computer",
+     "pos": "n",
+     "reading": "keompyuteo"
+    },
+    {
+     "term": "전화",
+     "meaning": "telephone; call",
+     "pos": "n",
+     "reading": "jeonhwa"
+    },
+    {
+     "term": "가방",
+     "meaning": "bag",
+     "pos": "n",
+     "reading": "gabang"
+    },
+    {
+     "term": "지갑",
+     "meaning": "wallet",
+     "pos": "n",
+     "reading": "jigap"
+    },
+    {
+     "term": "우산",
+     "meaning": "umbrella",
+     "pos": "n",
+     "reading": "usan"
+    },
+    {
+     "term": "시계",
+     "meaning": "clock; watch",
+     "pos": "n",
+     "reading": "sigye"
+    },
+    {
+     "term": "열쇠",
+     "meaning": "key",
+     "pos": "n",
+     "reading": "yeolsoe"
+    },
+    {
+     "term": "사진",
+     "meaning": "photo",
+     "pos": "n",
+     "reading": "sajin"
+    },
+    {
+     "term": "선물",
+     "meaning": "gift",
+     "pos": "n",
+     "reading": "seonmul"
+    },
+    {
+     "term": "물건",
+     "meaning": "thing; object",
+     "pos": "n",
+     "reading": "mulgeon"
+    },
+    {
+     "term": "종이",
+     "meaning": "paper",
+     "pos": "n",
+     "reading": "jongi"
+    },
+    {
+     "term": "펜",
+     "meaning": "pen",
+     "pos": "n",
+     "reading": "pen"
+    },
+    {
+     "term": "텔레비전",
+     "meaning": "television",
+     "pos": "n",
+     "reading": "tellebijeon"
+    },
+    {
+     "term": "냉장고",
+     "meaning": "refrigerator",
+     "pos": "n",
+     "reading": "naengjanggo"
+    },
+    {
+     "term": "부엌",
+     "meaning": "kitchen",
+     "pos": "n",
+     "reading": "bueok"
+    },
+    {
+     "term": "거실",
+     "meaning": "living room",
+     "pos": "n",
+     "reading": "geosil"
+    },
+    {
+     "term": "안경",
+     "meaning": "glasses",
+     "pos": "n",
+     "reading": "angyeong"
+    },
+    {
+     "term": "그림",
+     "meaning": "picture; painting",
+     "pos": "n",
+     "reading": "geurim"
+    },
+    {
+     "term": "편지",
+     "meaning": "letter",
+     "pos": "n",
+     "reading": "pyeonji"
+    },
+    {
+     "term": "표",
+     "meaning": "ticket",
+     "pos": "n",
+     "reading": "pyo"
+    },
+    {
+     "term": "카드",
+     "meaning": "card",
+     "pos": "n",
+     "reading": "kadeu"
+    },
+    {
+     "term": "쓰레기",
+     "meaning": "trash",
+     "pos": "n",
+     "reading": "sseuregi"
+    },
+    {
+     "term": "휴지",
+     "meaning": "tissue; toilet paper",
+     "pos": "n",
+     "reading": "hyuji"
+    },
+    {
+     "term": "불",
+     "meaning": "fire; light",
+     "pos": "n",
+     "reading": "bul"
+    },
+    {
+     "term": "전화번호",
+     "meaning": "phone number",
+     "pos": "n",
+     "reading": "jeonhwabeonho"
+    },
+    {
+     "term": "노트북",
+     "meaning": "laptop",
+     "pos": "n",
+     "reading": "noteubuk"
+    },
+    {
+     "term": "공책",
+     "meaning": "notebook",
+     "pos": "n",
+     "reading": "gongchaek"
+    },
+    {
+     "term": "연필",
+     "meaning": "pencil",
+     "pos": "n",
+     "reading": "yeonpil"
+    },
+    {
+     "term": "거울",
+     "meaning": "mirror",
+     "pos": "n",
+     "reading": "geoul"
+    },
+    {
+     "term": "상자",
+     "meaning": "box",
+     "pos": "n",
+     "reading": "sangja"
+    },
+    {
+     "term": "비누",
+     "meaning": "soap",
+     "pos": "n",
+     "reading": "binu"
+    },
+    {
+     "term": "수건",
+     "meaning": "towel",
+     "pos": "n",
+     "reading": "sugeon"
+    },
+    {
+     "term": "칫솔",
+     "meaning": "toothbrush",
+     "pos": "n",
+     "reading": "chitsol"
+    },
+    {
+     "term": "이불",
+     "meaning": "blanket",
+     "pos": "n",
+     "reading": "ibul"
+    },
+    {
+     "term": "세탁기",
+     "meaning": "washing machine",
+     "pos": "n",
+     "reading": "setakgi"
+    },
+    {
+     "term": "에어컨",
+     "meaning": "air conditioner",
+     "pos": "n",
+     "reading": "eeokeon"
+    },
+    {
+     "term": "소파",
+     "meaning": "sofa",
+     "pos": "n",
+     "reading": "sopa"
+    },
+    {
+     "term": "식탁",
+     "meaning": "dining table",
+     "pos": "n",
+     "reading": "siktak"
+    },
+    {
+     "term": "욕실",
+     "meaning": "bathroom",
+     "pos": "n",
+     "reading": "yoksil"
+    },
+    {
+     "term": "계단",
+     "meaning": "stairs",
+     "pos": "n",
+     "reading": "gyedan"
+    },
+    {
+     "term": "엘리베이터",
+     "meaning": "elevator",
+     "pos": "n",
+     "reading": "ellibeiteo"
+    },
+    {
+     "term": "벽",
+     "meaning": "wall",
+     "pos": "n",
+     "reading": "byeok"
+    }
+   ]
+  },
+  {
+   "id": "body-and-health",
+   "title": "Body and health",
+   "description": "Parts of the body and how you feel",
+   "words": [
+    {
+     "term": "몸",
+     "meaning": "body",
+     "pos": "n",
+     "reading": "mom"
+    },
+    {
+     "term": "머리",
+     "meaning": "head; hair",
+     "pos": "n",
+     "reading": "meori"
+    },
+    {
+     "term": "얼굴",
+     "meaning": "face",
+     "pos": "n",
+     "reading": "eolgul"
+    },
+    {
+     "term": "눈",
+     "meaning": "eye; snow",
+     "pos": "n",
+     "reading": "nun"
+    },
+    {
+     "term": "코",
+     "meaning": "nose",
+     "pos": "n",
+     "reading": "ko"
+    },
+    {
+     "term": "입",
+     "meaning": "mouth",
+     "pos": "n",
+     "reading": "ip"
+    },
+    {
+     "term": "귀",
+     "meaning": "ear",
+     "pos": "n",
+     "reading": "gwi"
+    },
+    {
+     "term": "손",
+     "meaning": "hand",
+     "pos": "n",
+     "reading": "son"
+    },
+    {
+     "term": "발",
+     "meaning": "foot",
+     "pos": "n",
+     "reading": "bal"
+    },
+    {
+     "term": "다리",
+     "meaning": "leg; bridge",
+     "pos": "n",
+     "reading": "dari"
+    },
+    {
+     "term": "목",
+     "meaning": "neck; throat",
+     "pos": "n",
+     "reading": "mok"
+    },
+    {
+     "term": "마음",
+     "meaning": "heart; mind",
+     "pos": "n",
+     "reading": "maeum"
+    },
+    {
+     "term": "아프다",
+     "meaning": "to hurt; to be sick",
+     "pos": "adj",
+     "reading": "apeuda"
+    },
+    {
+     "term": "피곤하다",
+     "meaning": "tired",
+     "pos": "adj",
+     "reading": "pigonhada"
+    },
+    {
+     "term": "건강",
+     "meaning": "health",
+     "pos": "n",
+     "reading": "geongang"
+    },
+    {
+     "term": "약",
+     "meaning": "medicine",
+     "pos": "n",
+     "reading": "yak"
+    },
+    {
+     "term": "감기",
+     "meaning": "a cold",
+     "pos": "n",
+     "reading": "gamgi"
+    },
+    {
+     "term": "힘",
+     "meaning": "strength",
+     "pos": "n",
+     "reading": "him"
+    },
+    {
+     "term": "힘들다",
+     "meaning": "hard; tiring",
+     "pos": "adj",
+     "reading": "himdeulda"
+    },
+    {
+     "term": "나이",
+     "meaning": "age",
+     "pos": "n",
+     "reading": "nai"
+    },
+    {
+     "term": "키",
+     "meaning": "height",
+     "pos": "n",
+     "reading": "ki"
+    },
+    {
+     "term": "잠",
+     "meaning": "sleep",
+     "pos": "n",
+     "reading": "jam"
+    },
+    {
+     "term": "꿈",
+     "meaning": "dream",
+     "pos": "n",
+     "reading": "kkum"
+    },
+    {
+     "term": "어깨",
+     "meaning": "shoulder",
+     "pos": "n",
+     "reading": "eokkae"
+    },
+    {
+     "term": "허리",
+     "meaning": "waist; lower back",
+     "pos": "n",
+     "reading": "heori"
+    },
+    {
+     "term": "등",
+     "meaning": "back (of the body)",
+     "pos": "n",
+     "reading": "deung"
+    },
+    {
+     "term": "가슴",
+     "meaning": "chest",
+     "pos": "n",
+     "reading": "gaseum"
+    },
+    {
+     "term": "손가락",
+     "meaning": "finger",
+     "pos": "n",
+     "reading": "songarak"
+    },
+    {
+     "term": "무릎",
+     "meaning": "knee",
+     "pos": "n",
+     "reading": "mureup"
+    },
+    {
+     "term": "피부",
+     "meaning": "skin",
+     "pos": "n",
+     "reading": "pibu"
+    },
+    {
+     "term": "피",
+     "meaning": "blood",
+     "pos": "n",
+     "reading": "pi"
+    },
+    {
+     "term": "목소리",
+     "meaning": "voice",
+     "pos": "n",
+     "reading": "moksori"
+    },
+    {
+     "term": "졸리다",
+     "meaning": "sleepy",
+     "pos": "adj",
+     "reading": "jollida"
+    },
+    {
+     "term": "다치다",
+     "meaning": "to get hurt",
+     "pos": "v",
+     "reading": "dachida"
+    },
+    {
+     "term": "낫다",
+     "meaning": "to recover; to be better",
+     "pos": "v",
+     "reading": "natda"
+    },
+    {
+     "term": "건강하다",
+     "meaning": "healthy",
+     "pos": "adj",
+     "reading": "geonganghada"
+    },
+    {
+     "term": "기침",
+     "meaning": "cough",
+     "pos": "n",
+     "reading": "gichim"
+    },
+    {
+     "term": "두통",
+     "meaning": "headache",
+     "pos": "n",
+     "reading": "dutong"
+    },
+    {
+     "term": "사고",
+     "meaning": "accident",
+     "pos": "n",
+     "reading": "sago"
+    },
+    {
+     "term": "스트레스",
+     "meaning": "stress",
+     "pos": "n",
+     "reading": "seuteureseu"
+    },
+    {
+     "term": "습관",
+     "meaning": "habit",
+     "pos": "n",
+     "reading": "seupgwan"
+    },
+    {
+     "term": "담배",
+     "meaning": "cigarette",
+     "pos": "n",
+     "reading": "dambae"
+    },
+    {
+     "term": "눈물",
+     "meaning": "tears",
+     "pos": "n",
+     "reading": "nunmul"
+    },
+    {
+     "term": "땀",
+     "meaning": "sweat",
+     "pos": "n",
+     "reading": "ttam"
+    },
+    {
+     "term": "환자",
+     "meaning": "patient",
+     "pos": "n",
+     "reading": "hwanja"
+    },
+    {
+     "term": "이빨",
+     "meaning": "tooth",
+     "pos": "n",
+     "reading": "ippal"
+    },
+    {
+     "term": "혀",
+     "meaning": "tongue",
+     "pos": "n",
+     "reading": "hyeo"
+    },
+    {
+     "term": "뼈",
+     "meaning": "bone",
+     "pos": "n",
+     "reading": "ppyeo"
+    },
+    {
+     "term": "심장",
+     "meaning": "heart (organ)",
+     "pos": "n",
+     "reading": "simjang"
+    },
+    {
+     "term": "상처",
+     "meaning": "wound",
+     "pos": "n",
+     "reading": "sangcheo"
+    }
+   ]
+  },
+  {
+   "id": "little-words",
+   "title": "Little words",
+   "description": "Adverbs and connectors that hold sentences together",
+   "words": [
+    {
+     "term": "그리고",
+     "meaning": "and",
+     "pos": "conj",
+     "reading": "geurigo"
+    },
+    {
+     "term": "하지만",
+     "meaning": "but",
+     "pos": "conj",
+     "reading": "hajiman"
+    },
+    {
+     "term": "그래서",
+     "meaning": "so; therefore",
+     "pos": "conj",
+     "reading": "geuraeseo"
+    },
+    {
+     "term": "그런데",
+     "meaning": "but; by the way",
+     "pos": "conj",
+     "reading": "geureonde"
+    },
+    {
+     "term": "아주",
+     "meaning": "very",
+     "pos": "adv",
+     "reading": "aju"
+    },
+    {
+     "term": "너무",
+     "meaning": "too; so",
+     "pos": "adv",
+     "reading": "neomu"
+    },
+    {
+     "term": "정말",
+     "meaning": "really",
+     "pos": "adv",
+     "reading": "jeongmal"
+    },
+    {
+     "term": "진짜",
+     "meaning": "really; real",
+     "pos": "adv",
+     "reading": "jinjja"
+    },
+    {
+     "term": "잘",
+     "meaning": "well",
+     "pos": "adv",
+     "reading": "jal"
+    },
+    {
+     "term": "못",
+     "meaning": "cannot",
+     "pos": "adv",
+     "reading": "mot"
+    },
+    {
+     "term": "더",
+     "meaning": "more",
+     "pos": "adv",
+     "reading": "deo"
+    },
+    {
+     "term": "다시",
+     "meaning": "again",
+     "pos": "adv",
+     "reading": "dasi"
+    },
+    {
+     "term": "또",
+     "meaning": "again; also",
+     "pos": "adv",
+     "reading": "tto"
+    },
+    {
+     "term": "빨리",
+     "meaning": "quickly",
+     "pos": "adv",
+     "reading": "ppalli"
+    },
+    {
+     "term": "천천히",
+     "meaning": "slowly",
+     "pos": "adv",
+     "reading": "cheoncheonhi"
+    },
+    {
+     "term": "먼저",
+     "meaning": "first; ahead",
+     "pos": "adv",
+     "reading": "meonjeo"
+    },
+    {
+     "term": "그냥",
+     "meaning": "just",
+     "pos": "adv",
+     "reading": "geunyang"
+    },
+    {
+     "term": "좀",
+     "meaning": "a bit; please",
+     "pos": "adv",
+     "reading": "jom"
+    },
+    {
+     "term": "아마",
+     "meaning": "probably",
+     "pos": "adv",
+     "reading": "ama"
+    },
+    {
+     "term": "꼭",
+     "meaning": "surely; definitely",
+     "pos": "adv",
+     "reading": "kkok"
+    },
+    {
+     "term": "제일",
+     "meaning": "the most; number one",
+     "pos": "adv",
+     "reading": "jeil"
+    },
+    {
+     "term": "가장",
+     "meaning": "most",
+     "pos": "adv",
+     "reading": "gajang"
+    },
+    {
+     "term": "이제",
+     "meaning": "now; from now on",
+     "pos": "adv",
+     "reading": "ije"
+    },
+    {
+     "term": "바로",
+     "meaning": "right away; directly",
+     "pos": "adv",
+     "reading": "baro"
+    },
+    {
+     "term": "계속",
+     "meaning": "continuously",
+     "pos": "adv",
+     "reading": "gyesok"
+    },
+    {
+     "term": "일찍",
+     "meaning": "early",
+     "pos": "adv",
+     "reading": "iljjik"
+    },
+    {
+     "term": "늦게",
+     "meaning": "late",
+     "pos": "adv",
+     "reading": "neutge"
+    },
+    {
+     "term": "거의",
+     "meaning": "almost",
+     "pos": "adv",
+     "reading": "geoui"
+    },
+    {
+     "term": "별로",
+     "meaning": "not really",
+     "pos": "adv",
+     "reading": "byeollo"
+    },
+    {
+     "term": "전혀",
+     "meaning": "not at all",
+     "pos": "adv",
+     "reading": "jeonhyeo"
+    },
+    {
+     "term": "물론",
+     "meaning": "of course",
+     "pos": "adv",
+     "reading": "mullon"
+    },
+    {
+     "term": "특히",
+     "meaning": "especially",
+     "pos": "adv",
+     "reading": "teuki"
+    },
+    {
+     "term": "갑자기",
+     "meaning": "suddenly",
+     "pos": "adv",
+     "reading": "gapjagi"
+    },
+    {
+     "term": "혹시",
+     "meaning": "by any chance",
+     "pos": "adv",
+     "reading": "hoksi"
+    },
+    {
+     "term": "그러면",
+     "meaning": "then; if so",
+     "pos": "conj",
+     "reading": "geureomyeon"
+    },
+    {
+     "term": "그럼",
+     "meaning": "then; of course",
+     "pos": "conj",
+     "reading": "geureom"
+    },
+    {
+     "term": "그래도",
+     "meaning": "even so",
+     "pos": "conj",
+     "reading": "geuraedo"
+    },
+    {
+     "term": "그러나",
+     "meaning": "however",
+     "pos": "conj",
+     "reading": "geureona"
+    },
+    {
+     "term": "왜냐하면",
+     "meaning": "because",
+     "pos": "conj",
+     "reading": "waenyahamyeon"
+    },
+    {
+     "term": "만약",
+     "meaning": "if",
+     "pos": "adv",
+     "reading": "manyak"
+    },
+    {
+     "term": "사실",
+     "meaning": "actually; fact",
+     "pos": "adv",
+     "reading": "sasil"
+    },
+    {
+     "term": "이렇게",
+     "meaning": "like this",
+     "pos": "adv",
+     "reading": "ireoke"
+    },
+    {
+     "term": "그렇게",
+     "meaning": "like that",
+     "pos": "adv",
+     "reading": "geureoke"
+    },
+    {
+     "term": "열심히",
+     "meaning": "diligently",
+     "pos": "adv",
+     "reading": "yeolsimhi"
+    },
+    {
+     "term": "얼마나",
+     "meaning": "how (much)",
+     "pos": "adv",
+     "reading": "eolmana"
+    },
+    {
+     "term": "매우",
+     "meaning": "very (formal)",
+     "pos": "adv",
+     "reading": "maeu"
+    },
+    {
+     "term": "덜",
+     "meaning": "less",
+     "pos": "adv",
+     "reading": "deol"
+    },
+    {
+     "term": "약간",
+     "meaning": "slightly",
+     "pos": "adv",
+     "reading": "yakgan"
+    },
+    {
+     "term": "드디어",
+     "meaning": "finally",
+     "pos": "adv",
+     "reading": "deudieo"
+    },
+    {
+     "term": "결국",
+     "meaning": "in the end",
+     "pos": "adv",
+     "reading": "gyeolguk"
+    }
+   ]
+  },
+  {
+   "id": "nature",
+   "title": "Nature",
+   "description": "Weather, animals and colors",
+   "words": [
+    {
+     "term": "날씨",
+     "meaning": "weather",
+     "pos": "n",
+     "reading": "nalssi"
+    },
+    {
+     "term": "비",
+     "meaning": "rain",
+     "pos": "n",
+     "reading": "bi"
+    },
+    {
+     "term": "바람",
+     "meaning": "wind",
+     "pos": "n",
+     "reading": "baram"
+    },
+    {
+     "term": "하늘",
+     "meaning": "sky",
+     "pos": "n",
+     "reading": "haneul"
+    },
+    {
+     "term": "산",
+     "meaning": "mountain",
+     "pos": "n",
+     "reading": "san"
+    },
+    {
+     "term": "바다",
+     "meaning": "sea",
+     "pos": "n",
+     "reading": "bada"
+    },
+    {
+     "term": "강",
+     "meaning": "river",
+     "pos": "n",
+     "reading": "gang"
+    },
+    {
+     "term": "나무",
+     "meaning": "tree",
+     "pos": "n",
+     "reading": "namu"
+    },
+    {
+     "term": "꽃",
+     "meaning": "flower",
+     "pos": "n",
+     "reading": "kkot"
+    },
+    {
+     "term": "동물",
+     "meaning": "animal",
+     "pos": "n",
+     "reading": "dongmul"
+    },
+    {
+     "term": "강아지",
+     "meaning": "puppy; dog",
+     "pos": "n",
+     "reading": "gangaji"
+    },
+    {
+     "term": "고양이",
+     "meaning": "cat",
+     "pos": "n",
+     "reading": "goyangi"
+    },
+    {
+     "term": "새",
+     "meaning": "bird; new",
+     "pos": "n",
+     "reading": "sae"
+    },
+    {
+     "term": "물고기",
+     "meaning": "fish (live)",
+     "pos": "n",
+     "reading": "mulgogi"
+    },
+    {
+     "term": "색깔",
+     "meaning": "color",
+     "pos": "n",
+     "reading": "saekkkal"
+    },
+    {
+     "term": "빨간색",
+     "meaning": "red",
+     "pos": "n",
+     "reading": "ppalgansaek"
+    },
+    {
+     "term": "파란색",
+     "meaning": "blue",
+     "pos": "n",
+     "reading": "paransaek"
+    },
+    {
+     "term": "노란색",
+     "meaning": "yellow",
+     "pos": "n",
+     "reading": "noransaek"
+    },
+    {
+     "term": "하얀색",
+     "meaning": "white",
+     "pos": "n",
+     "reading": "hayansaek"
+    },
+    {
+     "term": "검은색",
+     "meaning": "black",
+     "pos": "n",
+     "reading": "geomeunsaek"
+    },
+    {
+     "term": "초록색",
+     "meaning": "green",
+     "pos": "n",
+     "reading": "choroksaek"
+    },
+    {
+     "term": "구름",
+     "meaning": "cloud",
+     "pos": "n",
+     "reading": "gureum"
+    },
+    {
+     "term": "별",
+     "meaning": "star",
+     "pos": "n",
+     "reading": "byeol"
+    },
+    {
+     "term": "공기",
+     "meaning": "air",
+     "pos": "n",
+     "reading": "gonggi"
+    },
+    {
+     "term": "맑다",
+     "meaning": "clear (weather)",
+     "pos": "adj",
+     "reading": "makda"
+    },
+    {
+     "term": "흐리다",
+     "meaning": "cloudy",
+     "pos": "adj",
+     "reading": "heurida"
+    },
+    {
+     "term": "자연",
+     "meaning": "nature",
+     "pos": "n",
+     "reading": "jayeon"
+    },
+    {
+     "term": "환경",
+     "meaning": "environment",
+     "pos": "n",
+     "reading": "hwangyeong"
+    },
+    {
+     "term": "섬",
+     "meaning": "island",
+     "pos": "n",
+     "reading": "seom"
+    },
+    {
+     "term": "숲",
+     "meaning": "forest",
+     "pos": "n",
+     "reading": "sup"
+    },
+    {
+     "term": "돌",
+     "meaning": "stone",
+     "pos": "n",
+     "reading": "dol"
+    },
+    {
+     "term": "땅",
+     "meaning": "ground; land",
+     "pos": "n",
+     "reading": "ttang"
+    },
+    {
+     "term": "소",
+     "meaning": "cow",
+     "pos": "n",
+     "reading": "so"
+    },
+    {
+     "term": "돼지",
+     "meaning": "pig",
+     "pos": "n",
+     "reading": "dwaeji"
+    },
+    {
+     "term": "닭",
+     "meaning": "chicken",
+     "pos": "n",
+     "reading": "dak"
+    },
+    {
+     "term": "토끼",
+     "meaning": "rabbit",
+     "pos": "n",
+     "reading": "tokki"
+    },
+    {
+     "term": "호랑이",
+     "meaning": "tiger",
+     "pos": "n",
+     "reading": "horangi"
+    },
+    {
+     "term": "곰",
+     "meaning": "bear",
+     "pos": "n",
+     "reading": "gom"
+    },
+    {
+     "term": "온도",
+     "meaning": "temperature",
+     "pos": "n",
+     "reading": "ondo"
+    },
+    {
+     "term": "태풍",
+     "meaning": "typhoon",
+     "pos": "n",
+     "reading": "taepung"
+    },
+    {
+     "term": "호수",
+     "meaning": "lake",
+     "pos": "n",
+     "reading": "hosu"
+    },
+    {
+     "term": "풀",
+     "meaning": "grass",
+     "pos": "n",
+     "reading": "pul"
+    },
+    {
+     "term": "분홍색",
+     "meaning": "pink",
+     "pos": "n",
+     "reading": "bunhongsaek"
+    },
+    {
+     "term": "회색",
+     "meaning": "gray",
+     "pos": "n",
+     "reading": "hoesaek"
+    },
+    {
+     "term": "갈색",
+     "meaning": "brown",
+     "pos": "n",
+     "reading": "galsaek"
+    },
+    {
+     "term": "보라색",
+     "meaning": "purple",
+     "pos": "n",
+     "reading": "borasaek"
+    },
+    {
+     "term": "주황색",
+     "meaning": "orange (color)",
+     "pos": "n",
+     "reading": "juhwangsaek"
+    },
+    {
+     "term": "불다",
+     "meaning": "to blow",
+     "pos": "v",
+     "reading": "bulda"
+    },
+    {
+     "term": "태양",
+     "meaning": "sun",
+     "pos": "n",
+     "reading": "taeyang"
+    },
+    {
+     "term": "안개",
+     "meaning": "fog",
+     "pos": "n",
+     "reading": "angae"
+    }
+   ]
+  },
+  {
+   "id": "school-and-work",
+   "title": "School and work",
+   "description": "Studying, jobs and getting things done",
+   "words": [
+    {
+     "term": "공부",
+     "meaning": "study",
+     "pos": "n",
+     "reading": "gongbu"
+    },
+    {
+     "term": "수업",
+     "meaning": "class; lesson",
+     "pos": "n",
+     "reading": "sueop"
+    },
+    {
+     "term": "숙제",
+     "meaning": "homework",
+     "pos": "n",
+     "reading": "sukje"
+    },
+    {
+     "term": "시험",
+     "meaning": "exam",
+     "pos": "n",
+     "reading": "siheom"
+    },
+    {
+     "term": "문제",
+     "meaning": "problem; question",
+     "pos": "n",
+     "reading": "munje"
+    },
+    {
+     "term": "질문",
+     "meaning": "question",
+     "pos": "n",
+     "reading": "jilmun"
+    },
+    {
+     "term": "단어",
+     "meaning": "word; vocabulary",
+     "pos": "n",
+     "reading": "daneo"
+    },
+    {
+     "term": "문장",
+     "meaning": "sentence",
+     "pos": "n",
+     "reading": "munjang"
+    },
+    {
+     "term": "한글",
+     "meaning": "Hangul",
+     "pos": "n",
+     "reading": "hangeul"
+    },
+    {
+     "term": "뜻",
+     "meaning": "meaning",
+     "pos": "n",
+     "reading": "tteut"
+    },
+    {
+     "term": "연습",
+     "meaning": "practice",
+     "pos": "n",
+     "reading": "yeonseup"
+    },
+    {
+     "term": "직업",
+     "meaning": "job; occupation",
+     "pos": "n",
+     "reading": "jigeop"
+    },
+    {
+     "term": "회의",
+     "meaning": "meeting",
+     "pos": "n",
+     "reading": "hoeui"
+    },
+    {
+     "term": "계획",
+     "meaning": "plan",
+     "pos": "n",
+     "reading": "gyehoek"
+    },
+    {
+     "term": "약속",
+     "meaning": "promise; appointment",
+     "pos": "n",
+     "reading": "yaksok"
+    },
+    {
+     "term": "준비",
+     "meaning": "preparation",
+     "pos": "n",
+     "reading": "junbi"
+    },
+    {
+     "term": "이유",
+     "meaning": "reason",
+     "pos": "n",
+     "reading": "iyu"
+    },
+    {
+     "term": "방법",
+     "meaning": "method; way",
+     "pos": "n",
+     "reading": "bangbeop"
+    },
+    {
+     "term": "이야기",
+     "meaning": "story; talk",
+     "pos": "n",
+     "reading": "iyagi"
+    },
+    {
+     "term": "중요하다",
+     "meaning": "important",
+     "pos": "adj",
+     "reading": "jungyohada"
+    },
+    {
+     "term": "필요하다",
+     "meaning": "necessary",
+     "pos": "adj",
+     "reading": "piryohada"
+    },
+    {
+     "term": "유명하다",
+     "meaning": "famous",
+     "pos": "adj",
+     "reading": "yumyeonghada"
+    },
+    {
+     "term": "경험",
+     "meaning": "experience",
+     "pos": "n",
+     "reading": "gyeongheom"
+    },
+    {
+     "term": "결과",
+     "meaning": "result",
+     "pos": "n",
+     "reading": "gyeolgwa"
+    },
+    {
+     "term": "정보",
+     "meaning": "information",
+     "pos": "n",
+     "reading": "jeongbo"
+    },
+    {
+     "term": "도움",
+     "meaning": "help",
+     "pos": "n",
+     "reading": "doum"
+    },
+    {
+     "term": "실수",
+     "meaning": "mistake",
+     "pos": "n",
+     "reading": "silsu"
+    },
+    {
+     "term": "기회",
+     "meaning": "opportunity",
+     "pos": "n",
+     "reading": "gihoe"
+    },
+    {
+     "term": "문법",
+     "meaning": "grammar",
+     "pos": "n",
+     "reading": "munbeop"
+    },
+    {
+     "term": "발음",
+     "meaning": "pronunciation",
+     "pos": "n",
+     "reading": "bareum"
+    },
+    {
+     "term": "언어",
+     "meaning": "language",
+     "pos": "n",
+     "reading": "eoneo"
+    },
+    {
+     "term": "외국어",
+     "meaning": "foreign language",
+     "pos": "n",
+     "reading": "oegugeo"
+    },
+    {
+     "term": "사전",
+     "meaning": "dictionary",
+     "pos": "n",
+     "reading": "sajeon"
+    },
+    {
+     "term": "교과서",
+     "meaning": "textbook",
+     "pos": "n",
+     "reading": "gyogwaseo"
+    },
+    {
+     "term": "대답",
+     "meaning": "answer",
+     "pos": "n",
+     "reading": "daedap"
+    },
+    {
+     "term": "글",
+     "meaning": "writing; text",
+     "pos": "n",
+     "reading": "geul"
+    },
+    {
+     "term": "글자",
+     "meaning": "letter; character",
+     "pos": "n",
+     "reading": "geulja"
+    },
+    {
+     "term": "직장",
+     "meaning": "workplace",
+     "pos": "n",
+     "reading": "jikjang"
+    },
+    {
+     "term": "사장",
+     "meaning": "company president; boss",
+     "pos": "n",
+     "reading": "sajang"
+    },
+    {
+     "term": "직원",
+     "meaning": "employee",
+     "pos": "n",
+     "reading": "jigwon"
+    },
+    {
+     "term": "동료",
+     "meaning": "coworker",
+     "pos": "n",
+     "reading": "dongnyo"
+    },
+    {
+     "term": "월급",
+     "meaning": "monthly salary",
+     "pos": "n",
+     "reading": "wolgeup"
+    },
+    {
+     "term": "출근",
+     "meaning": "going to work",
+     "pos": "n",
+     "reading": "chulgeun"
+    },
+    {
+     "term": "퇴근",
+     "meaning": "leaving work",
+     "pos": "n",
+     "reading": "toegeun"
+    },
+    {
+     "term": "휴가",
+     "meaning": "vacation; leave",
+     "pos": "n",
+     "reading": "hyuga"
+    },
+    {
+     "term": "목표",
+     "meaning": "goal",
+     "pos": "n",
+     "reading": "mokpyo"
+    },
+    {
+     "term": "성공",
+     "meaning": "success",
+     "pos": "n",
+     "reading": "seonggong"
+    },
+    {
+     "term": "실패",
+     "meaning": "failure",
+     "pos": "n",
+     "reading": "silpae"
+    },
+    {
+     "term": "노력",
+     "meaning": "effort",
+     "pos": "n",
+     "reading": "noryeok"
+    },
+    {
+     "term": "능력",
+     "meaning": "ability",
+     "pos": "n",
+     "reading": "neungnyeok"
+    }
+   ]
+  },
+  {
+   "id": "getting-around",
+   "title": "Getting around",
+   "description": "Travel and transport",
+   "words": [
+    {
+     "term": "여행",
+     "meaning": "travel; trip",
+     "pos": "n",
+     "reading": "yeohaeng"
+    },
+    {
+     "term": "버스",
+     "meaning": "bus",
+     "pos": "n",
+     "reading": "beoseu"
+    },
+    {
+     "term": "지하철",
+     "meaning": "subway",
+     "pos": "n",
+     "reading": "jihacheol"
+    },
+    {
+     "term": "택시",
+     "meaning": "taxi",
+     "pos": "n",
+     "reading": "taeksi"
+    },
+    {
+     "term": "기차",
+     "meaning": "train",
+     "pos": "n",
+     "reading": "gicha"
+    },
+    {
+     "term": "비행기",
+     "meaning": "airplane",
+     "pos": "n",
+     "reading": "bihaenggi"
+    },
+    {
+     "term": "자동차",
+     "meaning": "car",
+     "pos": "n",
+     "reading": "jadongcha"
+    },
+    {
+     "term": "자전거",
+     "meaning": "bicycle",
+     "pos": "n",
+     "reading": "jajeongeo"
+    },
+    {
+     "term": "여권",
+     "meaning": "passport",
+     "pos": "n",
+     "reading": "yeogwon"
+    },
+    {
+     "term": "짐",
+     "meaning": "luggage",
+     "pos": "n",
+     "reading": "jim"
+    },
+    {
+     "term": "예약",
+     "meaning": "reservation",
+     "pos": "n",
+     "reading": "yeyak"
+    },
+    {
+     "term": "주소",
+     "meaning": "address",
+     "pos": "n",
+     "reading": "juso"
+    },
+    {
+     "term": "출구",
+     "meaning": "exit",
+     "pos": "n",
+     "reading": "chulgu"
+    },
+    {
+     "term": "입구",
+     "meaning": "entrance",
+     "pos": "n",
+     "reading": "ipgu"
+    },
+    {
+     "term": "외국",
+     "meaning": "foreign country",
+     "pos": "n",
+     "reading": "oeguk"
+    },
+    {
+     "term": "문화",
+     "meaning": "culture",
+     "pos": "n",
+     "reading": "munhwa"
+    },
+    {
+     "term": "걸리다",
+     "meaning": "to take (time); to be caught",
+     "pos": "v",
+     "reading": "geollida"
+    },
+    {
+     "term": "갈아타다",
+     "meaning": "to transfer",
+     "pos": "v",
+     "reading": "garatada"
+    },
+    {
+     "term": "건너다",
+     "meaning": "to cross",
+     "pos": "v",
+     "reading": "geonneoda"
+    },
+    {
+     "term": "구경하다",
+     "meaning": "to look around; to sightsee",
+     "pos": "v",
+     "reading": "gugyeonghada"
+    },
+    {
+     "term": "교통",
+     "meaning": "traffic; transportation",
+     "pos": "n",
+     "reading": "gyotong"
+    },
+    {
+     "term": "방향",
+     "meaning": "direction",
+     "pos": "n",
+     "reading": "banghyang"
+    },
+    {
+     "term": "요금",
+     "meaning": "fare; fee",
+     "pos": "n",
+     "reading": "yogeum"
+    },
+    {
+     "term": "역사",
+     "meaning": "history",
+     "pos": "n",
+     "reading": "yeoksa"
+    },
+    {
+     "term": "전통",
+     "meaning": "tradition",
+     "pos": "n",
+     "reading": "jeontong"
+    },
+    {
+     "term": "축제",
+     "meaning": "festival",
+     "pos": "n",
+     "reading": "chukje"
+    },
+    {
+     "term": "관광",
+     "meaning": "sightseeing",
+     "pos": "n",
+     "reading": "gwangwang"
+    },
+    {
+     "term": "숙소",
+     "meaning": "accommodation",
+     "pos": "n",
+     "reading": "sukso"
+    },
+    {
+     "term": "바닷가",
+     "meaning": "beach; seaside",
+     "pos": "n",
+     "reading": "badatga"
+    },
+    {
+     "term": "출발",
+     "meaning": "departure",
+     "pos": "n",
+     "reading": "chulbal"
+    },
+    {
+     "term": "도착",
+     "meaning": "arrival",
+     "pos": "n",
+     "reading": "dochak"
+    },
+    {
+     "term": "멈추다",
+     "meaning": "to stop",
+     "pos": "v",
+     "reading": "meomchuda"
+    },
+    {
+     "term": "돌다",
+     "meaning": "to turn",
+     "pos": "v",
+     "reading": "dolda"
+    },
+    {
+     "term": "지나다",
+     "meaning": "to pass",
+     "pos": "v",
+     "reading": "jinada"
+    },
+    {
+     "term": "예약하다",
+     "meaning": "to reserve",
+     "pos": "v",
+     "reading": "yeyakada"
+    },
+    {
+     "term": "여행하다",
+     "meaning": "to travel",
+     "pos": "v",
+     "reading": "yeohaenghada"
+    },
+    {
+     "term": "해외",
+     "meaning": "overseas",
+     "pos": "n",
+     "reading": "haeoe"
+    },
+    {
+     "term": "신호등",
+     "meaning": "traffic light",
+     "pos": "n",
+     "reading": "sinhodeung"
+    },
+    {
+     "term": "횡단보도",
+     "meaning": "crosswalk",
+     "pos": "n",
+     "reading": "hoengdanbodo"
+    },
+    {
+     "term": "사거리",
+     "meaning": "intersection",
+     "pos": "n",
+     "reading": "sageori"
+    },
+    {
+     "term": "한복",
+     "meaning": "hanbok",
+     "pos": "n",
+     "reading": "hanbok"
+    },
+    {
+     "term": "기념품",
+     "meaning": "souvenir",
+     "pos": "n",
+     "reading": "ginyeompum"
+    },
+    {
+     "term": "안내",
+     "meaning": "guidance; information",
+     "pos": "n",
+     "reading": "annae"
+    },
+    {
+     "term": "왕복",
+     "meaning": "round trip",
+     "pos": "n",
+     "reading": "wangbok"
+    },
+    {
+     "term": "편도",
+     "meaning": "one way",
+     "pos": "n",
+     "reading": "pyeondo"
+    },
+    {
+     "term": "환전",
+     "meaning": "currency exchange",
+     "pos": "n",
+     "reading": "hwanjeon"
+    },
+    {
+     "term": "머무르다",
+     "meaning": "to stay",
+     "pos": "v",
+     "reading": "meomureuda"
+    },
+    {
+     "term": "오토바이",
+     "meaning": "motorcycle",
+     "pos": "n",
+     "reading": "otobai"
+    },
+    {
+     "term": "관광객",
+     "meaning": "tourist",
+     "pos": "n",
+     "reading": "gwangwanggaek"
+    },
+    {
+     "term": "고속도로",
+     "meaning": "highway",
+     "pos": "n",
+     "reading": "gosokdoro"
+    }
+   ]
+  },
+  {
+   "id": "feelings",
+   "title": "Feelings",
+   "description": "Emotions, character and qualities",
+   "words": [
+    {
+     "term": "기분",
+     "meaning": "mood; feeling",
+     "pos": "n",
+     "reading": "gibun"
+    },
+    {
+     "term": "사랑",
+     "meaning": "love",
+     "pos": "n",
+     "reading": "sarang"
+    },
+    {
+     "term": "걱정",
+     "meaning": "worry",
+     "pos": "n",
+     "reading": "geokjeong"
+    },
+    {
+     "term": "행복하다",
+     "meaning": "happy",
+     "pos": "adj",
+     "reading": "haengbokada"
+    },
+    {
+     "term": "기쁘다",
+     "meaning": "glad",
+     "pos": "adj",
+     "reading": "gippeuda"
+    },
+    {
+     "term": "슬프다",
+     "meaning": "sad",
+     "pos": "adj",
+     "reading": "seulpeuda"
+    },
+    {
+     "term": "화나다",
+     "meaning": "to get angry",
+     "pos": "v",
+     "reading": "hwanada"
+    },
+    {
+     "term": "무섭다",
+     "meaning": "scary; scared",
+     "pos": "adj",
+     "reading": "museopda"
+    },
+    {
+     "term": "놀라다",
+     "meaning": "to be surprised",
+     "pos": "v",
+     "reading": "nollada"
+    },
+    {
+     "term": "괜찮다",
+     "meaning": "okay; fine",
+     "pos": "adj",
+     "reading": "gwaenchanta"
+    },
+    {
+     "term": "이상하다",
+     "meaning": "strange",
+     "pos": "adj",
+     "reading": "isanghada"
+    },
+    {
+     "term": "친절하다",
+     "meaning": "kind",
+     "pos": "adj",
+     "reading": "chinjeolhada"
+    },
+    {
+     "term": "편하다",
+     "meaning": "comfortable; convenient",
+     "pos": "adj",
+     "reading": "pyeonhada"
+    },
+    {
+     "term": "불편하다",
+     "meaning": "uncomfortable; inconvenient",
+     "pos": "adj",
+     "reading": "bulpyeonhada"
+    },
+    {
+     "term": "위험하다",
+     "meaning": "dangerous",
+     "pos": "adj",
+     "reading": "wiheomhada"
+    },
+    {
+     "term": "안전하다",
+     "meaning": "safe",
+     "pos": "adj",
+     "reading": "anjeonhada"
+    },
+    {
+     "term": "복잡하다",
+     "meaning": "complicated; crowded",
+     "pos": "adj",
+     "reading": "bokjapada"
+    },
+    {
+     "term": "간단하다",
+     "meaning": "simple",
+     "pos": "adj",
+     "reading": "gandanhada"
+    },
+    {
+     "term": "즐겁다",
+     "meaning": "enjoyable",
+     "pos": "adj",
+     "reading": "jeulgeopda"
+    },
+    {
+     "term": "심심하다",
+     "meaning": "bored",
+     "pos": "adj",
+     "reading": "simsimhada"
+    },
+    {
+     "term": "외롭다",
+     "meaning": "lonely",
+     "pos": "adj",
+     "reading": "oeropda"
+    },
+    {
+     "term": "걱정하다",
+     "meaning": "to worry",
+     "pos": "v",
+     "reading": "geokjeonghada"
+    },
+    {
+     "term": "보고 싶다",
+     "meaning": "to miss (someone)",
+     "pos": "expr",
+     "reading": "bogo sipda"
+    },
+    {
+     "term": "반갑다",
+     "meaning": "glad (to meet)",
+     "pos": "adj",
+     "reading": "bangapda"
+    },
+    {
+     "term": "고맙다",
+     "meaning": "thankful",
+     "pos": "adj",
+     "reading": "gomapda"
+    },
+    {
+     "term": "미안하다",
+     "meaning": "sorry",
+     "pos": "adj",
+     "reading": "mianhada"
+    },
+    {
+     "term": "착하다",
+     "meaning": "nice; good-natured",
+     "pos": "adj",
+     "reading": "chakada"
+    },
+    {
+     "term": "성격",
+     "meaning": "personality",
+     "pos": "n",
+     "reading": "seonggyeok"
+    },
+    {
+     "term": "강하다",
+     "meaning": "strong",
+     "pos": "adj",
+     "reading": "ganghada"
+    },
+    {
+     "term": "약하다",
+     "meaning": "weak",
+     "pos": "adj",
+     "reading": "yakada"
+    },
+    {
+     "term": "특별하다",
+     "meaning": "special",
+     "pos": "adj",
+     "reading": "teukbyeolhada"
+    },
+    {
+     "term": "충분하다",
+     "meaning": "enough",
+     "pos": "adj",
+     "reading": "chungbunhada"
+    },
+    {
+     "term": "부족하다",
+     "meaning": "lacking",
+     "pos": "adj",
+     "reading": "bujokada"
+    },
+    {
+     "term": "궁금하다",
+     "meaning": "curious",
+     "pos": "adj",
+     "reading": "gunggeumhada"
+    },
+    {
+     "term": "대단하다",
+     "meaning": "great; amazing",
+     "pos": "adj",
+     "reading": "daedanhada"
+    },
+    {
+     "term": "신나다",
+     "meaning": "excited",
+     "pos": "adj",
+     "reading": "sinnada"
+    },
+    {
+     "term": "부끄럽다",
+     "meaning": "shy; embarrassed",
+     "pos": "adj",
+     "reading": "bukkeureopda"
+    },
+    {
+     "term": "부럽다",
+     "meaning": "envious",
+     "pos": "adj",
+     "reading": "bureopda"
+    },
+    {
+     "term": "답답하다",
+     "meaning": "frustrated; stuffy",
+     "pos": "adj",
+     "reading": "dapdapada"
+    },
+    {
+     "term": "긴장하다",
+     "meaning": "to be nervous",
+     "pos": "v",
+     "reading": "ginjanghada"
+    },
+    {
+     "term": "행복",
+     "meaning": "happiness",
+     "pos": "n",
+     "reading": "haengbok"
+    },
+    {
+     "term": "감정",
+     "meaning": "emotion",
+     "pos": "n",
+     "reading": "gamjeong"
+    },
+    {
+     "term": "솔직하다",
+     "meaning": "honest; frank",
+     "pos": "adj",
+     "reading": "soljikada"
+    },
+    {
+     "term": "게으르다",
+     "meaning": "lazy",
+     "pos": "adj",
+     "reading": "geeureuda"
+    },
+    {
+     "term": "부지런하다",
+     "meaning": "diligent",
+     "pos": "adj",
+     "reading": "bujireonhada"
+    },
+    {
+     "term": "잘생기다",
+     "meaning": "handsome",
+     "pos": "adj",
+     "reading": "jalsaenggida"
+    },
+    {
+     "term": "부드럽다",
+     "meaning": "soft",
+     "pos": "adj",
+     "reading": "budeureopda"
+    },
+    {
+     "term": "딱딱하다",
+     "meaning": "hard; stiff",
+     "pos": "adj",
+     "reading": "ttakttakada"
+    },
+    {
+     "term": "정확하다",
+     "meaning": "accurate",
+     "pos": "adj",
+     "reading": "jeonghwakada"
+    },
+    {
+     "term": "확실하다",
+     "meaning": "certain",
+     "pos": "adj",
+     "reading": "hwaksilhada"
+    }
+   ]
+  },
+  {
+   "id": "actions",
+   "title": "Actions",
+   "description": "More verbs for real conversations",
+   "words": [
+    {
+     "term": "사용하다",
+     "meaning": "to use",
+     "pos": "v",
+     "reading": "sayonghada"
+    },
+    {
+     "term": "결정하다",
+     "meaning": "to decide",
+     "pos": "v",
+     "reading": "gyeoljeonghada"
+    },
+    {
+     "term": "선택하다",
+     "meaning": "to choose",
+     "pos": "v",
+     "reading": "seontaekada"
+    },
+    {
+     "term": "고르다",
+     "meaning": "to pick",
+     "pos": "v",
+     "reading": "goreuda"
+    },
+    {
+     "term": "끝내다",
+     "meaning": "to finish",
+     "pos": "v",
+     "reading": "kkeunnaeda"
+    },
+    {
+     "term": "계속하다",
+     "meaning": "to continue",
+     "pos": "v",
+     "reading": "gyesokada"
+    },
+    {
+     "term": "그만두다",
+     "meaning": "to quit",
+     "pos": "v",
+     "reading": "geumanduda"
+    },
+    {
+     "term": "자르다",
+     "meaning": "to cut",
+     "pos": "v",
+     "reading": "jareuda"
+    },
+    {
+     "term": "고치다",
+     "meaning": "to fix",
+     "pos": "v",
+     "reading": "gochida"
+    },
+    {
+     "term": "떨어지다",
+     "meaning": "to fall; to drop",
+     "pos": "v",
+     "reading": "tteoreojida"
+    },
+    {
+     "term": "올라가다",
+     "meaning": "to go up",
+     "pos": "v",
+     "reading": "ollagada"
+    },
+    {
+     "term": "내려가다",
+     "meaning": "to go down",
+     "pos": "v",
+     "reading": "naeryeogada"
+    },
+    {
+     "term": "움직이다",
+     "meaning": "to move",
+     "pos": "v",
+     "reading": "umjigida"
+    },
+    {
+     "term": "이사하다",
+     "meaning": "to move (house)",
+     "pos": "v",
+     "reading": "isahada"
+    },
+    {
+     "term": "보이다",
+     "meaning": "to be seen; to show",
+     "pos": "v",
+     "reading": "boida"
+    },
+    {
+     "term": "들리다",
+     "meaning": "to be heard",
+     "pos": "v",
+     "reading": "deullida"
+    },
+    {
+     "term": "부르다",
+     "meaning": "to call; to sing",
+     "pos": "v",
+     "reading": "bureuda"
+    },
+    {
+     "term": "외우다",
+     "meaning": "to memorize",
+     "pos": "v",
+     "reading": "oeuda"
+    },
+    {
+     "term": "지키다",
+     "meaning": "to keep; to protect",
+     "pos": "v",
+     "reading": "jikida"
+    },
+    {
+     "term": "싸우다",
+     "meaning": "to fight",
+     "pos": "v",
+     "reading": "ssauda"
+    },
+    {
+     "term": "이기다",
+     "meaning": "to win",
+     "pos": "v",
+     "reading": "igida"
+    },
+    {
+     "term": "지다",
+     "meaning": "to lose (a game)",
+     "pos": "v",
+     "reading": "jida"
+    },
+    {
+     "term": "초대하다",
+     "meaning": "to invite",
+     "pos": "v",
+     "reading": "chodaehada"
+    },
+    {
+     "term": "소개하다",
+     "meaning": "to introduce",
+     "pos": "v",
+     "reading": "sogaehada"
+    },
+    {
+     "term": "인사하다",
+     "meaning": "to greet",
+     "pos": "v",
+     "reading": "insahada"
+    },
+    {
+     "term": "결혼하다",
+     "meaning": "to get married",
+     "pos": "v",
+     "reading": "gyeolhonhada"
+    },
+    {
+     "term": "헤어지다",
+     "meaning": "to break up; to part",
+     "pos": "v",
+     "reading": "heeojida"
+    },
+    {
+     "term": "태어나다",
+     "meaning": "to be born",
+     "pos": "v",
+     "reading": "taeeonada"
+    },
+    {
+     "term": "확인하다",
+     "meaning": "to check; to confirm",
+     "pos": "v",
+     "reading": "hwaginhada"
+    },
+    {
+     "term": "주문하다",
+     "meaning": "to order",
+     "pos": "v",
+     "reading": "jumunhada"
+    },
+    {
+     "term": "계산하다",
+     "meaning": "to calculate; to pay",
+     "pos": "v",
+     "reading": "gyesanhada"
+    },
+    {
+     "term": "내다",
+     "meaning": "to pay; to hand in",
+     "pos": "v",
+     "reading": "naeda"
+    },
+    {
+     "term": "생기다",
+     "meaning": "to come about; to get",
+     "pos": "v",
+     "reading": "saenggida"
+    },
+    {
+     "term": "지내다",
+     "meaning": "to spend time; to get along",
+     "pos": "v",
+     "reading": "jinaeda"
+    },
+    {
+     "term": "즐기다",
+     "meaning": "to enjoy",
+     "pos": "v",
+     "reading": "jeulgida"
+    },
+    {
+     "term": "바라다",
+     "meaning": "to hope; to wish",
+     "pos": "v",
+     "reading": "barada"
+    },
+    {
+     "term": "약속하다",
+     "meaning": "to promise",
+     "pos": "v",
+     "reading": "yaksokada"
+    },
+    {
+     "term": "포기하다",
+     "meaning": "to give up",
+     "pos": "v",
+     "reading": "pogihada"
+    },
+    {
+     "term": "참다",
+     "meaning": "to endure",
+     "pos": "v",
+     "reading": "chamda"
+    },
+    {
+     "term": "보여주다",
+     "meaning": "to show",
+     "pos": "v",
+     "reading": "boyeojuda"
+    },
+    {
+     "term": "잊다",
+     "meaning": "to forget",
+     "pos": "v",
+     "reading": "itda"
+    },
+    {
+     "term": "사귀다",
+     "meaning": "to date; to make friends",
+     "pos": "v",
+     "reading": "sagwida"
+    },
+    {
+     "term": "자라다",
+     "meaning": "to grow up",
+     "pos": "v",
+     "reading": "jarada"
+    },
+    {
+     "term": "키우다",
+     "meaning": "to raise",
+     "pos": "v",
+     "reading": "kiuda"
+    },
+    {
+     "term": "모으다",
+     "meaning": "to collect; to save up",
+     "pos": "v",
+     "reading": "moeuda"
+    },
+    {
+     "term": "모이다",
+     "meaning": "to gather",
+     "pos": "v",
+     "reading": "moida"
+    },
+    {
+     "term": "나누다",
+     "meaning": "to divide; to share",
+     "pos": "v",
+     "reading": "nanuda"
+    },
+    {
+     "term": "벌다",
+     "meaning": "to earn",
+     "pos": "v",
+     "reading": "beolda"
+    },
+    {
+     "term": "잃다",
+     "meaning": "to lose",
+     "pos": "v",
+     "reading": "ilta"
+    },
+    {
+     "term": "얻다",
+     "meaning": "to gain; to get",
+     "pos": "v",
+     "reading": "eotda"
+    }
+   ]
+  },
+  {
+   "id": "shopping",
+   "title": "Shopping",
+   "description": "Money, clothes and buying things",
+   "words": [
+    {
+     "term": "돈",
+     "meaning": "money",
+     "pos": "n",
+     "reading": "don"
+    },
+    {
+     "term": "가격",
+     "meaning": "price",
+     "pos": "n",
+     "reading": "gagyeok"
+    },
+    {
+     "term": "원",
+     "meaning": "won (currency)",
+     "pos": "count",
+     "reading": "won"
+    },
+    {
+     "term": "옷",
+     "meaning": "clothes",
+     "pos": "n",
+     "reading": "ot"
+    },
+    {
+     "term": "신발",
+     "meaning": "shoes",
+     "pos": "n",
+     "reading": "sinbal"
+    },
+    {
+     "term": "바지",
+     "meaning": "pants",
+     "pos": "n",
+     "reading": "baji"
+    },
+    {
+     "term": "치마",
+     "meaning": "skirt",
+     "pos": "n",
+     "reading": "chima"
+    },
+    {
+     "term": "모자",
+     "meaning": "hat",
+     "pos": "n",
+     "reading": "moja"
+    },
+    {
+     "term": "쇼핑",
+     "meaning": "shopping",
+     "pos": "n",
+     "reading": "syoping"
+    },
+    {
+     "term": "현금",
+     "meaning": "cash",
+     "pos": "n",
+     "reading": "hyeongeum"
+    },
+    {
+     "term": "영수증",
+     "meaning": "receipt",
+     "pos": "n",
+     "reading": "yeongsujeung"
+    },
+    {
+     "term": "할인",
+     "meaning": "discount",
+     "pos": "n",
+     "reading": "harin"
+    },
+    {
+     "term": "무료",
+     "meaning": "free (of charge)",
+     "pos": "n",
+     "reading": "muryo"
+    },
+    {
+     "term": "배달",
+     "meaning": "delivery",
+     "pos": "n",
+     "reading": "baedal"
+    },
+    {
+     "term": "주문",
+     "meaning": "order",
+     "pos": "n",
+     "reading": "jumun"
+    },
+    {
+     "term": "사이즈",
+     "meaning": "size",
+     "pos": "n",
+     "reading": "saijeu"
+    },
+    {
+     "term": "종류",
+     "meaning": "kind; type",
+     "pos": "n",
+     "reading": "jongnyu"
+    },
+    {
+     "term": "인기",
+     "meaning": "popularity",
+     "pos": "n",
+     "reading": "ingi"
+    },
+    {
+     "term": "어울리다",
+     "meaning": "to suit; to match",
+     "pos": "v",
+     "reading": "eoullida"
+    },
+    {
+     "term": "셔츠",
+     "meaning": "shirt",
+     "pos": "n",
+     "reading": "syeocheu"
+    },
+    {
+     "term": "양말",
+     "meaning": "socks",
+     "pos": "n",
+     "reading": "yangmal"
+    },
+    {
+     "term": "운동화",
+     "meaning": "sneakers",
+     "pos": "n",
+     "reading": "undonghwa"
+    },
+    {
+     "term": "값",
+     "meaning": "price; value",
+     "pos": "n",
+     "reading": "gap"
+    },
+    {
+     "term": "신용카드",
+     "meaning": "credit card",
+     "pos": "n",
+     "reading": "sinyongkadeu"
+    },
+    {
+     "term": "포장",
+     "meaning": "wrapping; takeout",
+     "pos": "n",
+     "reading": "pojang"
+    },
+    {
+     "term": "교환",
+     "meaning": "exchange",
+     "pos": "n",
+     "reading": "gyohwan"
+    },
+    {
+     "term": "환불",
+     "meaning": "refund",
+     "pos": "n",
+     "reading": "hwanbul"
+    },
+    {
+     "term": "상품",
+     "meaning": "product",
+     "pos": "n",
+     "reading": "sangpum"
+    },
+    {
+     "term": "티셔츠",
+     "meaning": "T-shirt",
+     "pos": "n",
+     "reading": "tisyeocheu"
+    },
+    {
+     "term": "코트",
+     "meaning": "coat",
+     "pos": "n",
+     "reading": "koteu"
+    },
+    {
+     "term": "원피스",
+     "meaning": "dress",
+     "pos": "n",
+     "reading": "wonpiseu"
+    },
+    {
+     "term": "구두",
+     "meaning": "dress shoes",
+     "pos": "n",
+     "reading": "gudu"
+    },
+    {
+     "term": "장갑",
+     "meaning": "gloves",
+     "pos": "n",
+     "reading": "janggap"
+    },
+    {
+     "term": "반지",
+     "meaning": "ring",
+     "pos": "n",
+     "reading": "banji"
+    },
+    {
+     "term": "화장품",
+     "meaning": "cosmetics",
+     "pos": "n",
+     "reading": "hwajangpum"
+    },
+    {
+     "term": "세일",
+     "meaning": "sale",
+     "pos": "n",
+     "reading": "seil"
+    },
+    {
+     "term": "계산",
+     "meaning": "calculation; bill",
+     "pos": "n",
+     "reading": "gyesan"
+    },
+    {
+     "term": "디자인",
+     "meaning": "design",
+     "pos": "n",
+     "reading": "dijain"
+    },
+    {
+     "term": "비용",
+     "meaning": "cost",
+     "pos": "n",
+     "reading": "biyong"
+    },
+    {
+     "term": "아끼다",
+     "meaning": "to save; to cherish",
+     "pos": "v",
+     "reading": "akkida"
+    },
+    {
+     "term": "깎다",
+     "meaning": "to cut (a price); to peel",
+     "pos": "v",
+     "reading": "kkakda"
+    },
+    {
+     "term": "양복",
+     "meaning": "suit",
+     "pos": "n",
+     "reading": "yangbok"
+    },
+    {
+     "term": "속옷",
+     "meaning": "underwear",
+     "pos": "n",
+     "reading": "sogot"
+    },
+    {
+     "term": "목도리",
+     "meaning": "scarf",
+     "pos": "n",
+     "reading": "mokdori"
+    },
+    {
+     "term": "넥타이",
+     "meaning": "necktie",
+     "pos": "n",
+     "reading": "nektai"
+    },
+    {
+     "term": "목걸이",
+     "meaning": "necklace",
+     "pos": "n",
+     "reading": "mokgeori"
+    },
+    {
+     "term": "귀걸이",
+     "meaning": "earrings",
+     "pos": "n",
+     "reading": "gwigeori"
+    },
+    {
+     "term": "향수",
+     "meaning": "perfume",
+     "pos": "n",
+     "reading": "hyangsu"
+    },
+    {
+     "term": "유행",
+     "meaning": "trend; fashion",
+     "pos": "n",
+     "reading": "yuhaeng"
+    },
+    {
+     "term": "통장",
+     "meaning": "bank account book",
+     "pos": "n",
+     "reading": "tongjang"
+    }
+   ]
+  },
+  {
+   "id": "world-and-ideas",
+   "title": "World and ideas",
+   "description": "Society, media and abstract words",
+   "words": [
+    {
+     "term": "영화",
+     "meaning": "movie",
+     "pos": "n",
+     "reading": "yeonghwa"
+    },
+    {
+     "term": "음악",
+     "meaning": "music",
+     "pos": "n",
+     "reading": "eumak"
+    },
+    {
+     "term": "노래",
+     "meaning": "song",
+     "pos": "n",
+     "reading": "norae"
+    },
+    {
+     "term": "드라마",
+     "meaning": "drama",
+     "pos": "n",
+     "reading": "deurama"
+    },
+    {
+     "term": "게임",
+     "meaning": "game",
+     "pos": "n",
+     "reading": "geim"
+    },
+    {
+     "term": "운동",
+     "meaning": "exercise; sports",
+     "pos": "n",
+     "reading": "undong"
+    },
+    {
+     "term": "취미",
+     "meaning": "hobby",
+     "pos": "n",
+     "reading": "chwimi"
+    },
+    {
+     "term": "뉴스",
+     "meaning": "news",
+     "pos": "n",
+     "reading": "nyuseu"
+    },
+    {
+     "term": "인터넷",
+     "meaning": "internet",
+     "pos": "n",
+     "reading": "inteonet"
+    },
+    {
+     "term": "생각",
+     "meaning": "thought",
+     "pos": "n",
+     "reading": "saenggak"
+    },
+    {
+     "term": "의견",
+     "meaning": "opinion",
+     "pos": "n",
+     "reading": "uigyeon"
+    },
+    {
+     "term": "관심",
+     "meaning": "interest",
+     "pos": "n",
+     "reading": "gwansim"
+    },
+    {
+     "term": "관계",
+     "meaning": "relationship",
+     "pos": "n",
+     "reading": "gwangye"
+    },
+    {
+     "term": "상황",
+     "meaning": "situation",
+     "pos": "n",
+     "reading": "sanghwang"
+    },
+    {
+     "term": "생활",
+     "meaning": "daily life",
+     "pos": "n",
+     "reading": "saenghwal"
+    },
+    {
+     "term": "인생",
+     "meaning": "life (one's life)",
+     "pos": "n",
+     "reading": "insaeng"
+    },
+    {
+     "term": "미래",
+     "meaning": "future",
+     "pos": "n",
+     "reading": "mirae"
+    },
+    {
+     "term": "소리",
+     "meaning": "sound",
+     "pos": "n",
+     "reading": "sori"
+    },
+    {
+     "term": "냄새",
+     "meaning": "smell",
+     "pos": "n",
+     "reading": "naemsae"
+    },
+    {
+     "term": "시작",
+     "meaning": "start; beginning",
+     "pos": "n",
+     "reading": "sijak"
+    },
+    {
+     "term": "끝",
+     "meaning": "end",
+     "pos": "n",
+     "reading": "kkeut"
+    },
+    {
+     "term": "번호",
+     "meaning": "number",
+     "pos": "n",
+     "reading": "beonho"
+    },
+    {
+     "term": "사회",
+     "meaning": "society",
+     "pos": "n",
+     "reading": "sahoe"
+    },
+    {
+     "term": "경제",
+     "meaning": "economy",
+     "pos": "n",
+     "reading": "gyeongje"
+    },
+    {
+     "term": "축구",
+     "meaning": "soccer",
+     "pos": "n",
+     "reading": "chukgu"
+    },
+    {
+     "term": "야구",
+     "meaning": "baseball",
+     "pos": "n",
+     "reading": "yagu"
+    },
+    {
+     "term": "수영",
+     "meaning": "swimming",
+     "pos": "n",
+     "reading": "suyeong"
+    },
+    {
+     "term": "등산",
+     "meaning": "hiking",
+     "pos": "n",
+     "reading": "deungsan"
+    },
+    {
+     "term": "가수",
+     "meaning": "singer",
+     "pos": "n",
+     "reading": "gasu"
+    },
+    {
+     "term": "배우",
+     "meaning": "actor",
+     "pos": "n",
+     "reading": "baeu"
+    },
+    {
+     "term": "춤",
+     "meaning": "dance",
+     "pos": "n",
+     "reading": "chum"
+    },
+    {
+     "term": "이메일",
+     "meaning": "email",
+     "pos": "n",
+     "reading": "imeil"
+    },
+    {
+     "term": "문자",
+     "meaning": "text message; character",
+     "pos": "n",
+     "reading": "munja"
+    },
+    {
+     "term": "비밀번호",
+     "meaning": "password",
+     "pos": "n",
+     "reading": "bimilbeonho"
+    },
+    {
+     "term": "기술",
+     "meaning": "technology; skill",
+     "pos": "n",
+     "reading": "gisul"
+    },
+    {
+     "term": "과학",
+     "meaning": "science",
+     "pos": "n",
+     "reading": "gwahak"
+    },
+    {
+     "term": "경우",
+     "meaning": "case; occasion",
+     "pos": "n",
+     "reading": "gyeongu"
+    },
+    {
+     "term": "상태",
+     "meaning": "condition; state",
+     "pos": "n",
+     "reading": "sangtae"
+    },
+    {
+     "term": "변화",
+     "meaning": "change",
+     "pos": "n",
+     "reading": "byeonhwa"
+    },
+    {
+     "term": "차이",
+     "meaning": "difference",
+     "pos": "n",
+     "reading": "chai"
+    },
+    {
+     "term": "부분",
+     "meaning": "part",
+     "pos": "n",
+     "reading": "bubun"
+    },
+    {
+     "term": "전체",
+     "meaning": "whole",
+     "pos": "n",
+     "reading": "jeonche"
+    },
+    {
+     "term": "과거",
+     "meaning": "past",
+     "pos": "n",
+     "reading": "gwageo"
+    },
+    {
+     "term": "현재",
+     "meaning": "present",
+     "pos": "n",
+     "reading": "hyeonjae"
+    },
+    {
+     "term": "희망",
+     "meaning": "hope",
+     "pos": "n",
+     "reading": "huimang"
+    },
+    {
+     "term": "비밀",
+     "meaning": "secret",
+     "pos": "n",
+     "reading": "bimil"
+    },
+    {
+     "term": "거짓말",
+     "meaning": "lie",
+     "pos": "n",
+     "reading": "geojinmal"
+    },
+    {
+     "term": "모양",
+     "meaning": "shape",
+     "pos": "n",
+     "reading": "moyang"
+    },
+    {
+     "term": "크기",
+     "meaning": "size (how big)",
+     "pos": "n",
+     "reading": "keugi"
+    },
+    {
+     "term": "순서",
+     "meaning": "order; sequence",
+     "pos": "n",
+     "reading": "sunseo"
+    }
+   ]
+  },
+  {
+   "id": "polish",
+   "title": "Polish",
+   "description": "Honorifics, cooking verbs and finishing touches",
+   "words": [
+    {
+     "term": "드리다",
+     "meaning": "to give (humble)",
+     "pos": "v",
+     "reading": "deurida"
+    },
+    {
+     "term": "계시다",
+     "meaning": "to be; to stay (honorific)",
+     "pos": "v",
+     "reading": "gyesida"
+    },
+    {
+     "term": "드시다",
+     "meaning": "to eat; to drink (honorific)",
+     "pos": "v",
+     "reading": "deusida"
+    },
+    {
+     "term": "부탁하다",
+     "meaning": "to ask a favor",
+     "pos": "v",
+     "reading": "butakada"
+    },
+    {
+     "term": "연락하다",
+     "meaning": "to contact",
+     "pos": "v",
+     "reading": "yeollakada"
+    },
+    {
+     "term": "가져오다",
+     "meaning": "to bring",
+     "pos": "v",
+     "reading": "gajyeooda"
+    },
+    {
+     "term": "가져가다",
+     "meaning": "to take away",
+     "pos": "v",
+     "reading": "gajyeogada"
+    },
+    {
+     "term": "다니다",
+     "meaning": "to attend; to go regularly",
+     "pos": "v",
+     "reading": "danida"
+    },
+    {
+     "term": "다녀오다",
+     "meaning": "to go and come back",
+     "pos": "v",
+     "reading": "danyeooda"
+    },
+    {
+     "term": "버리다",
+     "meaning": "to throw away",
+     "pos": "v",
+     "reading": "beorida"
+    },
+    {
+     "term": "누르다",
+     "meaning": "to press",
+     "pos": "v",
+     "reading": "nureuda"
+    },
+    {
+     "term": "만지다",
+     "meaning": "to touch",
+     "pos": "v",
+     "reading": "manjida"
+    },
+    {
+     "term": "눕다",
+     "meaning": "to lie down",
+     "pos": "v",
+     "reading": "nupda"
+    },
+    {
+     "term": "정리하다",
+     "meaning": "to tidy up; to organize",
+     "pos": "v",
+     "reading": "jeongnihada"
+    },
+    {
+     "term": "조심하다",
+     "meaning": "to be careful",
+     "pos": "v",
+     "reading": "josimhada"
+    },
+    {
+     "term": "늦다",
+     "meaning": "to be late",
+     "pos": "v",
+     "reading": "neutda"
+    },
+    {
+     "term": "비슷하다",
+     "meaning": "similar",
+     "pos": "adj",
+     "reading": "biseutada"
+    },
+    {
+     "term": "해결하다",
+     "meaning": "to solve",
+     "pos": "v",
+     "reading": "haegyeolhada"
+    },
+    {
+     "term": "방문하다",
+     "meaning": "to visit",
+     "pos": "v",
+     "reading": "bangmunhada"
+    },
+    {
+     "term": "치다",
+     "meaning": "to hit; to play (an instrument)",
+     "pos": "v",
+     "reading": "chida"
+    },
+    {
+     "term": "나다",
+     "meaning": "to occur; to come out",
+     "pos": "v",
+     "reading": "nada"
+    },
+    {
+     "term": "축하하다",
+     "meaning": "to congratulate",
+     "pos": "v",
+     "reading": "chukahada"
+    },
+    {
+     "term": "사과하다",
+     "meaning": "to apologize",
+     "pos": "v",
+     "reading": "sagwahada"
+    },
+    {
+     "term": "감사하다",
+     "meaning": "to thank; to be grateful",
+     "pos": "v",
+     "reading": "gamsahada"
+    },
+    {
+     "term": "끓이다",
+     "meaning": "to boil (something)",
+     "pos": "v",
+     "reading": "kkeurida"
+    },
+    {
+     "term": "굽다",
+     "meaning": "to grill; to bake",
+     "pos": "v",
+     "reading": "gupda"
+    },
+    {
+     "term": "볶다",
+     "meaning": "to stir-fry",
+     "pos": "v",
+     "reading": "bokda"
+    },
+    {
+     "term": "섞다",
+     "meaning": "to mix",
+     "pos": "v",
+     "reading": "seokda"
+    },
+    {
+     "term": "주무시다",
+     "meaning": "to sleep (honorific)",
+     "pos": "v",
+     "reading": "jumusida"
+    },
+    {
+     "term": "말씀하다",
+     "meaning": "to speak (honorific)",
+     "pos": "v",
+     "reading": "malsseumhada"
+    },
+    {
+     "term": "뵙다",
+     "meaning": "to meet (humble)",
+     "pos": "v",
+     "reading": "boepda"
+    },
+    {
+     "term": "칭찬하다",
+     "meaning": "to praise",
+     "pos": "v",
+     "reading": "chingchanhada"
+    },
+    {
+     "term": "응원하다",
+     "meaning": "to cheer for",
+     "pos": "v",
+     "reading": "eungwonhada"
+    },
+    {
+     "term": "따라가다",
+     "meaning": "to follow",
+     "pos": "v",
+     "reading": "ttaragada"
+    },
+    {
+     "term": "지나가다",
+     "meaning": "to pass by",
+     "pos": "v",
+     "reading": "jinagada"
+    },
+    {
+     "term": "줍다",
+     "meaning": "to pick up",
+     "pos": "v",
+     "reading": "jupda"
+    },
+    {
+     "term": "숨다",
+     "meaning": "to hide",
+     "pos": "v",
+     "reading": "sumda"
+    },
+    {
+     "term": "성공하다",
+     "meaning": "to succeed",
+     "pos": "v",
+     "reading": "seonggonghada"
+    },
+    {
+     "term": "실패하다",
+     "meaning": "to fail",
+     "pos": "v",
+     "reading": "silpaehada"
+    },
+    {
+     "term": "노력하다",
+     "meaning": "to try hard",
+     "pos": "v",
+     "reading": "noryeokada"
+    },
+    {
+     "term": "졸업하다",
+     "meaning": "to graduate",
+     "pos": "v",
+     "reading": "joreopada"
+    },
+    {
+     "term": "취직하다",
+     "meaning": "to get a job",
+     "pos": "v",
+     "reading": "chwijikada"
+    },
+    {
+     "term": "서두르다",
+     "meaning": "to hurry",
+     "pos": "v",
+     "reading": "seodureuda"
+    },
+    {
+     "term": "똑같다",
+     "meaning": "exactly the same",
+     "pos": "adj",
+     "reading": "ttokgatda"
+    },
+    {
+     "term": "익숙하다",
+     "meaning": "familiar",
+     "pos": "adj",
+     "reading": "iksukada"
+    },
+    {
+     "term": "비다",
+     "meaning": "to be empty",
+     "pos": "v",
+     "reading": "bida"
+    },
+    {
+     "term": "젖다",
+     "meaning": "to get wet",
+     "pos": "v",
+     "reading": "jeotda"
+    },
+    {
+     "term": "마르다",
+     "meaning": "to dry; to be thin",
+     "pos": "v",
+     "reading": "mareuda"
+    },
+    {
+     "term": "얼다",
+     "meaning": "to freeze",
+     "pos": "v",
+     "reading": "eolda"
+    },
+    {
+     "term": "녹다",
+     "meaning": "to melt",
+     "pos": "v",
+     "reading": "nokda"
+    }
+   ]
+  }
+ ]
+}

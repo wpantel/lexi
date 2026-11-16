@@ -1,0 +1,1245 @@
+# Korean core vocabulary — source list.
+# Format:  "## Unit title | short description"  then one word per line:  korean|english|part of speech
+# Units run from most essential to least; within a unit, the most useful words come first.
+# Run `npm run words` to rebuild src/data/ko.json (dedupes, trims to unit caps, adds romanization).
+
+## Essentials | Greetings, pronouns and question words
+안녕하세요|hello|expr
+감사합니다|thank you|expr
+네|yes|expr
+아니요|no|expr
+저|I; me (polite)|pron
+나|I; me (casual)|pron
+우리|we; our|pron
+너|you (casual)|pron
+누구|who|pron
+뭐|what (casual)|pron
+무엇|what|pron
+어디|where|pron
+언제|when|adv
+왜|why|adv
+어떻게|how|adv
+얼마|how much|n
+몇|how many|det
+이것|this (thing)|pron
+그것|that (thing)|pron
+저것|that (thing over there)|pron
+여기|here|pron
+거기|there|pron
+저기|over there|pron
+것|thing|n
+사람|person|n
+이름|name|n
+한국|Korea|n
+한국어|Korean (language)|n
+영어|English (language)|n
+말|word; speech; horse|n
+죄송합니다|I'm sorry (formal)|expr
+미안해요|I'm sorry|expr
+괜찮아요|it's okay|expr
+고맙습니다|thank you (warm)|expr
+안녕|hi; bye (casual)|expr
+안녕히 가세요|goodbye (to someone leaving)|expr
+안녕히 계세요|goodbye (to someone staying)|expr
+잠깐만요|just a moment|expr
+실례합니다|excuse me|expr
+여보세요|hello (on the phone)|expr
+맞아요|that's right|expr
+몰라요|I don't know|expr
+알겠습니다|understood|expr
+어느|which|det
+무슨|what kind of|det
+그|he; that|pron
+그녀|she|pron
+축하합니다|congratulations|expr
+잘 자요|good night|expr
+환영합니다|welcome|expr
+
+## People | Family, friends and the people around you
+가족|family|n
+친구|friend|n
+엄마|mom|n
+아빠|dad|n
+어머니|mother|n
+아버지|father|n
+부모님|parents|n
+아이|child|n
+남자|man|n
+여자|woman|n
+형|older brother (of a male)|n
+오빠|older brother (of a female)|n
+누나|older sister (of a male)|n
+언니|older sister (of a female)|n
+동생|younger sibling|n
+할머니|grandmother|n
+할아버지|grandfather|n
+아들|son|n
+딸|daughter|n
+남편|husband|n
+아내|wife|n
+아기|baby|n
+학생|student|n
+선생님|teacher|n
+의사|doctor|n
+손님|guest; customer|n
+같이|together|adv
+혼자|alone|adv
+함께|together (formal)|adv
+서로|each other|adv
+여러분|everyone|pron
+씨|Mr.; Ms. (after a name)|n
+남자친구|boyfriend|n
+여자친구|girlfriend|n
+어른|adult|n
+어린이|kid|n
+남동생|younger brother|n
+여동생|younger sister|n
+외국인|foreigner|n
+한국인|Korean (person)|n
+회사원|office worker|n
+경찰|police|n
+간호사|nurse|n
+주인|owner|n
+이웃|neighbor|n
+친척|relative|n
+삼촌|uncle|n
+이모|aunt (mother's side)|n
+고모|aunt (father's side)|n
+사촌|cousin|n
+부부|married couple|n
+자기|oneself; darling|pron
+
+## Core verbs 1 | The verbs you will use every day
+하다|to do|v
+있다|to exist; to have|v
+없다|to not exist; to not have|v
+이다|to be|v
+아니다|to not be|v
+가다|to go|v
+오다|to come|v
+보다|to see; to watch|v
+먹다|to eat|v
+마시다|to drink|v
+자다|to sleep|v
+말하다|to speak|v
+듣다|to listen; to hear|v
+읽다|to read|v
+쓰다|to write; to use|v
+알다|to know|v
+모르다|to not know|v
+좋아하다|to like|v
+주다|to give|v
+받다|to receive|v
+사다|to buy|v
+만나다|to meet|v
+되다|to become|v
+살다|to live|v
+만들다|to make|v
+배우다|to learn|v
+공부하다|to study|v
+일하다|to work|v
+생각하다|to think|v
+기다리다|to wait|v
+찾다|to look for; to find|v
+시작하다|to start|v
+끝나다|to end|v
+일어나다|to get up|v
+앉다|to sit|v
+서다|to stand|v
+걷다|to walk|v
+뛰다|to run; to jump|v
+쉬다|to rest|v
+놀다|to play; to hang out|v
+가르치다|to teach|v
+팔다|to sell|v
+열다|to open|v
+닫다|to close|v
+사랑하다|to love|v
+싫어하다|to dislike|v
+원하다|to want|v
+묻다|to ask|v
+대답하다|to answer|v
+죽다|to die|v
+싶다|to want to|v
+
+## Core verbs 2 | Moving around and daily routines
+타다|to ride; to burn|v
+내리다|to get off; to fall (rain)|v
+들어가다|to go in|v
+나가다|to go out|v
+나오다|to come out|v
+돌아오다|to come back|v
+돌아가다|to go back|v
+도착하다|to arrive|v
+출발하다|to depart|v
+입다|to wear (clothes)|v
+벗다|to take off|v
+씻다|to wash|v
+요리하다|to cook|v
+청소하다|to clean|v
+운동하다|to exercise|v
+운전하다|to drive|v
+전화하다|to call|v
+보내다|to send; to spend (time)|v
+가지다|to have; to take|v
+넣다|to put in|v
+놓다|to put down|v
+들다|to hold; to lift|v
+잡다|to catch; to grab|v
+켜다|to turn on|v
+끄다|to turn off|v
+웃다|to laugh; to smile|v
+울다|to cry|v
+도와주다|to help|v
+빌리다|to borrow|v
+잊어버리다|to forget|v
+잃어버리다|to lose (an item)|v
+기억하다|to remember|v
+이해하다|to understand|v
+바꾸다|to change|v
+느끼다|to feel|v
+믿다|to believe|v
+노래하다|to sing|v
+춤추다|to dance|v
+그리다|to draw|v
+찍다|to take (a photo)|v
+신다|to put on (shoes)|v
+닦다|to wipe; to brush|v
+빨래하다|to do laundry|v
+들어오다|to come in|v
+떠나다|to leave|v
+꺼내다|to take out|v
+던지다|to throw|v
+밀다|to push|v
+당기다|to pull|v
+돌려주다|to give back|v
+
+## Describing things | Core adjectives
+좋다|good|adj
+나쁘다|bad|adj
+크다|big|adj
+작다|small|adj
+많다|many; much|adj
+적다|few; little|adj
+맛있다|delicious|adj
+재미있다|fun; interesting|adj
+예쁘다|pretty|adj
+비싸다|expensive|adj
+싸다|cheap|adj
+덥다|hot (weather)|adj
+춥다|cold (weather)|adj
+쉽다|easy|adj
+어렵다|difficult|adj
+바쁘다|busy|adj
+같다|same|adj
+다르다|different|adj
+길다|long|adj
+짧다|short|adj
+빠르다|fast|adj
+느리다|slow|adj
+가깝다|near|adj
+멀다|far|adj
+새롭다|new|adj
+높다|high|adj
+낮다|low|adj
+무겁다|heavy|adj
+가볍다|light (weight)|adj
+뜨겁다|hot (to touch)|adj
+차갑다|cold (to touch)|adj
+따뜻하다|warm|adj
+시원하다|cool; refreshing|adj
+깨끗하다|clean|adj
+더럽다|dirty|adj
+조용하다|quiet|adj
+시끄럽다|noisy|adj
+멋있다|cool; stylish|adj
+귀엽다|cute|adj
+아름답다|beautiful|adj
+맛없다|not tasty|adj
+재미없다|boring|adj
+넓다|wide; spacious|adj
+좁다|narrow|adj
+밝다|bright|adj
+어둡다|dark|adj
+젊다|young|adj
+늙다|to grow old|v
+오래되다|old (thing)|adj
+한가하다|free; not busy|adj
+
+## Numbers | Two number systems and the counters that go with them
+하나|one (native)|num
+둘|two (native)|num
+셋|three (native)|num
+넷|four (native)|num
+다섯|five (native)|num
+여섯|six (native)|num
+일곱|seven (native)|num
+여덟|eight (native)|num
+아홉|nine (native)|num
+열|ten (native); fever|num
+일|one (Sino-Korean); work; day|num
+이|two (Sino-Korean); this; tooth|num
+삼|three (Sino-Korean)|num
+사|four (Sino-Korean)|num
+오|five (Sino-Korean)|num
+육|six (Sino-Korean)|num
+칠|seven (Sino-Korean)|num
+팔|eight (Sino-Korean); arm|num
+구|nine (Sino-Korean)|num
+십|ten (Sino-Korean)|num
+백|hundred|num
+천|thousand|num
+만|ten thousand|num
+영|zero|num
+개|counter for things; dog|count
+명|counter for people|count
+살|years old|count
+번|number; times|count
+잔|cup; glass (counter)|count
+병|bottle; illness|count
+마리|counter for animals|count
+권|counter for books|count
+장|counter for sheets|count
+대|counter for vehicles and machines|count
+층|floor (of a building)|count
+조금|a little|adv
+많이|a lot|adv
+모두|all; everyone|adv
+다|all|adv
+반|half; class|n
+처음|first time; beginning|n
+마지막|last|n
+스물|twenty (native)|num
+서른|thirty (native)|num
+마흔|forty (native)|num
+쉰|fifty (native)|num
+억|hundred million|num
+첫째|first|num
+둘째|second|num
+번째|-th (ordinal)|count
+숫자|number; digit|n
+전부|all; everything|n
+정도|about; degree|n
+쯤|around; about|adv
+공|zero (phone numbers); ball|n
+
+## Time | Days, dates and when things happen
+오늘|today|n
+내일|tomorrow|n
+어제|yesterday|n
+지금|now|adv
+시간|time; hour|n
+시|o'clock|count
+분|minute; person (honorific)|count
+아침|morning; breakfast|n
+점심|lunch; midday|n
+저녁|evening; dinner|n
+밤|night; chestnut|n
+주말|weekend|n
+매일|every day|adv
+항상|always|adv
+자주|often|adv
+가끔|sometimes|adv
+아직|yet; still|adv
+벌써|already|adv
+곧|soon|adv
+나중에|later|adv
+날|day|n
+주|week|n
+달|month; moon|n
+년|year|count
+월|month (in dates)|count
+요일|day of the week|n
+월요일|Monday|n
+화요일|Tuesday|n
+수요일|Wednesday|n
+목요일|Thursday|n
+금요일|Friday|n
+토요일|Saturday|n
+일요일|Sunday|n
+봄|spring|n
+여름|summer|n
+가을|autumn|n
+겨울|winter|n
+오전|morning (a.m.)|n
+오후|afternoon (p.m.)|n
+전|before|n
+후|after|n
+때|time; when|n
+동안|during; for (a period)|n
+다음|next|n
+이번|this time|n
+지난|last; past|det
+요즘|these days|adv
+올해|this year|n
+작년|last year|n
+내년|next year|n
+생일|birthday|n
+보통|usually|adv
+방금|just now|adv
+아까|a while ago|adv
+이미|already (done)|adv
+낮|daytime|n
+새벽|dawn|n
+초|second (of time)|count
+해|year; sun|n
+계절|season|n
+휴일|holiday|n
+방학|school vacation|n
+평일|weekday|n
+모레|the day after tomorrow|n
+그저께|the day before yesterday|n
+옛날|the old days|n
+
+## Food and drink | Ordering, eating and tasting
+음식|food|n
+밥|rice; meal|n
+물|water|n
+커피|coffee|n
+고기|meat|n
+김치|kimchi|n
+빵|bread|n
+과일|fruit|n
+야채|vegetables|n
+우유|milk|n
+차|tea; car|n
+술|alcohol|n
+맥주|beer|n
+라면|ramen|n
+계란|egg|n
+생선|fish (as food)|n
+국|soup|n
+맛|taste|n
+식사|meal|n
+메뉴|menu|n
+맵다|spicy|adj
+달다|sweet|adj
+짜다|salty|adj
+배고프다|hungry|adj
+배부르다|full (after eating)|adj
+사과|apple; apology|n
+배|pear; stomach; boat|n
+소고기|beef|n
+돼지고기|pork|n
+닭고기|chicken (meat)|n
+찌개|stew|n
+면|noodles|n
+김밥|gimbap|n
+불고기|bulgogi|n
+비빔밥|bibimbap|n
+떡볶이|tteokbokki|n
+반찬|side dishes|n
+소주|soju|n
+주스|juice|n
+과자|snacks; cookies|n
+숟가락|spoon|n
+젓가락|chopsticks|n
+그릇|bowl|n
+접시|plate|n
+컵|cup|n
+요리|cooking; dish|n
+쌀|rice (uncooked)|n
+소금|salt|n
+설탕|sugar|n
+두부|tofu|n
+감자|potato|n
+양파|onion|n
+마늘|garlic|n
+고추|chili pepper|n
+딸기|strawberry|n
+포도|grape|n
+수박|watermelon|n
+바나나|banana|n
+귤|tangerine|n
+떡|rice cake|n
+간장|soy sauce|n
+사탕|candy|n
+아이스크림|ice cream|n
+케이크|cake|n
+시다|sour|adj
+목마르다|thirsty|adj
+고구마|sweet potato|n
+
+## Places | Around town and where things are
+집|house; home|n
+학교|school|n
+회사|company|n
+가게|store|n
+식당|restaurant|n
+카페|cafe|n
+병원|hospital|n
+화장실|restroom|n
+은행|bank|n
+시장|market|n
+공원|park|n
+역|station|n
+공항|airport|n
+호텔|hotel|n
+편의점|convenience store|n
+마트|supermarket|n
+약국|pharmacy|n
+도서관|library|n
+영화관|movie theater|n
+길|road; way|n
+나라|country|n
+도시|city|n
+서울|Seoul|n
+미국|United States|n
+일본|Japan|n
+중국|China|n
+앞|front|n
+뒤|behind|n
+옆|beside|n
+위|above; on top|n
+아래|below|n
+안|inside; not|n
+밖|outside|n
+오른쪽|right side|n
+왼쪽|left side|n
+근처|nearby|n
+곳|place|n
+사이|between|n
+가운데|middle|n
+쪽|direction; side|n
+백화점|department store|n
+우체국|post office|n
+서점|bookstore|n
+대학교|university|n
+교실|classroom|n
+사무실|office|n
+건물|building|n
+아파트|apartment|n
+정류장|bus stop|n
+지하철역|subway station|n
+세계|world|n
+고향|hometown|n
+거리|street; distance|n
+밑|under|n
+건너편|across the street|n
+박물관|museum|n
+미술관|art museum|n
+교회|church|n
+절|Buddhist temple|n
+시골|countryside|n
+마을|village|n
+부산|Busan|n
+주차장|parking lot|n
+경찰서|police station|n
+고등학교|high school|n
+극장|theater|n
+장소|place; venue|n
+
+## Home and things | Rooms, furniture and everyday objects
+방|room|n
+문|door|n
+창문|window|n
+침대|bed|n
+책상|desk|n
+의자|chair|n
+책|book|n
+핸드폰|cell phone|n
+컴퓨터|computer|n
+전화|telephone; call|n
+가방|bag|n
+지갑|wallet|n
+우산|umbrella|n
+시계|clock; watch|n
+열쇠|key|n
+사진|photo|n
+선물|gift|n
+물건|thing; object|n
+종이|paper|n
+펜|pen|n
+텔레비전|television|n
+냉장고|refrigerator|n
+부엌|kitchen|n
+거실|living room|n
+안경|glasses|n
+그림|picture; painting|n
+편지|letter|n
+표|ticket|n
+카드|card|n
+쓰레기|trash|n
+휴지|tissue; toilet paper|n
+불|fire; light|n
+전화번호|phone number|n
+노트북|laptop|n
+공책|notebook|n
+연필|pencil|n
+거울|mirror|n
+상자|box|n
+비누|soap|n
+수건|towel|n
+칫솔|toothbrush|n
+이불|blanket|n
+세탁기|washing machine|n
+에어컨|air conditioner|n
+소파|sofa|n
+식탁|dining table|n
+욕실|bathroom|n
+계단|stairs|n
+엘리베이터|elevator|n
+벽|wall|n
+바닥|floor|n
+신문|newspaper|n
+지도|map|n
+칼|knife|n
+가위|scissors|n
+전기|electricity|n
+장난감|toy|n
+치약|toothpaste|n
+베개|pillow|n
+잡지|magazine|n
+달력|calendar|n
+인형|doll|n
+지붕|roof|n
+마당|yard|n
+
+## Body and health | Parts of the body and how you feel
+몸|body|n
+머리|head; hair|n
+얼굴|face|n
+눈|eye; snow|n
+코|nose|n
+입|mouth|n
+귀|ear|n
+손|hand|n
+발|foot|n
+다리|leg; bridge|n
+목|neck; throat|n
+마음|heart; mind|n
+아프다|to hurt; to be sick|adj
+피곤하다|tired|adj
+건강|health|n
+약|medicine|n
+감기|a cold|n
+힘|strength|n
+힘들다|hard; tiring|adj
+나이|age|n
+키|height|n
+잠|sleep|n
+꿈|dream|n
+어깨|shoulder|n
+허리|waist; lower back|n
+등|back (of the body)|n
+가슴|chest|n
+손가락|finger|n
+무릎|knee|n
+피부|skin|n
+피|blood|n
+목소리|voice|n
+졸리다|sleepy|adj
+다치다|to get hurt|v
+낫다|to recover; to be better|v
+건강하다|healthy|adj
+기침|cough|n
+두통|headache|n
+사고|accident|n
+스트레스|stress|n
+습관|habit|n
+담배|cigarette|n
+눈물|tears|n
+땀|sweat|n
+환자|patient|n
+이빨|tooth|n
+혀|tongue|n
+뼈|bone|n
+심장|heart (organ)|n
+상처|wound|n
+몸무게|body weight|n
+숨|breath|n
+수술|surgery|n
+주사|injection|n
+다이어트|diet|n
+
+## Little words | Adverbs and connectors that hold sentences together
+그리고|and|conj
+하지만|but|conj
+그래서|so; therefore|conj
+그런데|but; by the way|conj
+아주|very|adv
+너무|too; so|adv
+정말|really|adv
+진짜|really; real|adv
+잘|well|adv
+못|cannot|adv
+더|more|adv
+다시|again|adv
+또|again; also|adv
+빨리|quickly|adv
+천천히|slowly|adv
+먼저|first; ahead|adv
+그냥|just|adv
+좀|a bit; please|adv
+아마|probably|adv
+꼭|surely; definitely|adv
+제일|the most; number one|adv
+가장|most|adv
+이제|now; from now on|adv
+바로|right away; directly|adv
+계속|continuously|adv
+일찍|early|adv
+늦게|late|adv
+거의|almost|adv
+별로|not really|adv
+전혀|not at all|adv
+물론|of course|adv
+특히|especially|adv
+갑자기|suddenly|adv
+혹시|by any chance|adv
+그러면|then; if so|conj
+그럼|then; of course|conj
+그래도|even so|conj
+그러나|however|conj
+왜냐하면|because|conj
+만약|if|adv
+사실|actually; fact|adv
+이렇게|like this|adv
+그렇게|like that|adv
+열심히|diligently|adv
+얼마나|how (much)|adv
+매우|very (formal)|adv
+덜|less|adv
+약간|slightly|adv
+드디어|finally|adv
+결국|in the end|adv
+역시|as expected; also|adv
+직접|directly; in person|adv
+대부분|mostly; most|adv
+훨씬|by far|adv
+점점|gradually|adv
+우선|first of all|adv
+언제나|always (at any time)|adv
+또는|or|conj
+그렇지만|but; however (formal)|conj
+따라서|therefore|conj
+절대|absolutely; never|adv
+따로|separately|adv
+겨우|barely|adv
+아무리|no matter how|adv
+참|truly|adv
+어서|quickly; please (go ahead)|adv
+똑바로|straight|adv
+아직도|still (even now)|adv
+
+## Nature | Weather, animals and colors
+날씨|weather|n
+비|rain|n
+바람|wind|n
+하늘|sky|n
+산|mountain|n
+바다|sea|n
+강|river|n
+나무|tree|n
+꽃|flower|n
+동물|animal|n
+강아지|puppy; dog|n
+고양이|cat|n
+새|bird; new|n
+물고기|fish (live)|n
+색깔|color|n
+빨간색|red|n
+파란색|blue|n
+노란색|yellow|n
+하얀색|white|n
+검은색|black|n
+초록색|green|n
+구름|cloud|n
+별|star|n
+공기|air|n
+맑다|clear (weather)|adj
+흐리다|cloudy|adj
+자연|nature|n
+환경|environment|n
+섬|island|n
+숲|forest|n
+돌|stone|n
+땅|ground; land|n
+소|cow|n
+돼지|pig|n
+닭|chicken|n
+토끼|rabbit|n
+호랑이|tiger|n
+곰|bear|n
+온도|temperature|n
+태풍|typhoon|n
+호수|lake|n
+풀|grass|n
+분홍색|pink|n
+회색|gray|n
+갈색|brown|n
+보라색|purple|n
+주황색|orange (color)|n
+불다|to blow|v
+태양|sun|n
+안개|fog|n
+모래|sand|n
+잎|leaf|n
+쥐|mouse|n
+뱀|snake|n
+벌레|bug|n
+나비|butterfly|n
+모기|mosquito|n
+사자|lion|n
+코끼리|elephant|n
+원숭이|monkey|n
+무지개|rainbow|n
+천둥|thunder|n
+번개|lightning|n
+흙|soil|n
+
+## School and work | Studying, jobs and getting things done
+공부|study|n
+수업|class; lesson|n
+숙제|homework|n
+시험|exam|n
+문제|problem; question|n
+질문|question|n
+단어|word; vocabulary|n
+문장|sentence|n
+한글|Hangul|n
+뜻|meaning|n
+연습|practice|n
+직업|job; occupation|n
+회의|meeting|n
+계획|plan|n
+약속|promise; appointment|n
+준비|preparation|n
+이유|reason|n
+방법|method; way|n
+이야기|story; talk|n
+중요하다|important|adj
+필요하다|necessary|adj
+유명하다|famous|adj
+경험|experience|n
+결과|result|n
+정보|information|n
+도움|help|n
+실수|mistake|n
+기회|opportunity|n
+문법|grammar|n
+발음|pronunciation|n
+언어|language|n
+외국어|foreign language|n
+사전|dictionary|n
+교과서|textbook|n
+대답|answer|n
+글|writing; text|n
+글자|letter; character|n
+직장|workplace|n
+사장|company president; boss|n
+직원|employee|n
+동료|coworker|n
+월급|monthly salary|n
+출근|going to work|n
+퇴근|leaving work|n
+휴가|vacation; leave|n
+목표|goal|n
+성공|success|n
+실패|failure|n
+노력|effort|n
+능력|ability|n
+설명|explanation|n
+가능하다|possible|adj
+똑똑하다|smart|adj
+준비하다|to prepare|v
+연습하다|to practice|v
+설명하다|to explain|v
+의미|meaning; significance|n
+예|example|n
+복습|review|n
+성적|grades|n
+점수|score|n
+졸업|graduation|n
+전공|major (at university)|n
+교수|professor|n
+대학생|university student|n
+소식|news (from someone)|n
+필요|need|n
+불가능하다|impossible|adj
+질문하다|to ask a question|v
+입학|school admission|n
+
+## Getting around | Travel and transport
+여행|travel; trip|n
+버스|bus|n
+지하철|subway|n
+택시|taxi|n
+기차|train|n
+비행기|airplane|n
+자동차|car|n
+자전거|bicycle|n
+여권|passport|n
+짐|luggage|n
+예약|reservation|n
+주소|address|n
+출구|exit|n
+입구|entrance|n
+외국|foreign country|n
+문화|culture|n
+걸리다|to take (time); to be caught|v
+갈아타다|to transfer|v
+건너다|to cross|v
+구경하다|to look around; to sightsee|v
+교통|traffic; transportation|n
+방향|direction|n
+요금|fare; fee|n
+역사|history|n
+전통|tradition|n
+축제|festival|n
+관광|sightseeing|n
+숙소|accommodation|n
+바닷가|beach; seaside|n
+출발|departure|n
+도착|arrival|n
+멈추다|to stop|v
+돌다|to turn|v
+지나다|to pass|v
+예약하다|to reserve|v
+여행하다|to travel|v
+해외|overseas|n
+신호등|traffic light|n
+횡단보도|crosswalk|n
+사거리|intersection|n
+한복|hanbok|n
+기념품|souvenir|n
+안내|guidance; information|n
+왕복|round trip|n
+편도|one way|n
+환전|currency exchange|n
+머무르다|to stay|v
+오토바이|motorcycle|n
+관광객|tourist|n
+고속도로|highway|n
+
+## Feelings | Emotions, character and qualities
+기분|mood; feeling|n
+사랑|love|n
+걱정|worry|n
+행복하다|happy|adj
+기쁘다|glad|adj
+슬프다|sad|adj
+화나다|to get angry|v
+무섭다|scary; scared|adj
+놀라다|to be surprised|v
+괜찮다|okay; fine|adj
+이상하다|strange|adj
+친절하다|kind|adj
+편하다|comfortable; convenient|adj
+불편하다|uncomfortable; inconvenient|adj
+위험하다|dangerous|adj
+안전하다|safe|adj
+복잡하다|complicated; crowded|adj
+간단하다|simple|adj
+즐겁다|enjoyable|adj
+심심하다|bored|adj
+외롭다|lonely|adj
+걱정하다|to worry|v
+보고 싶다|to miss (someone)|expr
+반갑다|glad (to meet)|adj
+고맙다|thankful|adj
+미안하다|sorry|adj
+착하다|nice; good-natured|adj
+성격|personality|n
+강하다|strong|adj
+약하다|weak|adj
+특별하다|special|adj
+충분하다|enough|adj
+부족하다|lacking|adj
+궁금하다|curious|adj
+대단하다|great; amazing|adj
+신나다|excited|adj
+부끄럽다|shy; embarrassed|adj
+부럽다|envious|adj
+답답하다|frustrated; stuffy|adj
+긴장하다|to be nervous|v
+행복|happiness|n
+감정|emotion|n
+솔직하다|honest; frank|adj
+게으르다|lazy|adj
+부지런하다|diligent|adj
+잘생기다|handsome|adj
+부드럽다|soft|adj
+딱딱하다|hard; stiff|adj
+정확하다|accurate|adj
+확실하다|certain|adj
+훌륭하다|excellent|adj
+완벽하다|perfect|adj
+소중하다|precious|adj
+아쉽다|regrettable; a pity|adj
+귀찮다|bothersome|adj
+우울하다|depressed|adj
+짜증나다|annoyed|adj
+그립다|to miss (a time or place)|adj
+당연하다|natural; of course|adj
+심하다|severe|adj
+창피하다|embarrassed|adj
+뚱뚱하다|fat|adj
+날씬하다|slim|adj
+못생기다|ugly|adj
+
+## Actions | More verbs for real conversations
+사용하다|to use|v
+결정하다|to decide|v
+선택하다|to choose|v
+고르다|to pick|v
+끝내다|to finish|v
+계속하다|to continue|v
+그만두다|to quit|v
+자르다|to cut|v
+고치다|to fix|v
+떨어지다|to fall; to drop|v
+올라가다|to go up|v
+내려가다|to go down|v
+움직이다|to move|v
+이사하다|to move (house)|v
+보이다|to be seen; to show|v
+들리다|to be heard|v
+부르다|to call; to sing|v
+외우다|to memorize|v
+지키다|to keep; to protect|v
+싸우다|to fight|v
+이기다|to win|v
+지다|to lose (a game)|v
+초대하다|to invite|v
+소개하다|to introduce|v
+인사하다|to greet|v
+결혼하다|to get married|v
+헤어지다|to break up; to part|v
+태어나다|to be born|v
+확인하다|to check; to confirm|v
+주문하다|to order|v
+계산하다|to calculate; to pay|v
+내다|to pay; to hand in|v
+생기다|to come about; to get|v
+지내다|to spend time; to get along|v
+즐기다|to enjoy|v
+바라다|to hope; to wish|v
+약속하다|to promise|v
+포기하다|to give up|v
+참다|to endure|v
+보여주다|to show|v
+잊다|to forget|v
+사귀다|to date; to make friends|v
+자라다|to grow up|v
+키우다|to raise|v
+모으다|to collect; to save up|v
+모이다|to gather|v
+나누다|to divide; to share|v
+벌다|to earn|v
+잃다|to lose|v
+얻다|to gain; to get|v
+변하다|to change (by itself)|v
+사라지다|to disappear|v
+나타나다|to appear|v
+늘다|to increase|v
+줄다|to decrease|v
+남다|to remain|v
+세다|to count|v
+끊다|to cut off; to hang up|v
+깨다|to break; to wake up|v
+붙이다|to stick; to attach|v
+오르다|to rise; to climb|v
+옮기다|to move (something)|v
+
+## Shopping | Money, clothes and buying things
+돈|money|n
+가격|price|n
+원|won (currency)|count
+옷|clothes|n
+신발|shoes|n
+바지|pants|n
+치마|skirt|n
+모자|hat|n
+쇼핑|shopping|n
+현금|cash|n
+영수증|receipt|n
+할인|discount|n
+무료|free (of charge)|n
+배달|delivery|n
+주문|order|n
+사이즈|size|n
+종류|kind; type|n
+인기|popularity|n
+어울리다|to suit; to match|v
+셔츠|shirt|n
+양말|socks|n
+운동화|sneakers|n
+값|price; value|n
+신용카드|credit card|n
+포장|wrapping; takeout|n
+교환|exchange|n
+환불|refund|n
+상품|product|n
+티셔츠|T-shirt|n
+코트|coat|n
+원피스|dress|n
+구두|dress shoes|n
+장갑|gloves|n
+반지|ring|n
+화장품|cosmetics|n
+세일|sale|n
+계산|calculation; bill|n
+디자인|design|n
+비용|cost|n
+아끼다|to save; to cherish|v
+깎다|to cut (a price); to peel|v
+양복|suit|n
+속옷|underwear|n
+목도리|scarf|n
+넥타이|necktie|n
+목걸이|necklace|n
+귀걸이|earrings|n
+향수|perfume|n
+유행|trend; fashion|n
+통장|bank account book|n
+세금|tax|n
+부자|rich person|n
+가난하다|poor|adj
+
+## World and ideas | Society, media and abstract words
+영화|movie|n
+음악|music|n
+노래|song|n
+드라마|drama|n
+게임|game|n
+운동|exercise; sports|n
+취미|hobby|n
+뉴스|news|n
+인터넷|internet|n
+생각|thought|n
+의견|opinion|n
+관심|interest|n
+관계|relationship|n
+상황|situation|n
+생활|daily life|n
+인생|life (one's life)|n
+미래|future|n
+소리|sound|n
+냄새|smell|n
+시작|start; beginning|n
+끝|end|n
+번호|number|n
+사회|society|n
+경제|economy|n
+축구|soccer|n
+야구|baseball|n
+수영|swimming|n
+등산|hiking|n
+가수|singer|n
+배우|actor|n
+춤|dance|n
+이메일|email|n
+문자|text message; character|n
+비밀번호|password|n
+기술|technology; skill|n
+과학|science|n
+경우|case; occasion|n
+상태|condition; state|n
+변화|change|n
+차이|difference|n
+부분|part|n
+전체|whole|n
+과거|past|n
+현재|present|n
+희망|hope|n
+비밀|secret|n
+거짓말|lie|n
+모양|shape|n
+크기|size (how big)|n
+순서|order; sequence|n
+정부|government|n
+대통령|president|n
+법|law|n
+정치|politics|n
+국민|the people; citizens|n
+전쟁|war|n
+평화|peace|n
+자유|freedom|n
+방송|broadcast|n
+프로그램|program|n
+농구|basketball|n
+수학|math|n
+예술|art|n
+소설|novel|n
+느낌|feeling; impression|n
+시대|era|n
+삶|life|n
+운|luck|n
+농담|joke|n
+속|inside; inner part|n
+이상|more than; abnormality|n
+이하|or less; below|n
+종교|religion|n
+중심|center|n
+죽음|death|n
+사이트|website|n
+시민|citizen|n
+
+## Polish | Honorifics, cooking verbs and finishing touches
+드리다|to give (humble)|v
+계시다|to be; to stay (honorific)|v
+드시다|to eat; to drink (honorific)|v
+부탁하다|to ask a favor|v
+연락하다|to contact|v
+가져오다|to bring|v
+가져가다|to take away|v
+다니다|to attend; to go regularly|v
+다녀오다|to go and come back|v
+버리다|to throw away|v
+누르다|to press|v
+만지다|to touch|v
+눕다|to lie down|v
+정리하다|to tidy up; to organize|v
+조심하다|to be careful|v
+늦다|to be late|v
+비슷하다|similar|adj
+해결하다|to solve|v
+방문하다|to visit|v
+치다|to hit; to play (an instrument)|v
+나다|to occur; to come out|v
+축하하다|to congratulate|v
+사과하다|to apologize|v
+감사하다|to thank; to be grateful|v
+끓이다|to boil (something)|v
+굽다|to grill; to bake|v
+볶다|to stir-fry|v
+섞다|to mix|v
+주무시다|to sleep (honorific)|v
+말씀하다|to speak (honorific)|v
+뵙다|to meet (humble)|v
+칭찬하다|to praise|v
+응원하다|to cheer for|v
+따라가다|to follow|v
+지나가다|to pass by|v
+줍다|to pick up|v
+숨다|to hide|v
+성공하다|to succeed|v
+실패하다|to fail|v
+노력하다|to try hard|v
+졸업하다|to graduate|v
+취직하다|to get a job|v
+서두르다|to hurry|v
+똑같다|exactly the same|adj
+익숙하다|familiar|adj
+비다|to be empty|v
+젖다|to get wet|v
+마르다|to dry; to be thin|v
+얼다|to freeze|v
+녹다|to melt|v
+피다|to bloom|v
+피우다|to smoke; to light|v
+차다|to kick; to be full; to be cold|v
+감다|to wash (hair); to close (eyes)|v
+뜨다|to open (eyes); to float|v
+흔들다|to shake|v
+훔치다|to steal|v
+도망치다|to run away|v
+쌓다|to stack|v
+채우다|to fill|v
+비우다|to empty|v
+발견하다|to discover|v
+발전하다|to develop|v
+끓다|to boil|v
+식다|to cool down|v
+이르다|to be early; to reach|v
