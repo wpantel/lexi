@@ -21,10 +21,10 @@ export function Nav() {
       <div className="nav-inner">
         <Link href="/" className="brand">
           <span className="brand-mark" lang="ko" aria-hidden="true">
-            <i>렉</i>
-            <i>시</i>
+            <i>패</i>
+            <i>터</i>
           </span>
-          Lexi
+          Patter
         </Link>
         <div className="nav-links">
           {items.map(({ href, label, Icon }) => (

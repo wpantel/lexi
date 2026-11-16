@@ -26,9 +26,9 @@ export type State = {
   progress: Record<string, Progress>;
 };
 
-const KEY = "lexi:v1";
-/** The app's storage key before it was renamed. Progress saved under it is carried over once. */
-const OLD_KEY = "hangul-deck:v1";
+const KEY = "patter:v1";
+/** The app's storage keys under earlier names, newest first. Progress saved under one is carried over once. */
+const OLD_KEYS = ["lexi:v1", "hangul-deck:v1"];
 const EMPTY_PROGRESS: Progress = { cards: {}, history: {} };
 const DEFAULT_STATE: State = {
   version: 1,
@@ -44,13 +44,12 @@ function load() {
   loaded = true;
   try {
     let raw = window.localStorage.getItem(KEY);
-    if (!raw) {
-      raw = window.localStorage.getItem(OLD_KEY);
-      if (raw) {
-        window.localStorage.setItem(KEY, raw);
-        window.localStorage.removeItem(OLD_KEY);
-      }
+    for (const oldKey of OLD_KEYS) {
+      if (raw) break;
+      raw = window.localStorage.getItem(oldKey);
+      if (raw) window.localStorage.setItem(KEY, raw);
     }
+    for (const oldKey of OLD_KEYS) window.localStorage.removeItem(oldKey);
     if (!raw) return;
     const parsed = JSON.parse(raw) as Partial<State>;
     state = {

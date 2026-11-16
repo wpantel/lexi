@@ -1,4 +1,4 @@
-# Lexi
+# Patter
 
 Learn the 1,000 most useful words of a language with spaced repetition. Korean is the first course. Next.js, no backend; progress is saved in the browser.
 
