@@ -30,7 +30,7 @@ export function Nav() {
           {items.map(({ href, label, Icon }) => (
             <Link key={href} href={href} className="nav-link" aria-current={pathname === href ? "page" : undefined}>
               <Icon />
-              {label}
+              <span>{label}</span>
             </Link>
           ))}
         </div>

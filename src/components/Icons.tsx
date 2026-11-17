@@ -58,3 +58,14 @@ export const ChevronIcon = (p: Props) => (
     <path d="m9 6 6 6-6 6" />
   </Svg>
 );
+export const SearchIcon = (p: Props) => (
+  <Svg size={20} {...p}>
+    <circle cx="11" cy="11" r="6.5" />
+    <path d="m16 16 4.5 4.5" />
+  </Svg>
+);
+export const ArrowIcon = (p: Props) => (
+  <Svg size={18} {...p}>
+    <path d="M4 12h15M13 6l6 6-6 6" />
+  </Svg>
+);

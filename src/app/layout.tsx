@@ -1,10 +1,11 @@
 import type { Metadata, Viewport } from "next";
-import { Bricolage_Grotesque } from "next/font/google";
+import { Besley } from "next/font/google";
 import { Nav } from "@/components/Nav";
 import "./globals.css";
 
-// Display face for headings and numerals. Body text and Hangul stay on system fonts.
-const display = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-display", display: "swap" });
+// A Clarendon, the face of school primers and dictionaries, for headings and numerals.
+// Body text and Hangul stay on system fonts.
+const display = Besley({ subsets: ["latin"], style: ["normal", "italic"], variable: "--font-display", display: "swap" });
 
 export const metadata: Metadata = {
   title: "Patter",
@@ -16,7 +17,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   viewportFit: "cover",
   colorScheme: "light",
-  themeColor: "#f7f5fb",
+  themeColor: "#f4f1e8",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

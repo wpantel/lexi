@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { PosLabel, ResultMark, SessionFrame, SessionShell, Term, useKeys } from "@/components/Session";
+import { PosLabel, SessionFrame, SessionShell, Stamp, StageTab, Term, useKeys } from "@/components/Session";
 import { SpeakButton } from "@/components/SpeakButton";
 import { currentLanguage as lang, type Word } from "@/lib/language";
 import { speak } from "@/lib/speech";
@@ -53,49 +53,68 @@ function ReviewCard({ word, card, showReading, showJamo, autoSpeak, onGrade }: {
 
   return (
     <>
-      <div className="stage card">
-        {produce ? (
-          <>
-            <div className="prompt-label">How do you say this in {lang.name}?</div>
-            <div className="hero-meaning">{word.meaning}</div>
-            <PosLabel word={word} />
-            {revealed && (
-              <div className="answer">
+      <div className="stage flashcard">
+        <div className="flash-front">
+          {produce ? (
+            <>
+              <StageTab>How do you say this in {lang.name}?</StageTab>
+              <div className="hero-meaning">{word.meaning}</div>
+              <PosLabel word={word} />
+            </>
+          ) : (
+            <>
+              <StageTab>What does this mean?</StageTab>
+              <Term word={word} lang={lang} />
+              {showReading && <div className="hero-reading">{word.reading}</div>}
+              <div className="stage-listen">
+                <SpeakButton text={word.term} lang={lang.speechLang} showLabel />
+              </div>
+            </>
+          )}
+        </div>
+
+        {/* The answer is on the card all along, under a memorising sheet that lifts away. */}
+        <div className={`flash-back ${revealed ? "open" : ""}`}>
+          <div className="flash-answer" inert={!revealed}>
+            {produce ? (
+              <>
                 <Term word={word} lang={lang} breakdown={showJamo} />
                 {showReading && <div className="hero-reading">{word.reading}</div>}
-                <div style={{ marginTop: 12 }}>
-                  <SpeakButton text={word.term} lang={lang.speechLang} />
+                <div className="stage-listen">
+                  <SpeakButton text={word.term} lang={lang.speechLang} showLabel />
                 </div>
-              </div>
-            )}
-          </>
-        ) : (
-          <>
-            <div className="prompt-label">What does this mean?</div>
-            <Term word={word} lang={lang} />
-            {showReading && <div className="hero-reading">{word.reading}</div>}
-            <div style={{ margin: "14px 0 4px" }}>
-              <SpeakButton text={word.term} lang={lang.speechLang} />
-            </div>
-            {revealed && (
-              <div className="answer">
+              </>
+            ) : (
+              <>
                 <div className="hero-meaning">{word.meaning}</div>
                 <PosLabel word={word} />
-              </div>
+              </>
             )}
-          </>
-        )}
+          </div>
+          <button type="button" className="flash-cover" onClick={reveal} disabled={revealed} aria-hidden={revealed}>
+            <b>Answer covered</b>
+            <span>Say it in your head, then lift the sheet</span>
+          </button>
+        </div>
       </div>
 
       <div className="dock">
         {revealed ? (
           <>
-            <div className="hint">How well did you remember it?</div>
-            <div className="grades">
-              {GRADES.map((g) => (
+            <div className="hint" id="grade-hint">
+              How well did you remember it? Each answer sets when you see it next.
+            </div>
+            <div className="grades" role="group" aria-labelledby="grade-hint">
+              {GRADES.map((g, i) => (
                 <button key={g} type="button" className={`grade ${g}`} onClick={() => onGrade(g)}>
-                  {GRADE_LABEL[g]}
-                  <small>{intervals[g]}</small>
+                  <span className="kbd" aria-hidden="true">
+                    {i + 1}
+                  </span>
+                  <b>{GRADE_LABEL[g]}</b>
+                  <small>
+                    <span className="sr-only">, see it again </span>
+                    {g === "again" ? "today" : `in ${intervals[g]}`}
+                  </small>
                 </button>
               ))}
             </div>
@@ -129,7 +148,7 @@ function ReviewSession() {
     return (
       <SessionShell>
         <div className="result">
-          <ResultMark />
+          {queue.length > 0 && <Stamp />}
           <h1>{queue.length === 0 ? "Nothing to review right now" : "Review complete"}</h1>
           <p>
             {queue.length > 0 &&

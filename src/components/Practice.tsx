@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { ChoiceQuestion, SessionFrame, SessionShell, Tally, WordRows, type PromptKind } from "@/components/Session";
+import { AnswerSheet, ChoiceQuestion, SessionFrame, SessionShell, Stamp, WordRows, type PromptKind } from "@/components/Session";
 import { currentLanguage as lang, type Word } from "@/lib/language";
 import { optionsFor, shuffle } from "@/lib/quiz";
 import { logPractice, progressFor, useAppState, useHydrated, type State } from "@/lib/store";
@@ -41,16 +41,20 @@ function PracticeSession({ prompt, onRestart }: { prompt: PromptKind; onRestart:
     return (
       <SessionShell>
         <div className="result">
-          <Tally results={answers.map((a) => a.correct)} />
+          {missed.length === 0 && <Stamp />}
+          <p className="score" aria-hidden="true">
+            <b>{right}</b>
+            <span>/{total}</span>
+          </p>
           <h1>
             {right} of {total} correct
           </h1>
+          <AnswerSheet results={answers.map((a) => a.correct)} large />
           <p>
             {missed.length === 0
               ? "A clean run. Try another mode to test these words from a different angle."
-              : "Here are the ones to look at again."}
+              : "Marked the Korean way: a circle for right, a cross for wrong. Here are the ones to look at again."}
           </p>
-          <p className="aside">Marked the Korean way: a circle for right, a cross for wrong.</p>
         </div>
         {missed.length > 0 ? <WordRows words={missed} lang={lang} /> : <div style={{ height: 24 }} />}
         <div className="dock">
@@ -67,7 +71,7 @@ function PracticeSession({ prompt, onRestart }: { prompt: PromptKind; onRestart:
 
   const q = quiz.questions[index];
   return (
-    <SessionFrame label="Practice progress" done={index} total={total}>
+    <SessionFrame label="Practice progress" done={index} total={total} marks={answers.map((a) => a.correct)}>
       {quiz.usingStarter && index === 0 && (
         <div className="hint">You haven&apos;t learned many words yet, so this uses the first words of the course.</div>
       )}
