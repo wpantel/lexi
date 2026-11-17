@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { JamoLegend } from "@/components/Cells";
-import { ChoiceQuestion, PosLabel, ResultMark, SessionFrame, SessionShell, Term, WordRows, useKeys } from "@/components/Session";
+import { ChoiceQuestion, PosLabel, SessionFrame, SessionShell, Stamp, StageTab, Term, WordRows, useKeys } from "@/components/Session";
 import { SpeakButton } from "@/components/SpeakButton";
 import { currentLanguage as lang, type Word } from "@/lib/language";
 import { optionsFor, shuffle } from "@/lib/quiz";
@@ -59,25 +59,25 @@ function Intro({ word, index, total, autoSpeak, showReading, showJamo, onNext }:
   });
   return (
     <>
-      <div className="stage card">
-        <div className="prompt-label">
+      <div className="stage">
+        <StageTab>
           New word {index} of {total}
-        </div>
+        </StageTab>
         <Term word={word} lang={lang} breakdown={showJamo} />
+        {showJamo && <JamoLegend />}
         {showReading && <div className="hero-reading">{word.reading}</div>}
-        <div style={{ margin: "14px 0 4px" }}>
-          <SpeakButton text={word.term} lang={lang.speechLang} />
+        <div className="stage-listen">
+          <SpeakButton text={word.term} lang={lang.speechLang} showLabel />
         </div>
         <div className="answer">
           <div className="hero-meaning">{word.meaning}</div>
           <PosLabel word={word} />
         </div>
-        {showJamo && <JamoLegend />}
       </div>
       <div className="dock">
         <div className="hint">Say it out loud once. It helps more than you&apos;d think.</div>
         <button type="button" className="btn btn-primary btn-block" onClick={onNext}>
-          Got it
+          Got it <span className="kbd">space</span>
         </button>
       </div>
     </>
@@ -95,7 +95,7 @@ function LearnSession({ onRestart }: { onRestart: () => void }) {
     return (
       <SessionShell>
         <div className="result">
-          <ResultMark />
+          <Stamp />
           <h1>You&apos;ve met every word</h1>
           <p>All {lang.words.length.toLocaleString()} words are in your review schedule now. Keep up the reviews to hold on to them.</p>
         </div>
@@ -110,7 +110,7 @@ function LearnSession({ onRestart }: { onRestart: () => void }) {
     return (
       <SessionShell>
         <div className="result">
-          <ResultMark />
+          <Stamp />
           <h1>
             {words.length} new {words.length === 1 ? "word" : "words"} learned
           </h1>

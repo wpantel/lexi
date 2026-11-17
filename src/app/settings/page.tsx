@@ -17,14 +17,17 @@ export default function SettingsPage() {
 
   return (
     <main className="page">
-      <header className="page-head">
-        <h1 className="title">Settings</h1>
+      <header className="masthead">
+        <div>
+          <p className="dateline">How lessons and reviews behave</p>
+          <h1 className="title">Settings</h1>
+        </div>
       </header>
 
-      <h2 className="section-title" style={{ marginTop: 8 }}>
-        Learning
-      </h2>
-      <div className="card list">
+      <div className="section-head first">
+        <h2>Learning</h2>
+      </div>
+      <div className="fields">
         <div className="setting stack">
           <div>
             <div className="row-title" id="daily-label">
@@ -32,7 +35,7 @@ export default function SettingsPage() {
             </div>
             <div className="row-sub">Ten is a steady pace. Every new word adds reviews over the following weeks.</div>
           </div>
-          <div className="segmented" role="radiogroup" aria-labelledby="daily-label">
+          <div className="options" role="radiogroup" aria-labelledby="daily-label">
             {DAILY.map((n) => (
               <button key={n} type="button" role="radio" aria-checked={dailyNew === n} onClick={() => setSettings({ dailyNew: n })}>
                 {n}
@@ -91,15 +94,25 @@ export default function SettingsPage() {
         </label>
       </div>
 
-      <h2 className="section-title">Progress</h2>
-      <p className="section-note">Your progress is saved in this browser on this device.</p>
-      <div className="card list">
-        <button type="button" className="row btn-danger" style={{ width: "100%", fontWeight: 600 }} onClick={() => dialog.current?.showModal()}>
-          Reset {lang.name} progress
-        </button>
+      <div className="section-head">
+        <h2>Progress</h2>
+        <p>Saved in this browser, on this device only.</p>
+      </div>
+      <div className="fields">
+        <div className="setting">
+          <span>
+            <span className="row-title" style={{ display: "block" }}>
+              {learned} {learned === 1 ? "word" : "words"} learned so far
+            </span>
+            <span className="row-sub">Resetting erases them, along with your review schedule and streak.</span>
+          </span>
+          <button type="button" className="btn btn-danger btn-small" onClick={() => dialog.current?.showModal()}>
+            Reset progress
+          </button>
+        </div>
       </div>
 
-      <dialog ref={dialog} className="sheet" aria-labelledby="reset-title">
+      <dialog ref={dialog} className="confirm" aria-labelledby="reset-title">
         <h2 id="reset-title">Reset {lang.name} progress?</h2>
         <p>
           This erases your {learned} learned {learned === 1 ? "word" : "words"}, review schedule and streak. It can&apos;t be undone.
