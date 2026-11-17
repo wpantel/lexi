@@ -98,7 +98,7 @@ function ReviewCard({ word, card, showReading, showJamo, autoSpeak, onGrade }: {
         </div>
       </div>
 
-      <div className="dock">
+      <div className="dock pinned">
         {revealed ? (
           <>
             <div className="hint" id="grade-hint">
