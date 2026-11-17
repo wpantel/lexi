@@ -74,7 +74,7 @@ function Intro({ word, index, total, autoSpeak, showReading, showJamo, onNext }:
           <PosLabel word={word} />
         </div>
       </div>
-      <div className="dock">
+      <div className="dock pinned">
         <div className="hint">Say it out loud once. It helps more than you&apos;d think.</div>
         <button type="button" className="btn btn-primary btn-block" onClick={onNext}>
           Got it <span className="kbd">space</span>
